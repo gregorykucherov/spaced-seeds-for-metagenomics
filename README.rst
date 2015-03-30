@@ -38,10 +38,10 @@ section.3.3
 * `d_report_Human_chr_21.pdf`_
 * `d_report_Mycobacterium_tuberculosis.pdf`_
 
-.. _d\_report_Borrelia_garinii.pdf: https://github.com/gregorykucherov/spaced-seeds-for-metagenomics/blob/master/section.3.3/d_report_Borrelia_garinii.pdf
-.. _d\_report_Chlamydia.pdf: https://github.com/gregorykucherov/spaced-seeds-for-metagenomics/blob/master/section.3.3/d_report_Chlamydia.pdf
-.. _d\_report_Human_chr_21.pdf: https://github.com/gregorykucherov/spaced-seeds-for-metagenomics/blob/master/section.3.3/d_report_Human_chr_21.pdf
-.. _d\_report_Mycobacterium_tuberculosis.pdf: https://github.com/gregorykucherov/spaced-seeds-for-metagenomics/blob/master/section.3.3/d_report_Mycobacterium_tuberculosis.pdf
+.. _d\_report_Borrelia_garinii.pdf:            section.3.3/d_report_Borrelia_garinii.pdf
+.. _d\_report_Chlamydia.pdf:                   section.3.3/d_report_Chlamydia.pdf
+.. _d\_report_Human_chr_21.pdf:                section.3.3/d_report_Human_chr_21.pdf
+.. _d\_report_Mycobacterium_tuberculosis.pdf:  section.3.3/d_report_Mycobacterium_tuberculosis.pdf
 
 section.3.4
 ^^^^^^^^^^^
@@ -50,5 +50,5 @@ Plot comparing seed-Kraken with original Kraken, performance and sensitivity, sp
 
 * `seed-kraken_plt1_many_spans.pdf`_
 
-.. _seed-kraken_plt1_many_spans.pdf: https://github.com/gregorykucherov/spaced-seeds-for-metagenomics/blob/master/section.3.4/seed-kraken_plt1_many_spans.pdf
+.. _seed-kraken_plt1_many_spans.pdf:           section.3.4/seed-kraken_plt1_many_spans.pdf
 
