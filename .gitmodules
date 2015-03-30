@@ -1,0 +1,4 @@
+[submodule "seed-kraken"]
+	path = seed-kraken
+	url = git://github.com/macieksk/seed-kraken/
+	branch = seedmod128b
