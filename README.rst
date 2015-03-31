@@ -1,8 +1,7 @@
 Spaced seeds improve metagenomic classification
 ===============================================
 
-In this repository are supplementary plots for http://arxiv.org/abs/1502.06256
-
+This repository contains all supplementary material for http://arxiv.org/abs/1502.06256.
 
 Seed-Kraken
 -----------
@@ -18,20 +17,20 @@ Supplementary plots
 Section.3.2
 ^^^^^^^^^^^
 
-* **rank.cor.seed..weight.\*.pdf**  - Spearman rank correlation between alignment (dis)similarity and score (hits or coverage), alignment (read) lengths 100 and 250, various spaced seed weights 
+* ``rank.cor.seed..weight.*.pdf``  - Spearman rank correlation between alignment (dis)similarity and score (hits or coverage), alignment (read) lengths 100 and 250, various spaced seed weights 
 
-  * **read length 100:** `RCS_rl100_w18`_, `RCS_rl100_w20`_, `RCS_rl100_w22`_, `RCS_rl100_w24`_, `RCS_rl100_w26`_
-  * **read length 250:** `RCS_rl250_w18`_, `RCS_rl250_w20`_, `RCS_rl250_w22`_, `RCS_rl250_w24`_, `RCS_rl250_w26`_
+  * read length 100: `RCS_rl100_w18`_, `RCS_rl100_w20`_, `RCS_rl100_w22`_, `RCS_rl100_w24`_, `RCS_rl100_w26`_
+  * read length 250: `RCS_rl250_w18`_, `RCS_rl250_w20`_, `RCS_rl250_w22`_, `RCS_rl250_w24`_, `RCS_rl250_w26`_
 
-* **relative.mutual.information..seed.weight.\*.pdf** - mutual information divided by entropy is ploted as a measure of interdependence between alignment (dis)similarity and score (hits or coverage)
+* ``relative.mutual.information..seed.weight.*.pdf`` - mutual information divided by entropy is ploted as a measure of interdependence between alignment (dis)similarity and score (hits or coverage)
 
-  * **read length 100:** `RMI_rl100_w18`_, `RMI_rl100_w20`_, `RMI_rl100_w22`_, `RMI_rl100_w24`_, `RMI_rl100_w26`_
-  * **read length 250:** `RMI_rl250_w18`_, `RMI_rl250_w20`_, `RMI_rl250_w22`_, `RMI_rl250_w24`_, `RMI_rl250_w26`_
+  * read length 100: `RMI_rl100_w18`_, `RMI_rl100_w20`_, `RMI_rl100_w22`_, `RMI_rl100_w24`_, `RMI_rl100_w26`_
+  * read length 250: `RMI_rl250_w18`_, `RMI_rl250_w20`_, `RMI_rl250_w22`_, `RMI_rl250_w24`_, `RMI_rl250_w26`_
 
-* **smooth.scatter..spaced.vs.contig.pdf** - scatter plots of alignment (dis)similarity vs score (hits or coverage)
+* ``smooth.scatter..spaced.vs.contig.pdf`` - scatter plots of alignment (dis)similarity vs score (hits or coverage)
 
-  * `smooth.scatter..spaced.vs.contig.zoom.rl100.pdf` - as above zoomed region, alignment length 100
-  * `smooth.scatter..spaced.vs.contig.zoom.rl250.pdf` - as above zoomed region, alignment length 250
+  * ``smooth.scatter..spaced.vs.contig.zoom.rl100.pdf`` - as above zoomed region, alignment length 100
+  * ``smooth.scatter..spaced.vs.contig.zoom.rl250.pdf`` - as above zoomed region, alignment length 250
 
 .. _`RCS_rl100_w16`:  section.3.2/rank.cor.seed..weight.16.pdf
 .. _`RCS_rl100_w18`:  section.3.2/rank.cor.seed..weight.18.pdf
