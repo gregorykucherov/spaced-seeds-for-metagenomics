@@ -7,7 +7,7 @@ Prerequisites
 * `Python`_ 3.2+
 * The following Python packages: `SnakeMake`_, `SMBL`_, `NumPy`_
   
-  * you can install them using `PyPI`_ by `PIP`_: ``pip install snakemake smbl numpy`` (PIP can have be installed under a different name in your system : ``pip-3``, ``pip3``, etc.)
+  * you can install them using `PyPI`_ by `PIP`_: ``pip install snakemake smbl numpy`` (PIP can be installed under a different name in your system : ``pip-3``, ``pip3``, etc.)
 
 * `R`_
 
