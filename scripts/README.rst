@@ -4,18 +4,18 @@ Scripts
 Prerequisites
 ^^^^^^^^^^^^^
 
-* _`Python` 3.2+
-* Python packages: _`SnakeMake`, _`SMBL`, _`NumPy`
+* `Python`_ 3.2+
+* The following Python packages: `SnakeMake`_, `SMBL`_, `NumPy`_
   
-  * you can install them using _`PyPI` by _`PIP`: ``pip install snakemake smbl numpy`` (PIP can have be installed under a different name in your system : ``pip-3``, ``pip3``, etc.)
+  * you can install them using `PyPI`_ by `PIP`_: ``pip install snakemake smbl numpy`` (PIP can have be installed under a different name in your system : ``pip-3``, ``pip3``, etc.)
 
-* _`R`
+* `R`_
 
 
 Running
 ^^^^^^^
 
-Both scripts are written using _`SnakeMake` (a Python-based Make-like build system). To run such script (it is typically named ``Snakefile``),
+Both scripts are written using `SnakeMake`_ (a Python-based Make-like build system). To run such script (typically named ``Snakefile``),
 go to its directory and run ``snakemake``. You can also run it on more cores (using ``snakemake --cores 2`` for two cores or ``snakemake --cores``
 for using all your cores).
 
