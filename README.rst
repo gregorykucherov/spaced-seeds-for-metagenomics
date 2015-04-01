@@ -3,13 +3,12 @@ Spaced seeds improve metagenomic classification
 
 This repository contains all supplementary material for http://arxiv.org/abs/1502.06256.
 
-Seed-Kraken
------------
+Scripts
+-------
 
-Seed-Kraken, a modification of Kraken utilizing spaced k-mers instead of contiguous k-mers, is located in a `standalone repository`_. For more details, see its `documentation`_.
+Snakemake scripts used in Section 3.1.2 (Classifying unaligned reads) and 3.3 (Correlation on real genomes) are available `here`_.
 
-.. _`standalone repository`: http://github.com/macieksk/seed-kraken
-.. _`documentation`: http://seed-kraken.readthedocs.org/en/latest
+.. _`here`: ./scripts
 
 Supplementary plots 
 -------------------
@@ -86,3 +85,10 @@ Plot comparing seed-Kraken with original Kraken, performance and sensitivity, sp
 
 .. _`seed-kraken_plt1_many_spans.pdf`:           section.3.4/seed-kraken_plt1_many_spans.pdf
 
+Seed-Kraken
+-----------
+
+Seed-Kraken, a modification of Kraken utilizing spaced k-mers instead of contiguous k-mers, is located in a `standalone repository`_. For more details, see its `documentation`_.
+
+.. _`standalone repository`: http://github.com/macieksk/seed-kraken
+.. _`documentation`: http://seed-kraken.readthedocs.org/en/latest
