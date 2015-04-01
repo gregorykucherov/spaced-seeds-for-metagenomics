@@ -27,10 +27,9 @@ Section.3.2
   * read length 100: `RMI_rl100_w18`_, `RMI_rl100_w20`_, `RMI_rl100_w22`_, `RMI_rl100_w24`_, `RMI_rl100_w26`_
   * read length 250: `RMI_rl250_w18`_, `RMI_rl250_w20`_, `RMI_rl250_w22`_, `RMI_rl250_w24`_, `RMI_rl250_w26`_
 
-* ``smooth.scatter..spaced.vs.contig.pdf`` - scatter plots of alignment (dis)similarity vs score (hits or coverage)
+* `smooth.scatter..spaced.vs.contig.pdf`_ - scatter plots of alignment (dis)similarity vs score (hits or coverage), alignment length 100
 
-  * ``smooth.scatter..spaced.vs.contig.zoom.rl100.pdf`` - as above zoomed region, alignment length 100
-  * ``smooth.scatter..spaced.vs.contig.zoom.rl250.pdf`` - as above zoomed region, alignment length 250
+  * `smooth.scatter..spaced.vs.contig.zoom.rl100.pdf`_ - as above zoomed region, 
 
 .. _`RCS_rl100_w16`:  section.3.2/rank.cor.seed..weight.16.pdf
 .. _`RCS_rl100_w18`:  section.3.2/rank.cor.seed..weight.18.pdf
@@ -57,6 +56,10 @@ Section.3.2
 .. _`RMI_rl250_w22`:  section.3.2/relative.mutual.information..seed.weight.rl250.22.pdf
 .. _`RMI_rl250_w24`:  section.3.2/relative.mutual.information..seed.weight.rl250.24.pdf
 .. _`RMI_rl250_w26`:  section.3.2/relative.mutual.information..seed.weight.rl250.26.pdf
+
+
+.. _`smooth.scatter..spaced.vs.contig.pdf`:  section.3.2/smooth.scatter..spaced.vs.contig.pdf
+.. _`smooth.scatter..spaced.vs.contig.zoom.rl100.pdf`:  section.3.2/smooth.scatter..spaced.vs.contig.zoom.rl100.pdf
  
 
 Section.3.3
