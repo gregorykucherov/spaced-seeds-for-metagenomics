@@ -1,0 +1,629 @@
+import os
+import sys
+import time
+import random
+import numpy
+
+###################
+## CONFIGURATION ##
+###################
+
+##
+##
+## HERE YOU CAN CONFIGURE REFERENCES
+##
+##
+REFERENCES = {
+	"Chlamydia" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Chlamydia_trachomatis_RC_L2_s_3_uid213390/NC_021897.fna",
+	"Borrelia_garinii" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Borrelia_garinii_BgVir_uid162165/NC_017717.fna",
+	"Mycobacterium_tuberculosis" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Mycobacterium_tuberculosis_H37Rv_uid170532/NC_018143.fna",
+	"Human_chr_21":
+		"http://hgdownload.cse.ucsc.edu/goldenpath/hg19/chromosomes/chr21.fa.gz"
+}
+
+##
+##
+## HERE YOU CAN CONFIGURE SEEDS
+##
+##
+SEEDS = [
+		"##--#-#--#---#-##-##",
+		"##########",
+		"##---#-#--##--#--#-##-##",
+		"############",
+		"##-##---#-#-#-##-##--###",
+		"##############",
+		"##-###---#-#-#-##-##--####",
+		"################",
+		"###-#--###-##--#-#--###-####",
+		"##################",
+		"#####--#-##-#-##--##-#-###-###",
+		"####################",
+		"#####-###--###--#-#-##-##-#####",
+		"######################",
+	]
+
+# Parameters for reads
+READ_LENGTH=100
+COVERAGE=3
+MISMATCHES_MIN=1
+MISMATCHES_MAX=20
+
+#########################
+## AUXILIARY FUNCTIONS ##
+#########################
+
+def is_a_seed(seed):
+	"""
+		Is it a seed?
+	"""
+	return set(seed).issubset(set("#-"))
+
+def check_seed(seed):
+	"""
+		Is it a seed or a SnakeMake wildcard?
+	"""
+	seed=decode_seed(seed)
+	return (is_a_seed(seed)) or (seed[0]=="{" and seed[-1]=="}")
+
+def check_reference(reference):
+	"""
+		Is it a reference or a SnakeMake wildcard?
+	"""
+	return (reference in REFERENCES.keys()) or (reference[0]=="{" and reference[-1]=="}")
+
+def encode_seed(seed):
+	"""
+		Encode the seed (to avoid a SnakeMake periodic error)
+	"""
+	return seed+"seed"
+
+def decode_seed(eseed):
+	"""
+		Decode the seed
+	"""
+	return eseed.replace("seed","")
+
+def ref_dir(reference):
+	"""
+		Get name of the working directory for the given reference
+	"""
+	return "_" + reference
+
+def compute_hits(reference_fn,reads_fn,data_fn,seed):
+	"""
+		Create a tab-delimited text data file and save there this information:
+			1) name of the read
+			2) number of mismatches
+			3) seed hits without overlaps
+			4) seed hits with overlaps
+			5) coverage criterion
+		@param reference_fn    Reference - FASTA file name
+		@param reads_fn        Reads (with special read names) - FASTQ file name
+		@param data_fn         The output file
+		@param seed            Seed
+	"""
+	parse_mismatches=re.compile(r"([0-9]+)_mismatches____id_[0-9]+_[0-9]+")
+
+	dna_dict={
+		"A": 0,
+		"C": 1,
+		"G": 2,
+		"T": 3,
+	}
+
+	reg_dna=re.compile(r"^[ACGT]+$")
+	reg_seed=re.compile(r"^[#-]+$")
+
+	assert reg_seed.match(seed)
+
+	def mask_from_seed(seed):
+		base = max(dna_dict.values())+1
+		j=1
+		mask = len(seed)*[0]
+		for i in range(len(seed)):
+			if seed[i]=="#":
+				mask[i]=j
+				j *= base
+		#print(mask)
+		return mask
+
+	def recode_dna(string):
+		return [dna_dict[x] for x in string]
+
+	def load_index(fasta,seed):
+		with open(fasta) as f:
+			lines = [line.strip().upper() for line in f if line[0]!=">"]
+			fasta = "".join(lines)
+			lines=[]
+			nseed=numpy.array(mask_from_seed(seed))
+			index=set()
+			for i in range(len(fasta)-len(nseed)+1):
+				substr=fasta[i:i+len(nseed)]
+				# valid dna string?
+				if reg_dna.match(substr):
+					nkmer = numpy.array( [ dna_dict[x] for x in substr ] )
+					number = numpy.dot( nseed, nkmer )
+					index.add(number)
+			return index
+
+	def get_read_stats(read,seed):
+		nseed=numpy.array(mask_from_seed(seed))
+
+		hits_without_overlaps=0
+		hits_with_overlaps=0
+		last_hit=-4242
+		coverage = len(read)*[0]
+		for i in range(len(read)-len(seed)+1):
+			substr=read[i:i+len(nseed)]
+			nkmer = numpy.array( [ dna_dict[x] for x in substr ] )
+			number = numpy.dot( nseed, nkmer )
+			# is the k-mer in index?
+			if number in index:
+				###
+				hits_with_overlaps+=1
+				###
+				for j in range(len(seed)):
+					if seed[j]=="#":
+						coverage[i+j]=1
+				###
+				if i>=last_hit+len(nseed):
+					hits_without_overlaps+=1
+					last_hit=i
+		return (hits_without_overlaps,hits_with_overlaps,sum(coverage))
+
+
+	index = load_index(reference_fn,seed)
+
+	with open(reads_fn) as f:
+		with open(data_fn,"w+") as g:
+			ln_nb=-1
+			for line in f:
+				ln_nb+=1
+				if ln_nb%4==0:
+					assert line[0]=="@"
+					read_name=line.strip()[1:]
+					mm=parse_mismatches.match(read_name)
+					mismatches=mm.group(1)
+					
+				elif ln_nb%4==1:
+					read = line.strip().upper()
+					(hits_without_overlaps,hits_with_overlaps,coverage_crit) = get_read_stats(read,seed)
+				elif ln_nb%4==2:
+					assert line[0]=="+"
+					data_line = "\t".join([
+						read_name,
+						str(mismatches),
+						str(hits_without_overlaps),
+						str(hits_with_overlaps),
+						str(coverage_crit),
+					])
+					g.write(data_line)
+					g.write(os.linesep)
+
+				elif ln_nb%4==3:
+					pass
+
+
+def simulate_reads(reference_fn, reads_fn, read_length, coverage, mismatches_min, mismatches_max):
+	"""
+		Simuate single-end reads from a FASTA reference to a FASTQ file with number of mismatches withing a given interval
+		@param reference_fn     Reference (FASTA file).
+		@param reads_fn         Reads (FASTQ file).
+		@param read_length      Length of simulated reads.
+		@param coverage         Average coverage (nb_of_reads = coverage * genome_length / read_length).
+		@mismatches_min         The smallest number of mismatches.
+		@mismatches_max         The biggest number of mismatches.
+	"""
+
+	rng = random.Random()
+	rng.seed(1)
+
+	reference = []
+	with open(reference_fn) as f:
+		for line in f:
+			line=line.strip().upper()
+			if line[0]==">":
+				reference.append("N")
+			else:
+				reference.append(line)
+	reference="".join(reference)
+
+	reads_count = int(len(reference)*coverage/read_length)
+	with open(reads_fn,"w+") as f:
+		group_size=int(reads_count / (mismatches_max-mismatches_min + 1))
+		for i in range(int(reads_count/group_size)*group_size):  #possibly less than read_count
+			errors_count = min(int(i / group_size) + mismatches_min,mismatches_max)
+			errors = errors_count*[1] + (read_length-errors_count)*[0]
+			rng.shuffle(errors)
+			preread = "N"
+			while not set(list(preread)).issubset(set(["A","C","T","G"])):
+				pos = rng.randint(0,len(reference)-read_length-1)
+				preread = reference[pos:pos+read_length]
+				read = [
+						([x for x in ["A","C","G","T"] if x != preread[j]] [rng.randint(0,2)])
+						if errors[j]
+						else preread[j]
+						for j in range(read_length)
+					]
+			read = "".join(read)
+				
+			f.write("@{}_mismatches____id_{}_{}\n".format(
+				str(errors_count).zfill(3),
+				str(i).zfill(8),
+				str(pos).zfill(9)
+			))
+			f.write(read+"\n")
+			f.write("+\n")
+			f.write(read_length*"I"+"\n")
+
+
+
+################
+## FILE NAMES ##
+################
+
+def referencefn(reference):
+	"""
+		Filename for the reference
+	"""
+	assert check_reference(reference)
+	return "a_{}.fa".format(reference)
+
+def readsfn(reference):
+	"""
+		Filename for the reads
+	"""
+	assert check_reference(reference)
+	return "b_{}.fq".format(reference)
+
+def datafn(reference,seed):
+	"""
+		Filename for the final TXT datafile with info about nb of mismatches and seed hits
+	"""
+	assert check_reference(reference)
+	assert check_seed(seed)
+	return os.path.join(ref_dir(reference),"03_data_{}.txt".format(seed))
+
+def Rscriptfn(reference):
+	"""
+		Filename of the main R script
+	"""
+	assert check_reference(reference)
+	return os.path.join(ref_dir(reference),"04_Rscript.R".format())
+
+def reportfn(reference):
+	"""
+		Filename for the final TXT report of the R script (in the working directory)
+	"""
+	assert check_reference(reference)
+	return os.path.join(ref_dir(reference),"05_report_.txt".format())
+
+def reportfn2(reference):
+	"""
+		Filename for the final TXT report of the R script (in the main directory)
+	"""
+	assert check_reference(reference)
+	return "c_report_{}.txt".format(reference)
+
+def pdffn(reference):
+	"""
+		Filename for the final PDF statistics (in the working directory)
+	"""
+	assert check_reference(reference)
+	return os.path.join(ref_dir(reference),"06_graphs_{}.pdf".format(reference))
+
+
+def pdffn2(reference):
+	"""
+		Filename for the final PDF statistics (in the main directory)
+	"""
+	assert check_reference(reference)
+	return "d_report_{}.pdf".format(reference)
+
+
+#####################
+## ACTUAL PIPELINE ##
+#####################
+
+shell.prefix("set -euf -x -o pipefail; ")
+
+rule all:
+	"""
+		The first rule = specifying the final required files.
+	"""
+	input:
+		[pdffn2(reference) for reference in REFERENCES.keys()]
+
+rule clean:
+	"""
+		Clean all produced files
+	"""
+	message:
+		"Cleaning output files"
+	run:
+		shell("rm -fR bin")
+		for x in REFERENCES:
+			shell("rm -fR " + " ".join([referencefn(x),readsfn(x),pdffn2(x),reportfn2(x),ref_dir(x)]))
+
+
+rule report:
+	"""
+		Computing R statistics and creating PDF reports from existing TXT tables.
+	"""
+	message:
+		"Creating PDF report."
+	input:
+		[datafn("{reference}", encode_seed(seed)) for seed in SEEDS]
+	output:
+		Rscriptfn("{reference}"),
+		pdffn("{reference}"),
+		pdffn2("{reference}"),
+		reportfn("{reference}"),
+		reportfn2("{reference}"),
+	run:
+		def sep_plot_dir(seed):
+			return os.path.join(
+				ref_dir(wildcards.reference),
+				"w" + str(seed.count("#")).zfill(2) + "__"+seed
+			)
+
+		src = """
+			pdf("{pdf}",width=15,height=15)
+						source("R_src/seed_stats_plots.R")
+			""".format(
+				pdf=pdffn(wildcards.reference),
+			)
+		for separate in [False, True]:
+			for seed in SEEDS:
+				shell("mkdir -p \"{}\"".format( sep_plot_dir(seed) ))
+				this_datafn=datafn(wildcards.reference,encode_seed(seed))
+				this_message="{}\n{}, w {}".format(
+					wildcards.reference,
+					seed,
+					seed.count("#"),
+				)
+
+				src += """
+						writeLines("\n\n==============\n{message}\n==============\n")
+						data = read.table("{datafn}")
+					""".format(datafn=this_datafn,message=this_message)
+
+				src += """
+						par(mar=c(4,4,4,2)+0.1)
+						
+						writeLines("\n\n  Seeds without overlaps\n")
+						count2d.plot(
+							data,2,3,xlab="Mismatches",
+							ylab="Seeds without overlaps",
+							main="{message}",
+							normalize.rows=TRUE,
+							plot.split.args=list(c(1,1,3,3),c(1,2,3,3),c(1,3,3,3)),
+							plot.more=TRUE
+						)
+						writeLines("\n\n  Seeds with overlaps\n")
+						count2d.plot(
+							data,2,4,xlab="Mismatches",
+							ylab="Number of hits",
+							main="{message}",
+							normalize.rows=TRUE,
+							plot.split.args=list(c(2,1,3,3),c(2,2,3,3),c(2,3,3,3)),
+							plot.more=TRUE
+						)
+						writeLines("\n\n  Coverage criterion\n")
+						count2d.plot(
+							data,2,5,xlab="Mismatches",
+							ylab="Coverage",
+							main="{message}",
+							normalize.rows=TRUE,
+							plot.split.args=list(c(3,1,3,3),c(3,2,3,3),c(3,3,3,3)),
+							plot.more=FALSE
+						)
+		   			""".format(message=this_message) if not separate else ""
+
+				src += """
+						plt.cnt<-1
+						###
+						#Seeds without overlaps
+						p1<-conf.seed.plot(
+							data,2,3,xlab="Mismatches",
+							ylab="Seeds without overlaps",
+							main="{message}"
+						)
+						plt<-p1
+						{dev_off}           
+						#Seeds with overlaps
+						p2<-conf.seed.plot(
+							data,2,4,xlab="Mismatches",
+							ylab="Number of hits",
+							main="{message}"
+						)
+						plt<-p2
+						{dev_off}           
+						#Coverage criterion
+						p3<-conf.seed.plot(
+							data,2,5,xlab="Mismatches",
+							ylab="Coverage",
+							main="{message}"
+						)
+						plt<-p3
+						{dev_off}           
+						#Seeds without overlaps
+						p4<-conf.seed.plot(
+							data,3,2,ylab="Mismatches",
+							xlab="Seeds without overlaps",reverse.axes=TRUE,
+							main="{message}"
+						)
+						plt<-p4
+						{dev_off}           
+						#Seeds with overlaps
+						p5<-conf.seed.plot(
+							data,4,2,ylab="Mismatches",
+							xlab="Number of hits",reverse.axes=TRUE,
+							main="{message}"
+						)
+						plt<-p5
+						{dev_off}           
+						#Coverage criterion
+						p6<-conf.seed.plot(
+							data,5,2,ylab="Mismatches",
+							xlab="Coverage",reverse.axes=TRUE,
+							main="{message}"
+						)
+						plt<-p6
+						{dev_off}
+					""".format(
+						message=this_message,
+						dev_off="""
+							pdf(paste("{pdf_name}_",
+							c("nover","over","cover")[(plt.cnt-1)%%3+1],"_",
+							c("nrev","rev")[ceiling(plt.cnt/3)],"_",
+							"{seed}",".pdf",sep=""),width=5,height=5)
+							plt.cnt<-plt.cnt+1
+							print(plt)
+							dev.off()
+						""".format(
+							pdf_name=os.path.join(sep_plot_dir(seed),"07_separate_confidence_plot"),
+							seed=seed
+						) if separate else ""
+					)
+
+				src += """
+						library(gridExtra)
+						grid.arrange(
+							p1,p2,p3,
+							p4,p5,p6,
+							ncol=3,nrow=3
+						)
+					""" if not separate else ""
+
+				this_message="{}, w {}".format(
+					#wildcards.reference,
+					seed,
+					seed.count("#"),
+				)
+				#SCatter plots
+				src += """
+						{par_setup}
+						plt.cnt<-1
+						{pdf_init}
+						writeLines("\nSeeds without overlaps\n")
+						scatter.seed.plot(
+							data,2,3,xlab="Mismatches",
+							ylab="Seeds without overlaps",
+							main="{message}"
+						)
+						{dev_off}            
+						{pdf_init}
+						writeLines("\nSeeds with overlaps\n")
+						scatter.seed.plot(
+							data,2,4,xlab="Mismatches",
+							ylab="Number of hits",
+							main="{message}"
+						)
+						{dev_off}            
+						{pdf_init}
+						writeLines("\nCoverage criterion\n")
+						scatter.seed.plot(
+							data,2,5,xlab="Mismatches",
+							ylab="Coverage",
+							main="{message}"
+						)
+						{dev_off}
+					""".format(
+						message=this_message,
+						par_setup="" if separate else "par(mfcol=c(1,3))",
+						pdf_init="""
+							pdf(paste("{pdf_name}_",
+							    c("nover","over","cover")[plt.cnt],"_","{seed}",".pdf",sep=""),width=5,height=5)
+							plt.cnt<-plt.cnt+1
+						""".format(
+							pdf_name=os.path.join(sep_plot_dir(seed),"07_separate_scatter_plot"),
+							seed=seed
+						) if separate else "",
+						dev_off="dev.off()" if separate else ""
+					) 
+
+			if not separate: 
+					src += """
+						dev.off()
+					"""
+
+		with open(Rscriptfn(wildcards.reference),"w+") as f:
+			f.write(src)
+		#print(src)
+
+		shell("Rscript {inn} > {out}".format(
+			inn=Rscriptfn(wildcards.reference),
+			out=reportfn(wildcards.reference)
+		))
+
+		shell("cp {report1} {report2}".format(
+			report1=reportfn(wildcards.reference),
+			report2=reportfn2(wildcards.reference),
+		))
+
+		shell("cp {pdf1} {pdf2}".format(
+			pdf1=pdffn(wildcards.reference),
+			pdf2=pdffn2(wildcards.reference),
+		))
+
+rule data_files:
+	"""
+		Final TXT datafiles.
+	"""
+	message:
+		"Creating data TXT data files."
+	input:
+		referencefn("{reference}"),
+		readsfn("{reference}"),
+	output:
+		datafn("{reference}","{seed}")
+	run:
+		compute_hits(reference_fn=input[0],reads_fn=input[1],data_fn=output[0],seed=decode_seed(wildcards.seed))
+
+
+rule simulate_reads:
+	"""
+		Simulating reads.
+	"""
+	input:
+		referencefn("{reference}"),
+	output:
+		readsfn("{reference}")
+	run:
+		simulate_reads(
+			reference_fn=input[0],
+			reads_fn=output[0],
+			read_length=READ_LENGTH,
+			coverage=COVERAGE,
+			mismatches_min=MISMATCHES_MIN,
+			mismatches_max=MISMATCHES_MAX
+		)
+
+
+###################################################
+## DOWNLOAD AND COMPILATION OF PROGRAMS AND DATA ##
+###################################################
+
+rule reference_download:
+	"""
+		Downloading a reference from the Internet.
+	"""
+	output:
+		referencefn("{reference}")
+	run:
+		fa_url=REFERENCES[wildcards.reference]
+		if fa_url.find(".gz")!=-1:
+			print("Downloading and decompression")
+			parts=fa_url.split("/")
+			fn=parts[-1]
+			shell("curl --insecure -o {} {}".format(fn,fa_url))
+			shell("gzip -d {} -c > {}".format(fn,output[0]))
+			shell("rm "+fn)
+		else:	
+			print("Downloading")
+			shell("curl --insecure -o {} {}".format(referencefn(wildcards.reference),fa_url))

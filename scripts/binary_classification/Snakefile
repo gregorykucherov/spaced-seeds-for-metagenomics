@@ -1,0 +1,513 @@
+import os
+import sys
+import time
+import random
+import numpy
+import pickle
+
+# installation: 'pip install --upgrade smbl'
+import smbl
+include: smbl.include()
+
+###################
+## CONFIGURATION ##
+###################
+
+# Parameters for reads
+READ_LENGTH=100
+COVERAGE=1
+
+
+##
+##
+## HERE YOU CAN SET EXPERIMENTS
+##
+##
+EXPERIMENTS = [
+	## format (reference_1,reference_2,reads_reference)
+
+	#("Borrelia_garinii", "Mycobacterium_tuberculosis","Borrelia_garinii"),
+	#("Mycobacterium_tuberculosis", "Borrelia_garinii","Mycobacterium_tuberculosis"),
+	#("Chlamydia_trachomatis", "Borrelia_garinii","Chlamydia_trachomatis"),
+	#("Borrelia_garinii", "Chlamydia_trachomatis","Borrelia_garinii"),
+	#("Chlamydia_trachomatis", "Mycobacterium_tuberculosis","Chlamydia_trachomatis"),
+	#("Mycobacterium_tuberculosis", "Chlamydia_trachomatis","Mycobacterium_tuberculosis"),
+	#("Chlamydia_trachomatis", "Chlamydia_pecorum","Chlamydia_trachomatis"),
+	#("Chlamydia_pecorum", "Chlamydia_trachomatis","Chlamydia_pecorum"),
+	#("Mycobacterium_tuberculosis", "Mycobacterium_tuberculosis_Haarlem","Mycobacterium_tuberculosis"),
+	#("Mycobacterium_tuberculosis", "Mycobacterium_avium","Mycobacterium_tuberculosis"),
+	#("Mycobacterium_kansasii", "Mycobacterium_marinum","Mycobacterium_tuberculosis"),
+	#("Mycobacterium_smegmatis", "Mycobacterium_gilvum","Mycobacterium_vanbaalenii"),
+	#("Mycobacterium_tuberculosis","Mycobacterium_tuberculosis_KNZ_605","Mycobacterium_tuberculosis"),
+	#("Bacillus_pumilus_SAFR_032","Bacillus_licheniformis_ATCC_14580_uid58097","Bacillus_subtilis_168_uid57675"),
+	("Bacillus_anthracis_Ames_uid57909","Bacillus_pumilus_SAFR_032","Bacillus_licheniformis_ATCC_14580_uid58097"),
+#	("Bacillus_anthracis_Ames_uid57909","Bacillus_licheniformis_ATCC_14580_uid58097","Bacillus_pumilus_SAFR_032"),
+#	("Bacillus_anthracis_Ames_uid57909","Bacillus_cereus_ATCC_14579_uid57975","Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089"),
+]
+
+
+##
+##
+## HERE YOU CAN CONFIGURE REFERENCES
+##
+##
+REFERENCES = {
+	"Chlamydia_trachomatis" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Chlamydia_trachomatis_RC_L2_s_3_uid213390/NC_021897.fna",
+	"Chlamydia_pecorum" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Chlamydia_pecorum_P787_uid221292/NC_022441.fna",
+	"Borrelia_garinii" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Borrelia_garinii_BgVir_uid162165/NC_017717.fna",
+	"Mycobacterium_tuberculosis" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Mycobacterium_tuberculosis_H37Rv_uid170532/NC_018143.fna",
+	"Mycobacterium_tuberculosis_Haarlem" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Mycobacterium_tuberculosis_Haarlem_uid54453/NC_022350.fna",
+	"Mycobacterium_avium" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Mycobacterium_avium_104_uid57693/NC_008595.fna",
+	"Mycobacterium_intracellulare" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Mycobacterium_intracellulare_ATCC_13950_uid167994/NC_016946.fna",
+	"Mycobacterium_kansasii" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Mycobacterium_kansasii_ATCC_12478_uid55385/NC_022663.fna",
+	"Mycobacterium_marinum" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Mycobacterium_marinum_M_uid59423/NC_010612.fna",
+	"Mycobacterium_smegmatis" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Mycobacterium_smegmatis_MC2_155_uid171958/NC_018289.fna",
+	"Mycobacterium_vanbaalenii" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Mycobacterium_vanbaalenii_PYR_1_uid58463/NC_008726.fna",
+	"Mycobacterium_gilvum" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Mycobacterium_gilvum_PYR_GCK_uid59421/NC_009338.fna",
+	"Mycobacterium_tuberculosis_KNZ_605" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Mycobacterium_tuberculosis_KZN_605_uid54947/NC_018078.fna",
+	"Bacillus_pumilus_SAFR_032" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Bacillus_pumilus_SAFR_032_uid59017/NC_009848.fna",
+	"Bacillus_subtilis_168_uid57675" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Bacillus_subtilis_168_uid57675/NC_000964.fna",
+	"Bacillus_licheniformis_ATCC_14580_uid58097" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Bacillus_licheniformis_ATCC_14580_uid58097/NC_006270.fna",
+	"Bacillus_anthracis_Ames_uid57909" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Bacillus_anthracis_Ames_uid57909/NC_003997.fna",
+	"Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089/NC_005957.fna",
+	"Bacillus_cereus_ATCC_14579_uid57975" :
+		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Bacillus_cereus_ATCC_14579_uid57975/NC_004722.fna"
+}
+
+##
+##
+## HERE YOU CAN CONFIGURE SEEDS
+##
+##
+SEEDS = [
+#		"##--#-#--#---#-##-##",
+#		"##########",
+#		"##---#-#--##--#--#-##-##",
+#		"############",
+		"##-##---#-#-#-##-##--###",
+		"##############",
+		"##-###---#-#-#-##-##--####",
+		"################",
+		"###-#--###-##--#-#--###-####",
+		"##################",
+		"#####--#-##-#-##--##-#-###-###",
+		"####################",
+		"#####-###--###--#-#-##-##-#####",
+		"######################",
+	]
+
+#########################
+## AUXILIARY FUNCTIONS ##
+#########################
+
+
+def experimentfn(reference1,reference2,reads_ref):
+	return "d_{}__{}__{}.txt".format(reference1,reference2,reads_ref)
+
+def datafn(reference1,reference2,reads_ref,seed):
+	"""
+		Filename for the final TXT datafile with info about nb of mismatches and seed hits
+	"""
+	assert check_reference(reference1)
+	assert check_reference(reference2)
+	assert check_reference(reads_ref)
+	return "individual-reports/d__{}__{}__{}__{}.txt".format(reference1,reference2,seed,reads_ref)
+
+def referencefn(reference):
+	"""
+		Filename for the reference
+	"""
+	assert check_reference(reference)
+	return "a_{}.fa".format(reference)
+
+def indexfn(reference,seed):
+	"""
+		Index file for the reference and the seed
+	"""
+	assert check_reference(reference)
+	return "b_{}_{}.index".format(reference,seed)
+
+def readsfn(reference):
+	"""
+		Filename for the reads
+	"""
+	assert check_reference(reference)
+	return "c_{}.fq".format(reference)
+
+def check_reference(reference):
+	"""
+		Is it a reference or a SnakeMake wildcard?
+	"""
+	return (reference in REFERENCES.keys()) or (reference[0]=="{" and reference[-1]=="}")
+
+
+#####################
+## ACTUAL PIPELINE ##
+#####################
+
+shell.prefix("set -euf -x -o pipefail; ")
+
+rule all:
+	input:
+		[
+			experimentfn(ref1,ref2,reads_ref)	for (ref1,ref2,reads_ref) in EXPERIMENTS
+		]
+
+rule clean:
+	"""
+		Clean all produced files except references
+	"""
+	message:
+		"Cleaning output files except references"
+	run:
+		for seed in SEEDS:
+			for (ref1,ref2,reads_ref) in EXPERIMENTS:
+				shell("rm -fR " + datafn(ref1,ref2,reads_ref,seed))
+				shell("rm -fR " + datafn(ref1,ref2,reads_ref,seed)+".log")
+
+		shell("rm -fR " + REPORT)
+
+rule cleanall:
+	"""
+		Clean all produced files
+	"""
+	message:
+		"Cleaning output files"
+	run:
+		shell("rm -fR bin")
+
+		for seed in SEEDS:
+			for (ref1,ref2,reads_ref) in EXPERIMENTS:
+				shell("rm -fR " + datafn(ref1,ref2,reads_ref,seed))
+				shell("rm -fR " + datafn(ref1,ref2,reads_ref,seed)+".log")
+
+		for ref in REFERENCES:
+			shell("rm -fR {} {}".format(readsfn(ref),referencefn(ref)))
+
+		shell("rm -fR " + REPORT)
+
+rule report:
+	input:
+		[
+			datafn("{ref1}","{ref2}","{reads_ref}",seed)
+				for seed in SEEDS
+		]
+	output:
+		experimentfn("{ref1}","{ref2}","{reads_ref}")
+	run:
+		shell ("cat /dev/null > {output[0]}")
+		for inp in input:
+			shell ("cat " + format(inp) + " >> {output[0]}")
+
+def nreverse_complement(read):
+	return [ 3-x for x in read[::-1] ]
+
+def mask_from_seed(seed):
+	base = max(dna_dict.values())+1
+	j=1
+	mask = len(seed)*[0]
+	for i in range(len(seed)):
+		if seed[i]=="#":
+			mask[i]=j
+			j *= base
+	#print(mask)
+	return mask
+
+def recode_dna(string):
+	return [dna_dict[x] for x in string]
+
+reg_dna=re.compile(r"^[ACGT]+$")
+reg_seed=re.compile(r"^[#-]+$")
+
+dna_dict={
+	"A": 0,
+	"C": 1,
+	"G": 2,
+	"T": 3
+}
+
+def load_index(fasta,seed):
+	with open(fasta) as f:
+		lines = [line.strip().upper() for line in f if line[0]!=">"]
+		fasta = "".join(lines)
+		lines=[]
+		nseed=numpy.array(mask_from_seed(seed))
+		index=set()
+		for i in range(len(fasta)-len(nseed)+1):
+			substr=fasta[i:i+len(nseed)]
+			# valid dna string?
+			if reg_dna.match(substr):
+				nkmer = numpy.array( [ dna_dict[x] for x in substr ] )
+				number = numpy.dot( nseed, nkmer )
+				index.add(number)
+	return index
+
+def get_nread_stats(nread,seed,index):
+	nseed=numpy.array(mask_from_seed(seed))
+
+	hits_without_overlaps=0
+	hits_with_overlaps=0
+	last_hit=-4242
+	coverage = len(nread)*[0]
+
+	for i in range(len(nread)-len(nseed)+1):
+		nkmer = nread[i:i+len(nseed)] 
+		kmer_number = numpy.dot( nseed, nkmer )
+		# is the k-mer in index?
+		if kmer_number in index:
+			###
+			hits_with_overlaps+=1
+			###
+			for j in range(len(seed)):
+				if seed[j]=="#":
+					coverage[i+j]=1
+			###
+			if i>=last_hit+len(nseed):
+				hits_without_overlaps+=1
+				last_hit=i
+	return (hits_without_overlaps,hits_with_overlaps,sum(coverage))
+
+rule experiment:
+	input:
+		indexfn("{ref1}","{seed}"),
+		indexfn("{ref2}","{seed}"),
+		readsfn("{reads_ref}")
+	output:
+		datafn("{ref1}","{ref2}","{reads_ref}","{seed}")
+	run:
+		seed=wildcards.seed
+		assert reg_seed.match(seed)
+
+		with open(input[0],"rb") as i1:
+			index1 = pickle.load(i1)
+		with open(input[1],"rb") as i2:
+			index2 = pickle.load(i2)
+
+		sum_hits_without_1 = 0
+		sum_hits_with_1 = 0
+		sum_coverage_crit_1 = 0
+
+		sum_hits_without_2 = 0
+		sum_hits_with_2 = 0
+		sum_coverage_crit_2 = 0 
+
+		without_b = without_s = without_e = without_ez = 0
+		with_b = with_s = with_e = with_ez = 0
+		ccrit_b = ccrit_s = ccrit_e = ccrit_ez = 0
+
+		with open(output[0]+".log","w+") as log:
+			with open(input[2]) as f:
+				ln_nb=-1
+				for line in f:
+					ln_nb+=1
+
+					if ln_nb%4==0:
+						assert line[0]=="@"
+
+					elif ln_nb%4==1:
+						nread = recode_dna( line.strip().upper() )
+
+						(hits_without_1_f,hits_with_1_f,coverage_crit_1_f) = get_nread_stats(nread,seed,index1)
+						(hits_without_2_f,hits_with_2_f,coverage_crit_2_f) = get_nread_stats(nread,seed,index2)
+
+						nread = nreverse_complement(nread)
+
+						(hits_without_1_r,hits_with_1_r,coverage_crit_1_r) = get_nread_stats(nread,seed,index1)
+						(hits_without_2_r,hits_with_2_r,coverage_crit_2_r) = get_nread_stats(nread,seed,index2)
+
+						hits_without_1 = max (hits_without_1_f,hits_without_1_r)
+						hits_without_2 = max (hits_without_2_f,hits_without_2_r)
+
+						hits_with_1 = max (hits_with_1_f,hits_with_1_r)
+						hits_with_2 = max (hits_with_2_f,hits_with_2_r)
+
+						coverage_crit_1 = max (coverage_crit_1_f,coverage_crit_1_r)
+						coverage_crit_2 = max (coverage_crit_2_f,coverage_crit_2_r)
+
+						log.write(
+							os.linesep.join(
+								[
+									str( (hits_without_1,hits_with_1,coverage_crit_1) ),
+									str( (hits_without_2,hits_with_2,coverage_crit_2) ),
+									"",
+									""
+								]
+							)
+						)
+
+						sum_hits_without_1 += hits_without_1
+						sum_hits_without_2 += hits_without_2
+						sum_hits_with_1 += hits_with_1
+						sum_hits_with_2 += hits_with_2
+						sum_coverage_crit_1 += coverage_crit_1
+						sum_coverage_crit_2 += coverage_crit_2
+
+						if hits_without_1 > hits_without_2:
+							without_b+=1
+						elif hits_without_1 < hits_without_2:
+							without_s+=1
+						elif hits_without_1 == hits_without_2:
+							without_e+=1
+							if hits_without_1==0:
+								without_ez+=1
+
+						if hits_with_1 > hits_with_2:
+							with_b+=1
+						elif hits_with_1 < hits_with_2:
+							with_s+=1
+						elif hits_with_1 == hits_with_2:
+							with_e+=1
+							if hits_with_1==0:
+								with_ez+=1
+
+						if coverage_crit_1 > coverage_crit_2:
+							ccrit_b+=1
+						elif coverage_crit_1 < coverage_crit_2:
+							ccrit_s+=1
+						elif coverage_crit_1 == coverage_crit_2:
+							ccrit_e+=1
+							if coverage_crit_1==0:
+								ccrit_ez+=1
+
+					elif ln_nb%4==2:
+						assert line[0]=="+"
+
+					elif ln_nb%4==3:
+						pass
+
+		reads=without_b+without_s+without_e
+
+		with open(output[0],"w+") as of:
+			to_write=os.linesep.join([
+				"",
+				"================================",
+				"",
+				"experiment:  {}__{}__{}__{}".format(wildcards.ref1,wildcards.ref2,wildcards.seed,wildcards.reads_ref),
+				"seed:        {}".format(wildcards.seed),
+				"weight:      {:2}".format(str(wildcards.seed).count("#")),
+				"gen. 1:      {}".format(wildcards.ref1),
+				"gen. 2:      {}".format(wildcards.ref2),
+				"gen. reads:  {}".format(wildcards.reads_ref),
+				"",
+				#"average count_without_1 per read:   {:3.2f}".format(1.0*sum_hits_without_1/reads),
+				"average count_with_1 per read:      {:3.2f}".format(1.0*sum_hits_with_1/reads),
+				"average cov_crit_1 per read:        {:3.2f}".format(1.0*sum_coverage_crit_1/reads),
+				"",
+				#"average count_without_2 per read:   {:3.2f}".format(1.0*sum_hits_without_2/reads),
+				"average count_with_2 per read:      {:3.2f}".format(1.0*sum_hits_with_2/reads),
+				"average cov_crit_2 per read:        {:3.2f}".format(1.0*sum_coverage_crit_2/reads),
+				"",
+				#"reads s.t. count_without_1 > count_without_2:      {:7}  ({:2.2f}%)".format(without_b,100.0*without_b/reads),
+				#"reads s.t. count_without_1 < count without_2:      {:7}  ({:2.2f}%)".format(without_s,100.0*without_s/reads),
+				#"reads s.t. count_without_1 = count_without_2:      {:7}  ({:2.2f}%)".format(without_e,100.0*without_e/reads),
+				#"reads s.t. count_without_1 = count_without_2 = 0:  {:7}  ({:2.2f}%)".format(without_ez,100.0*without_ez/reads),
+				#"",
+				"reads s.t. count_with_1 > count_with_2:      {:7}  ({:2.2f}%)".format(with_b,100.0*with_b/reads),
+				"reads s.t. count_with_1 < count_with_2:      {:7}  ({:2.2f}%)".format(with_s,100.0*with_s/reads),
+				"reads s.t. count_with_1 = count_with_2:      {:7}  ({:2.2f}%)".format(with_e,100.0*with_e/reads),
+				"reads s.t. count_with_1 = count_with_2 = 0:  {:7}  ({:2.2f}%)".format(with_ez,100.0*with_ez/reads),
+				"",
+				"reads s.t. cov_crit_1 > cov_crit_2:     {:7}  ({:2.2f}%)".format(ccrit_b,100.0*ccrit_b/reads),
+				"reads s.t. cov_crit_1 < cov_crit_2:     {:7}  ({:2.2f}%)".format(ccrit_s,100.0*ccrit_s/reads),
+				"reads s.t. cov_crit_1 = cov_crit_2:     {:7}  ({:2.2f}%)".format(ccrit_e,100.0*ccrit_e/reads),
+				"reads s.t. cov_crit_1 = cov_crit_2 = 0: {:7}  ({:2.2f}%)".format(ccrit_ez,100.0*ccrit_ez/reads),
+				"",
+				])
+			of.write(to_write)
+
+rule reads:
+	input:
+		smbl.prog.DWGSIM,
+		referencefn("{reference}")
+	output:
+		readsfn("{reference}"),
+		temp(readsfn("{reference}")+".bfast.fastq"),
+		temp(readsfn("{reference}")+".bwa.read1.fastq"),
+		temp(readsfn("{reference}")+".bwa.read2.fastq"),
+		temp(readsfn("{reference}")+".mutations.txt"),
+		temp(readsfn("{reference}")+".mutations.vcf")
+	params:
+		RLEN=str(READ_LENGTH),
+		COV=str(COVERAGE)
+	run:
+		# parameters for reads simulation can be modified here
+		#    r - rate of mutations
+		#    e - base error rate (sequencing errors)
+		#    y - probability of a random read
+		#    R - fraction of mutations which are indels
+		shell("""
+			{input[0]} \
+				-1 {params.RLEN} \
+				-2 0 \
+				-C {params.COV} \
+				-z 0 \
+				-r 0.01  \
+				-e 0.02  \
+				-y 0     \
+				-R 0     \
+				{input[1]} \
+				{output[0]}
+		""")
+		shell("""
+			cp {output[1]} {output[0]}
+		""")
+
+
+
+###################################################
+## DOWNLOAD AND COMPILATION OF PROGRAMS AND DATA ##
+###################################################
+
+rule reference_index:
+	"""
+		Downloading a reference from the Internet.
+	"""
+	output:
+		indexfn("{reference}","{seed}")
+	input:
+		referencefn("{reference}")
+	run:
+		seed=wildcards.seed
+		assert reg_seed.match(seed)
+
+		index = load_index(input[0],seed)
+		with open(output[0],"wb+") as i:
+			pickle.dump(index,i)
+		
+
+rule reference_download:
+	"""
+		Downloading a reference from the Internet.
+	"""
+	output:
+		referencefn("{reference}")
+	run:
+		fa_url=REFERENCES[wildcards.reference]
+		if fa_url.find(".gz")!=-1:
+			print("Downloading and decompression")
+			parts=fa_url.split("/")
+			fn=parts[-1]
+			shell("curl --insecure -o {} {}".format(fn,fa_url))
+			shell("gzip -d {} -c > {}".format(fn,output[0]))
+			shell("rm "+fn)
+		else:	
+			print("Downloading")
+			shell("curl --insecure -o {} {}".format(referencefn(wildcards.reference),fa_url))

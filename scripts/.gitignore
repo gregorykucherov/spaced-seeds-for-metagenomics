@@ -1,0 +1,4 @@
+*.fq
+*.fa
+*.index
+.snakemake
