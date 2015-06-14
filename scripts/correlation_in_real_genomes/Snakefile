@@ -1,5 +1,6 @@
 import os
 import sys
+import itertools
 import time
 import random
 import numpy
@@ -8,11 +9,7 @@ import numpy
 ## CONFIGURATION ##
 ###################
 
-##
-##
-## HERE YOU CAN CONFIGURE REFERENCES
-##
-##
+# Employed references
 REFERENCES = {
 	"Chlamydia" :
 		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Chlamydia_trachomatis_RC_L2_s_3_uid213390/NC_021897.fna",
@@ -20,31 +17,70 @@ REFERENCES = {
 		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Borrelia_garinii_BgVir_uid162165/NC_017717.fna",
 	"Mycobacterium_tuberculosis" :
 		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Mycobacterium_tuberculosis_H37Rv_uid170532/NC_018143.fna",
-	"Human_chr_21":
-		"http://hgdownload.cse.ucsc.edu/goldenpath/hg19/chromosomes/chr21.fa.gz"
+	#"Human_chr_21":
+	#	"http://hgdownload.cse.ucsc.edu/goldenpath/hg19/chromosomes/chr21.fa.gz"
 }
 
-##
-##
-## HERE YOU CAN CONFIGURE SEEDS
-##
-##
-SEEDS = [
-		"##--#-#--#---#-##-##",
-		"##########",
-		"##---#-#--##--#--#-##-##",
-		"############",
-		"##-##---#-#-#-##-##--###",
-		"##############",
-		"##-###---#-#-#-##-##--####",
-		"################",
-		"###-#--###-##--#-#--###-####",
-		"##################",
-		"#####--#-##-#-##--##-#-###-###",
-		"####################",
-		"#####-###--###--#-#-##-##-#####",
-		"######################",
+# Employed seeds
+
+# contiguous seeds
+SEEDS_CONTIGUOUS = [
+#		"##########", #10
+#		"############", #12
+		"##############", #14
+		"################", #16
+		"##################", #18
+		"####################", #20
+		"######################", #22
+]
+
+# seeds designed by Hedera, deprecated
+SEEDS_HEDERA = [
+#		"##--#-#--#---#-##-##", #10
+#		"##---#-#--##--#--#-##-##", #12
+		"##-##---#-#-#-##-##--###", #14
+		"##-###---#-#-#-##-##--####", #16
+		"###-#--###-##--#-#--###-####", #18
+		"#####--#-##-#-##--##-#-###-###", #20
+		"#####-###--###--#-#-##-##-#####", #22
 	]
+
+# seeds designed by Iedera (opt. for correlation)
+
+SEEDS_IEDERA_HIT = [
+		"###-##-#-#---#-#-#--#--###", #14 (cutting 16)
+		"###-##-#-#---#-#-#--#--#####", #16
+		"####-##--##--#--#-#-#-##-####", #18
+		"#####-###---##--#--#-#-#-##-####", #20
+		"######--####----#--##-#-#--#######", #22
+#		"#######--####----#--##-#-#--########", #24
+	]
+
+SEEDS_IEDERA_COVERAGE = [
+		"###-###--#-#--#-##--###", #14 (cutting 16)
+		"###-###--#-#--#-##--#####", #16
+		"###-#--###-##--#-#--###-####", #18
+		"###-#-##-#-##--##--###-#-#####", #20
+		"####-##-#-#-##-###-#-#--##--#####", #22
+#		"####-##-#-#-##-###-#-#---###--######", #24
+	]
+
+# QR seeds by Manzini
+SEEDS_QR = [
+		"##----#-###-##-###-#----##", #14
+		"#--#--#----###-#-#---####-##-##", #16
+		"#-#--##-#----###-####-###----#-##", #18
+		"#--#--##---#####-#-#--#-#-#####---##", #20
+		"#-##-#-##---#-----###-#---#####-###--#-#--#", #22
+]
+
+# merge sets of seeds
+SEEDS = list(itertools.chain(*zip(
+			SEEDS_CONTIGUOUS,
+			SEEDS_IEDERA_HIT,
+			SEEDS_IEDERA_COVERAGE,
+			SEEDS_QR,
+		)))
 
 # Parameters for reads
 READ_LENGTH=100
@@ -404,6 +440,7 @@ rule report:
 							plot.split.args=list(c(1,1,3,3),c(1,2,3,3),c(1,3,3,3)),
 							plot.more=TRUE
 						)
+
 						writeLines("\n\n  Seeds with overlaps\n")
 						count2d.plot(
 							data,2,4,xlab="Mismatches",
@@ -413,6 +450,7 @@ rule report:
 							plot.split.args=list(c(2,1,3,3),c(2,2,3,3),c(2,3,3,3)),
 							plot.more=TRUE
 						)
+
 						writeLines("\n\n  Coverage criterion\n")
 						count2d.plot(
 							data,2,5,xlab="Mismatches",
@@ -435,6 +473,7 @@ rule report:
 						)
 						plt<-p1
 						{dev_off}           
+
 						#Seeds with overlaps
 						p2<-conf.seed.plot(
 							data,2,4,xlab="Mismatches",
@@ -443,6 +482,7 @@ rule report:
 						)
 						plt<-p2
 						{dev_off}           
+
 						#Coverage criterion
 						p3<-conf.seed.plot(
 							data,2,5,xlab="Mismatches",
@@ -451,6 +491,7 @@ rule report:
 						)
 						plt<-p3
 						{dev_off}           
+
 						#Seeds without overlaps
 						p4<-conf.seed.plot(
 							data,3,2,ylab="Mismatches",
@@ -459,6 +500,7 @@ rule report:
 						)
 						plt<-p4
 						{dev_off}           
+
 						#Seeds with overlaps
 						p5<-conf.seed.plot(
 							data,4,2,ylab="Mismatches",
@@ -467,6 +509,7 @@ rule report:
 						)
 						plt<-p5
 						{dev_off}           
+
 						#Coverage criterion
 						p6<-conf.seed.plot(
 							data,5,2,ylab="Mismatches",
@@ -517,6 +560,7 @@ rule report:
 							main="{message}"
 						)
 						{dev_off}            
+
 						{pdf_init}
 						writeLines("\nSeeds with overlaps\n")
 						scatter.seed.plot(
@@ -525,6 +569,7 @@ rule report:
 							main="{message}"
 						)
 						{dev_off}            
+
 						{pdf_init}
 						writeLines("\nCoverage criterion\n")
 						scatter.seed.plot(

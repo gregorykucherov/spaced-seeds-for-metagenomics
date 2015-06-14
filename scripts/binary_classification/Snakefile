@@ -1,9 +1,10 @@
+import itertools
+import numpy
 import os
+import pickle
+import random
 import sys
 import time
-import random
-import numpy
-import pickle
 
 # installation: 'pip install --upgrade smbl'
 import smbl
@@ -16,41 +17,9 @@ include: smbl.include()
 # Parameters for reads
 READ_LENGTH=100
 COVERAGE=1
+LOG_INDIVIDUAL_READS = 0
 
-
-##
-##
-## HERE YOU CAN SET EXPERIMENTS
-##
-##
-EXPERIMENTS = [
-	## format (reference_1,reference_2,reads_reference)
-
-	#("Borrelia_garinii", "Mycobacterium_tuberculosis","Borrelia_garinii"),
-	#("Mycobacterium_tuberculosis", "Borrelia_garinii","Mycobacterium_tuberculosis"),
-	#("Chlamydia_trachomatis", "Borrelia_garinii","Chlamydia_trachomatis"),
-	#("Borrelia_garinii", "Chlamydia_trachomatis","Borrelia_garinii"),
-	#("Chlamydia_trachomatis", "Mycobacterium_tuberculosis","Chlamydia_trachomatis"),
-	#("Mycobacterium_tuberculosis", "Chlamydia_trachomatis","Mycobacterium_tuberculosis"),
-	#("Chlamydia_trachomatis", "Chlamydia_pecorum","Chlamydia_trachomatis"),
-	#("Chlamydia_pecorum", "Chlamydia_trachomatis","Chlamydia_pecorum"),
-	#("Mycobacterium_tuberculosis", "Mycobacterium_tuberculosis_Haarlem","Mycobacterium_tuberculosis"),
-	#("Mycobacterium_tuberculosis", "Mycobacterium_avium","Mycobacterium_tuberculosis"),
-	#("Mycobacterium_kansasii", "Mycobacterium_marinum","Mycobacterium_tuberculosis"),
-	#("Mycobacterium_smegmatis", "Mycobacterium_gilvum","Mycobacterium_vanbaalenii"),
-	#("Mycobacterium_tuberculosis","Mycobacterium_tuberculosis_KNZ_605","Mycobacterium_tuberculosis"),
-	#("Bacillus_pumilus_SAFR_032","Bacillus_licheniformis_ATCC_14580_uid58097","Bacillus_subtilis_168_uid57675"),
-	("Bacillus_anthracis_Ames_uid57909","Bacillus_pumilus_SAFR_032","Bacillus_licheniformis_ATCC_14580_uid58097"),
-#	("Bacillus_anthracis_Ames_uid57909","Bacillus_licheniformis_ATCC_14580_uid58097","Bacillus_pumilus_SAFR_032"),
-#	("Bacillus_anthracis_Ames_uid57909","Bacillus_cereus_ATCC_14579_uid57975","Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089"),
-]
-
-
-##
-##
-## HERE YOU CAN CONFIGURE REFERENCES
-##
-##
+# Employed references
 REFERENCES = {
 	"Chlamydia_trachomatis" :
 		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Chlamydia_trachomatis_RC_L2_s_3_uid213390/NC_021897.fna",
@@ -92,27 +61,86 @@ REFERENCES = {
 		"ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Bacillus_cereus_ATCC_14579_uid57975/NC_004722.fna"
 }
 
-##
-##
-## HERE YOU CAN CONFIGURE SEEDS
-##
-##
-SEEDS = [
-#		"##--#-#--#---#-##-##",
-#		"##########",
-#		"##---#-#--##--#--#-##-##",
-#		"############",
-		"##-##---#-#-#-##-##--###",
-		"##############",
-		"##-###---#-#-#-##-##--####",
-		"################",
-		"###-#--###-##--#-#--###-####",
-		"##################",
-		"#####--#-##-#-##--##-#-###-###",
-		"####################",
-		"#####-###--###--#-#-##-##-#####",
-		"######################",
+# format (reference_1,reference_2,reads_reference)
+EXPERIMENTS = [
+	("Borrelia_garinii", "Mycobacterium_tuberculosis","Borrelia_garinii"),
+	("Mycobacterium_tuberculosis", "Borrelia_garinii","Mycobacterium_tuberculosis"),
+	("Chlamydia_trachomatis", "Borrelia_garinii","Chlamydia_trachomatis"),
+	("Borrelia_garinii", "Chlamydia_trachomatis","Borrelia_garinii"),
+	("Chlamydia_trachomatis", "Mycobacterium_tuberculosis","Chlamydia_trachomatis"),
+	("Mycobacterium_tuberculosis", "Chlamydia_trachomatis","Mycobacterium_tuberculosis"),
+	("Chlamydia_trachomatis", "Chlamydia_pecorum","Chlamydia_trachomatis"),
+	("Chlamydia_pecorum", "Chlamydia_trachomatis","Chlamydia_pecorum"),
+	("Mycobacterium_tuberculosis", "Mycobacterium_tuberculosis_Haarlem","Mycobacterium_tuberculosis"),
+	("Mycobacterium_tuberculosis", "Mycobacterium_avium","Mycobacterium_tuberculosis"),
+	("Mycobacterium_kansasii", "Mycobacterium_marinum","Mycobacterium_tuberculosis"),
+	("Mycobacterium_smegmatis", "Mycobacterium_gilvum","Mycobacterium_vanbaalenii"),
+	("Mycobacterium_tuberculosis","Mycobacterium_tuberculosis_KNZ_605","Mycobacterium_tuberculosis"),
+	("Bacillus_pumilus_SAFR_032","Bacillus_licheniformis_ATCC_14580_uid58097","Bacillus_subtilis_168_uid57675"),
+	("Bacillus_anthracis_Ames_uid57909","Bacillus_pumilus_SAFR_032","Bacillus_licheniformis_ATCC_14580_uid58097"),
+	("Bacillus_anthracis_Ames_uid57909","Bacillus_licheniformis_ATCC_14580_uid58097","Bacillus_pumilus_SAFR_032"),
+	("Bacillus_anthracis_Ames_uid57909","Bacillus_cereus_ATCC_14579_uid57975","Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089"),
+]
+
+# Employed seeds
+
+# contiguous seeds
+SEEDS_CONTIGUOUS = [
+#		"##########", #10
+#		"############", #12
+		"##############", #14
+		"################", #16
+		"##################", #18
+		"####################", #20
+		"######################", #22
+]
+
+# seeds designed by Hedera, deprecated
+SEEDS_HEDERA = [
+#		"##--#-#--#---#-##-##", #10
+#		"##---#-#--##--#--#-##-##", #12
+		"##-##---#-#-#-##-##--###", #14
+		"##-###---#-#-#-##-##--####", #16
+		"###-#--###-##--#-#--###-####", #18
+		"#####--#-##-#-##--##-#-###-###", #20
+		"#####-###--###--#-#-##-##-#####", #22
 	]
+
+# seeds designed by Iedera (opt. for correlation)
+
+SEEDS_IEDERA_HIT = [
+		"###-##-#-#---#-#-#--#--###", #14 (cutting 16)
+		"###-##-#-#---#-#-#--#--#####", #16
+		"####-##--##--#--#-#-#-##-####", #18
+		"#####-###---##--#--#-#-#-##-####", #20
+		"######--####----#--##-#-#--#######", #22
+#		"#######--####----#--##-#-#--########", #24
+	]
+
+SEEDS_IEDERA_COVERAGE = [
+		"###-###--#-#--#-##--###", #14 (cutting 16)
+		"###-###--#-#--#-##--#####", #16
+		"###-#--###-##--#-#--###-####", #18
+		"###-#-##-#-##--##--###-#-#####", #20
+		"####-##-#-#-##-###-#-#--##--#####", #22
+#		"####-##-#-#-##-###-#-#---###--######", #24
+	]
+
+# QR seeds by Manzini
+SEEDS_QR = [
+		"##----#-###-##-###-#----##", #14
+		"#--#--#----###-#-#---####-##-##", #16
+		"#-#--##-#----###-####-###----#-##", #18
+		"#--#--##---#####-#-#--#-#-#####---##", #20
+		"#-##-#-##---#-----###-#---#####-###--#-#--#", #22
+]
+
+SEEDS = itertools.chain(*zip(
+			SEEDS_CONTIGUOUS,
+			SEEDS_IEDERA_HIT,
+			SEEDS_IEDERA_COVERAGE,
+			SEEDS_QR,
+		))
 
 #########################
 ## AUXILIARY FUNCTIONS ##
@@ -289,7 +317,9 @@ rule experiment:
 	input:
 		indexfn("{ref1}","{seed}"),
 		indexfn("{ref2}","{seed}"),
-		readsfn("{reads_ref}")
+		readsfn("{reads_ref}"),
+		referencefn("{ref1}"),
+		referencefn("{ref2}"),
 	output:
 		datafn("{ref1}","{ref2}","{reads_ref}","{seed}")
 	run:
@@ -301,17 +331,29 @@ rule experiment:
 		with open(input[1],"rb") as i2:
 			index2 = pickle.load(i2)
 
+		kmers_in_genome_1=len(index1)
+		kmers_in_genome_2=len(index2)
+
+		len_genome_1=os.stat(input[3]).st_size
+		len_genome_2=os.stat(input[4]).st_size
+
 		sum_hits_without_1 = 0
 		sum_hits_with_1 = 0
 		sum_coverage_crit_1 = 0
+		jaci_1 = 0
+		jaci_cov_1 = 0
 
 		sum_hits_without_2 = 0
 		sum_hits_with_2 = 0
 		sum_coverage_crit_2 = 0 
+		jaci_2 = 0
+		jaci_cov_2 = 0
 
 		without_b = without_s = without_e = without_ez = 0
 		with_b = with_s = with_e = with_ez = 0
 		ccrit_b = ccrit_s = ccrit_e = ccrit_ez = 0
+		jaci_b = jaci_s = jaci_e = 0
+		jaci_cov_b = jaci_cov_s = jaci_cov_e = 0
 
 		with open(output[0]+".log","w+") as log:
 			with open(input[2]) as f:
@@ -327,11 +369,19 @@ rule experiment:
 
 						(hits_without_1_f,hits_with_1_f,coverage_crit_1_f) = get_nread_stats(nread,seed,index1)
 						(hits_without_2_f,hits_with_2_f,coverage_crit_2_f) = get_nread_stats(nread,seed,index2)
+						jaci_1_f = 1.0 * hits_with_1_f / kmers_in_genome_1
+						jaci_2_f = 1.0 * hits_with_2_f / kmers_in_genome_2
+						jaci_cov_1_f = 1.0 * coverage_crit_1_f / kmers_in_genome_1
+						jaci_cov_2_f = 1.0 * coverage_crit_2_f / kmers_in_genome_2
 
 						nread = nreverse_complement(nread)
 
 						(hits_without_1_r,hits_with_1_r,coverage_crit_1_r) = get_nread_stats(nread,seed,index1)
 						(hits_without_2_r,hits_with_2_r,coverage_crit_2_r) = get_nread_stats(nread,seed,index2)
+						jaci_1_r = 1.0 * hits_with_1_r / kmers_in_genome_1
+						jaci_2_r = 1.0 * hits_with_2_r / kmers_in_genome_2
+						jaci_cov_1_r = 1.0 * coverage_crit_1_r / kmers_in_genome_1
+						jaci_cov_2_r = 1.0 * coverage_crit_2_r / kmers_in_genome_2
 
 						hits_without_1 = max (hits_without_1_f,hits_without_1_r)
 						hits_without_2 = max (hits_without_2_f,hits_without_2_r)
@@ -342,16 +392,23 @@ rule experiment:
 						coverage_crit_1 = max (coverage_crit_1_f,coverage_crit_1_r)
 						coverage_crit_2 = max (coverage_crit_2_f,coverage_crit_2_r)
 
-						log.write(
-							os.linesep.join(
-								[
-									str( (hits_without_1,hits_with_1,coverage_crit_1) ),
-									str( (hits_without_2,hits_with_2,coverage_crit_2) ),
-									"",
-									""
-								]
+						jaci_1 = max (jaci_1_f,jaci_1_r)
+						jaci_2 = max (jaci_2_f,jaci_2_r)
+
+						jaci_cov_1 = max (jaci_cov_1_f,jaci_cov_1_r)
+						jaci_cov_2 = max (jaci_cov_2_f,jaci_cov_2_r)
+
+						if LOG_INDIVIDUAL_READS:
+							log.write(
+								os.linesep.join(
+									[
+										str( (hits_without_1,hits_with_1,coverage_crit_1, jaci_1, jaci_cov_1) ),
+										str( (hits_without_2,hits_with_2,coverage_crit_2, jaci_2, jaci_cov_2) ),
+										"",
+										""
+									]
+								)
 							)
-						)
 
 						sum_hits_without_1 += hits_without_1
 						sum_hits_without_2 += hits_without_2
@@ -387,6 +444,20 @@ rule experiment:
 							if coverage_crit_1==0:
 								ccrit_ez+=1
 
+						if jaci_1 > jaci_2:
+							jaci_b+=1
+						elif jaci_1 < jaci_2:
+							jaci_s+=1
+						elif jaci_1 == jaci_2:
+							jaci_e+=1
+
+						if jaci_cov_1 > jaci_cov_2:
+							jaci_cov_b+=1
+						elif jaci_cov_1 < jaci_cov_2:
+							jaci_cov_s+=1
+						elif jaci_cov_1 == jaci_cov_2:
+							jaci_cov_e+=1
+
 					elif ln_nb%4==2:
 						assert line[0]=="+"
 
@@ -403,8 +474,8 @@ rule experiment:
 				"experiment:  {}__{}__{}__{}".format(wildcards.ref1,wildcards.ref2,wildcards.seed,wildcards.reads_ref),
 				"seed:        {}".format(wildcards.seed),
 				"weight:      {:2}".format(str(wildcards.seed).count("#")),
-				"gen. 1:      {}".format(wildcards.ref1),
-				"gen. 2:      {}".format(wildcards.ref2),
+				"gen. 1:      {}\n    (size: {:10} B, number of kmers: {})".format(wildcards.ref1,len_genome_1,kmers_in_genome_1),
+				"gen. 2:      {}\n    (size: {:10} B, number of kmers: {})".format(wildcards.ref2,len_genome_2,kmers_in_genome_2),
 				"gen. reads:  {}".format(wildcards.reads_ref),
 				"",
 				#"average count_without_1 per read:   {:3.2f}".format(1.0*sum_hits_without_1/reads),
@@ -429,6 +500,20 @@ rule experiment:
 				"reads s.t. cov_crit_1 < cov_crit_2:     {:7}  ({:2.2f}%)".format(ccrit_s,100.0*ccrit_s/reads),
 				"reads s.t. cov_crit_1 = cov_crit_2:     {:7}  ({:2.2f}%)".format(ccrit_e,100.0*ccrit_e/reads),
 				"reads s.t. cov_crit_1 = cov_crit_2 = 0: {:7}  ({:2.2f}%)".format(ccrit_ez,100.0*ccrit_ez/reads),
+				"",
+				"reads s.t. Jac_ind_1 > Jac_ind_2        {:7}  ({:2.2f}%)".format(jaci_b,100.0*jaci_b/reads),
+				"reads s.t. Jac_ind_1 < Jac_ind_2        {:7}  ({:2.2f}%)".format(jaci_s,100.0*jaci_s/reads),
+				"reads s.t. Jac_ind_1 = Jac_ind_2        {:7}  ({:2.2f}%)".format(jaci_e,100.0*jaci_e/reads),
+				"",
+				"reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2   {:7}  ({:2.2f}%)".format(jaci_cov_b,100.0*jaci_cov_b/reads),
+				"reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2   {:7}  ({:2.2f}%)".format(jaci_cov_s,100.0*jaci_cov_s/reads),
+				"reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2   {:7}  ({:2.2f}%)".format(jaci_cov_e,100.0*jaci_cov_e/reads),
+				"",
+				"latex:",
+				"\tcount_with:   {} / {}".format(str(int(round(100.0*with_b/reads))).zfill(2),str(int(round(100.0*with_s/reads))).zfill(2)),
+				"\tcov_crit:     {} / {}".format(str(int(round(100.0*ccrit_b/reads))).zfill(2),str(int(round(100.0*ccrit_s/reads))).zfill(2)),
+				"\tJac_ind:      {} / {}".format(str(int(round(100.0*jaci_b/reads))).zfill(2),str(int(round(100.0*jaci_s/reads))).zfill(2)),
+				"\tJac_ind_cov:  {} / {}".format(str(int(round(100.0*jaci_cov_b/reads))).zfill(2),str(int(round(100.0*jaci_cov_s/reads))).zfill(2)),
 				"",
 				])
 			of.write(to_write)
@@ -478,7 +563,7 @@ rule reads:
 
 rule reference_index:
 	"""
-		Downloading a reference from the Internet.
+		Building index of kmers.
 	"""
 	output:
 		indexfn("{reference}","{seed}")

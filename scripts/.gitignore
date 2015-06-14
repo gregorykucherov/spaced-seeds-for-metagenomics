@@ -1,4 +1,33 @@
-*.fq
+# References
 *.fa
-*.index
-.snakemake
+*.fasta
+
+# Reads
+*.fq
+*.fastq
+
+# Data files
+*.csv
+
+# R scripts
+#*.R
+
+#Tempfiles
+*~
+
+# auxiliary dir for bacteria
+01*.txt
+02*.txt
+03*.txt
+04*.R
+05*.txt
+06*.pdf
+#!00_experiment/*.pdf
+
+
+# Snakemake cache
+.snakemake/
+
+# metaindex executables
+meta_index
+
