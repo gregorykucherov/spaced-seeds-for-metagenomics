@@ -1,0 +1,820 @@
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__##############__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        ##############
+weight:      14
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 4889906)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3553351)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      5.46
+average cov_crit_1 per read:        34.97
+
+average count_with_2 per read:      5.22
+average cov_crit_2 per read:        34.29
+
+reads s.t. count_with_1 > count_with_2:        19757  (46.79%)
+reads s.t. count_with_1 < count_with_2:        17036  (40.34%)
+reads s.t. count_with_1 = count_with_2:         5433  (12.87%)
+reads s.t. count_with_1 = count_with_2 = 0:      245  (0.58%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       20703  (49.03%)
+reads s.t. cov_crit_1 < cov_crit_2:       19287  (45.68%)
+reads s.t. cov_crit_1 = cov_crit_2:        2236  (5.30%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:     245  (0.58%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          15745  (37.29%)
+reads s.t. Jac_ind_1 < Jac_ind_2          26236  (62.13%)
+reads s.t. Jac_ind_1 = Jac_ind_2            245  (0.58%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     12018  (28.46%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     29963  (70.96%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2       245  (0.58%)
+
+latex:
+	count_with:   47 / 40
+	cov_crit:     49 / 46
+	Jac_ind:      37 / 62
+	Jac_ind_cov:  28 / 71
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__###-##-#-#---#-#-#--#--###__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        ###-##-#-#---#-#-#--#--###
+weight:      14
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 4962544)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3592264)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      3.63
+average cov_crit_1 per read:        35.30
+
+average count_with_2 per read:      3.09
+average cov_crit_2 per read:        30.91
+
+reads s.t. count_with_1 > count_with_2:        21146  (50.08%)
+reads s.t. count_with_1 < count_with_2:        12428  (29.43%)
+reads s.t. count_with_1 = count_with_2:         8652  (20.49%)
+reads s.t. count_with_1 = count_with_2 = 0:      261  (0.62%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       23235  (55.03%)
+reads s.t. cov_crit_1 < cov_crit_2:       15287  (36.20%)
+reads s.t. cov_crit_1 = cov_crit_2:        3704  (8.77%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:     261  (0.62%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          18371  (43.51%)
+reads s.t. Jac_ind_1 < Jac_ind_2          23594  (55.88%)
+reads s.t. Jac_ind_1 = Jac_ind_2            261  (0.62%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     15340  (36.33%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     26625  (63.05%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2       261  (0.62%)
+
+latex:
+	count_with:   50 / 29
+	cov_crit:     55 / 36
+	Jac_ind:      44 / 56
+	Jac_ind_cov:  36 / 63
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__###-###--#-#--#-##--###__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        ###-###--#-#--#-##--###
+weight:      14
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 4950780)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3586702)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      3.95
+average cov_crit_1 per read:        37.12
+
+average count_with_2 per read:      3.41
+average cov_crit_2 per read:        33.06
+
+reads s.t. count_with_1 > count_with_2:        21337  (50.53%)
+reads s.t. count_with_1 < count_with_2:        12861  (30.46%)
+reads s.t. count_with_1 = count_with_2:         8028  (19.01%)
+reads s.t. count_with_1 = count_with_2 = 0:      155  (0.37%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       23257  (55.08%)
+reads s.t. cov_crit_1 < cov_crit_2:       15654  (37.07%)
+reads s.t. cov_crit_1 = cov_crit_2:        3315  (7.85%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:     155  (0.37%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          18026  (42.69%)
+reads s.t. Jac_ind_1 < Jac_ind_2          24045  (56.94%)
+reads s.t. Jac_ind_1 = Jac_ind_2            155  (0.37%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     14626  (34.64%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     27445  (65.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2       155  (0.37%)
+
+latex:
+	count_with:   51 / 30
+	cov_crit:     55 / 37
+	Jac_ind:      43 / 57
+	Jac_ind_cov:  35 / 65
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__##----#-###-##-###-#----##__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        ##----#-###-##-###-#----##
+weight:      14
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 4945502)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3585467)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      3.92
+average cov_crit_1 per read:        36.66
+
+average count_with_2 per read:      3.51
+average cov_crit_2 per read:        33.60
+
+reads s.t. count_with_1 > count_with_2:        20482  (48.51%)
+reads s.t. count_with_1 < count_with_2:        13739  (32.54%)
+reads s.t. count_with_1 = count_with_2:         8005  (18.96%)
+reads s.t. count_with_1 = count_with_2 = 0:      147  (0.35%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       22377  (52.99%)
+reads s.t. cov_crit_1 < cov_crit_2:       16553  (39.20%)
+reads s.t. cov_crit_1 = cov_crit_2:        3296  (7.81%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:     147  (0.35%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          17217  (40.77%)
+reads s.t. Jac_ind_1 < Jac_ind_2          24862  (58.88%)
+reads s.t. Jac_ind_1 = Jac_ind_2            147  (0.35%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     13853  (32.81%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     28226  (66.85%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2       147  (0.35%)
+
+latex:
+	count_with:   49 / 33
+	cov_crit:     53 / 39
+	Jac_ind:      41 / 59
+	Jac_ind_cov:  33 / 67
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__################__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        ################
+weight:      16
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5136770)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3637770)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      0.91
+average cov_crit_1 per read:        7.08
+
+average count_with_2 per read:      1.22
+average cov_crit_2 per read:        7.22
+
+reads s.t. count_with_1 > count_with_2:        10107  (23.94%)
+reads s.t. count_with_1 < count_with_2:        10470  (24.80%)
+reads s.t. count_with_1 = count_with_2:        21649  (51.27%)
+reads s.t. count_with_1 = count_with_2 = 0:    19506  (46.19%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       10313  (24.42%)
+reads s.t. cov_crit_1 < cov_crit_2:       10492  (24.85%)
+reads s.t. cov_crit_1 = cov_crit_2:       21421  (50.73%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   19506  (46.19%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          10018  (23.72%)
+reads s.t. Jac_ind_1 < Jac_ind_2          12702  (30.08%)
+reads s.t. Jac_ind_1 = Jac_ind_2          19506  (46.19%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      8996  (21.30%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     13724  (32.50%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     19506  (46.19%)
+
+latex:
+	count_with:   24 / 25
+	cov_crit:     24 / 25
+	Jac_ind:      24 / 30
+	Jac_ind_cov:  21 / 33
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__###-##-#-#---#-#-#--#--#####__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        ###-##-#-#---#-#-#--#--#####
+weight:      16
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5150499)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3644801)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      0.58
+average cov_crit_1 per read:        6.53
+
+average count_with_2 per read:      0.77
+average cov_crit_2 per read:        6.61
+
+reads s.t. count_with_1 > count_with_2:         9288  (22.00%)
+reads s.t. count_with_1 < count_with_2:         8821  (20.89%)
+reads s.t. count_with_1 = count_with_2:        24117  (57.11%)
+reads s.t. count_with_1 = count_with_2 = 0:    21124  (50.03%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9368  (22.19%)
+reads s.t. cov_crit_1 < cov_crit_2:        8859  (20.98%)
+reads s.t. cov_crit_1 = cov_crit_2:       23999  (56.83%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   21124  (50.03%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9261  (21.93%)
+reads s.t. Jac_ind_1 < Jac_ind_2          11841  (28.04%)
+reads s.t. Jac_ind_1 = Jac_ind_2          21124  (50.03%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9222  (21.84%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     11880  (28.13%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     21124  (50.03%)
+
+latex:
+	count_with:   22 / 21
+	cov_crit:     22 / 21
+	Jac_ind:      22 / 28
+	Jac_ind_cov:  22 / 28
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__###-###--#-#--#-##--#####__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        ###-###--#-#--#-##--#####
+weight:      16
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5147719)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3643530)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      0.65
+average cov_crit_1 per read:        7.34
+
+average count_with_2 per read:      0.88
+average cov_crit_2 per read:        7.62
+
+reads s.t. count_with_1 > count_with_2:         9746  (23.08%)
+reads s.t. count_with_1 < count_with_2:         9777  (23.15%)
+reads s.t. count_with_1 = count_with_2:        22703  (53.77%)
+reads s.t. count_with_1 = count_with_2 = 0:    19084  (45.19%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9879  (23.40%)
+reads s.t. cov_crit_1 < cov_crit_2:        9826  (23.27%)
+reads s.t. cov_crit_1 = cov_crit_2:       22521  (53.33%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   19084  (45.19%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9704  (22.98%)
+reads s.t. Jac_ind_1 < Jac_ind_2          13438  (31.82%)
+reads s.t. Jac_ind_1 = Jac_ind_2          19084  (45.19%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9661  (22.88%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     13481  (31.93%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     19084  (45.19%)
+
+latex:
+	count_with:   23 / 23
+	cov_crit:     23 / 23
+	Jac_ind:      23 / 32
+	Jac_ind_cov:  23 / 32
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__#--#--#----###-#-#---####-##-##__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        #--#--#----###-#-#---####-##-##
+weight:      16
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5147717)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3643857)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      0.68
+average cov_crit_1 per read:        7.71
+
+average count_with_2 per read:      1.01
+average cov_crit_2 per read:        9.20
+
+reads s.t. count_with_1 > count_with_2:         9411  (22.29%)
+reads s.t. count_with_1 < count_with_2:        11262  (26.67%)
+reads s.t. count_with_1 = count_with_2:        21553  (51.04%)
+reads s.t. count_with_1 = count_with_2 = 0:    17956  (42.52%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9574  (22.67%)
+reads s.t. cov_crit_1 < cov_crit_2:       11405  (27.01%)
+reads s.t. cov_crit_1 = cov_crit_2:       21247  (50.32%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   17956  (42.52%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9337  (22.11%)
+reads s.t. Jac_ind_1 < Jac_ind_2          14933  (35.36%)
+reads s.t. Jac_ind_1 = Jac_ind_2          17956  (42.52%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9236  (21.87%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     15034  (35.60%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     17956  (42.52%)
+
+latex:
+	count_with:   22 / 27
+	cov_crit:     23 / 27
+	Jac_ind:      22 / 35
+	Jac_ind_cov:  22 / 36
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__##################__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        ##################
+weight:      18
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5165118)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3647080)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      0.30
+average cov_crit_1 per read:        1.38
+
+average count_with_2 per read:      0.62
+average cov_crit_2 per read:        2.17
+
+reads s.t. count_with_1 > count_with_2:         1772  (4.20%)
+reads s.t. count_with_1 < count_with_2:         3033  (7.18%)
+reads s.t. count_with_1 = count_with_2:        37421  (88.62%)
+reads s.t. count_with_1 = count_with_2 = 0:    37285  (88.30%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1772  (4.20%)
+reads s.t. cov_crit_1 < cov_crit_2:        3034  (7.19%)
+reads s.t. cov_crit_1 = cov_crit_2:       37420  (88.62%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   37285  (88.30%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           1740  (4.12%)
+reads s.t. Jac_ind_1 < Jac_ind_2           3201  (7.58%)
+reads s.t. Jac_ind_1 = Jac_ind_2          37285  (88.30%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      1669  (3.95%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      3272  (7.75%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     37285  (88.30%)
+
+latex:
+	count_with:   04 / 07
+	cov_crit:     04 / 07
+	Jac_ind:      04 / 08
+	Jac_ind_cov:  04 / 08
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__####-##--##--#--#-#-#-##-####__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        ####-##--##--#--#-#-#-##-####
+weight:      18
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5169687)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3650012)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      0.22
+average cov_crit_1 per read:        1.51
+
+average count_with_2 per read:      0.45
+average cov_crit_2 per read:        2.73
+
+reads s.t. count_with_1 > count_with_2:         1594  (3.77%)
+reads s.t. count_with_1 < count_with_2:         3467  (8.21%)
+reads s.t. count_with_1 = count_with_2:        37165  (88.01%)
+reads s.t. count_with_1 = count_with_2 = 0:    36965  (87.54%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1604  (3.80%)
+reads s.t. cov_crit_1 < cov_crit_2:        3468  (8.21%)
+reads s.t. cov_crit_1 = cov_crit_2:       37154  (87.99%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   36965  (87.54%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           1567  (3.71%)
+reads s.t. Jac_ind_1 < Jac_ind_2           3694  (8.75%)
+reads s.t. Jac_ind_1 = Jac_ind_2          36965  (87.54%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      1554  (3.68%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      3707  (8.78%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     36965  (87.54%)
+
+latex:
+	count_with:   04 / 08
+	cov_crit:     04 / 08
+	Jac_ind:      04 / 09
+	Jac_ind_cov:  04 / 09
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__###-#--###-##--#-#--###-####__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        ###-#--###-##--#-#--###-####
+weight:      18
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5169398)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3649832)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      0.23
+average cov_crit_1 per read:        1.54
+
+average count_with_2 per read:      0.46
+average cov_crit_2 per read:        2.74
+
+reads s.t. count_with_1 > count_with_2:         1650  (3.91%)
+reads s.t. count_with_1 < count_with_2:         3446  (8.16%)
+reads s.t. count_with_1 = count_with_2:        37130  (87.93%)
+reads s.t. count_with_1 = count_with_2 = 0:    36917  (87.43%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1664  (3.94%)
+reads s.t. cov_crit_1 < cov_crit_2:        3435  (8.13%)
+reads s.t. cov_crit_1 = cov_crit_2:       37127  (87.92%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   36917  (87.43%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           1626  (3.85%)
+reads s.t. Jac_ind_1 < Jac_ind_2           3683  (8.72%)
+reads s.t. Jac_ind_1 = Jac_ind_2          36917  (87.43%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      1608  (3.81%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      3701  (8.76%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     36917  (87.43%)
+
+latex:
+	count_with:   04 / 08
+	cov_crit:     04 / 08
+	Jac_ind:      04 / 09
+	Jac_ind_cov:  04 / 09
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__#-#--##-#----###-####-###----#-##__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        #-#--##-#----###-####-###----#-##
+weight:      18
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5169640)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3650007)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      0.22
+average cov_crit_1 per read:        1.68
+
+average count_with_2 per read:      0.46
+average cov_crit_2 per read:        3.14
+
+reads s.t. count_with_1 > count_with_2:         1796  (4.25%)
+reads s.t. count_with_1 < count_with_2:         4013  (9.50%)
+reads s.t. count_with_1 = count_with_2:        36417  (86.24%)
+reads s.t. count_with_1 = count_with_2 = 0:    36154  (85.62%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1812  (4.29%)
+reads s.t. cov_crit_1 < cov_crit_2:        4016  (9.51%)
+reads s.t. cov_crit_1 = cov_crit_2:       36398  (86.20%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   36154  (85.62%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           1761  (4.17%)
+reads s.t. Jac_ind_1 < Jac_ind_2           4311  (10.21%)
+reads s.t. Jac_ind_1 = Jac_ind_2          36154  (85.62%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      1739  (4.12%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      4333  (10.26%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     36154  (85.62%)
+
+latex:
+	count_with:   04 / 10
+	cov_crit:     04 / 10
+	Jac_ind:      04 / 10
+	Jac_ind_cov:  04 / 10
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__####################__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        ####################
+weight:      20
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5170083)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3649282)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      0.21
+average cov_crit_1 per read:        0.66
+
+average count_with_2 per read:      0.46
+average cov_crit_2 per read:        1.43
+
+reads s.t. count_with_1 > count_with_2:          370  (0.88%)
+reads s.t. count_with_1 < count_with_2:         1604  (3.80%)
+reads s.t. count_with_1 = count_with_2:        40252  (95.33%)
+reads s.t. count_with_1 = count_with_2 = 0:    40169  (95.13%)
+
+reads s.t. cov_crit_1 > cov_crit_2:         370  (0.88%)
+reads s.t. cov_crit_1 < cov_crit_2:        1604  (3.80%)
+reads s.t. cov_crit_1 = cov_crit_2:       40252  (95.33%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   40169  (95.13%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2            353  (0.84%)
+reads s.t. Jac_ind_1 < Jac_ind_2           1704  (4.04%)
+reads s.t. Jac_ind_1 = Jac_ind_2          40169  (95.13%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2       318  (0.75%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      1739  (4.12%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     40169  (95.13%)
+
+latex:
+	count_with:   01 / 04
+	cov_crit:     01 / 04
+	Jac_ind:      01 / 04
+	Jac_ind_cov:  01 / 04
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__#####-###---##--#--#-#-#-##-####__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        #####-###---##--#--#-#-#-##-####
+weight:      20
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5173173)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3651619)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      0.15
+average cov_crit_1 per read:        0.90
+
+average count_with_2 per read:      0.35
+average cov_crit_2 per read:        2.10
+
+reads s.t. count_with_1 > count_with_2:          446  (1.06%)
+reads s.t. count_with_1 < count_with_2:         2269  (5.37%)
+reads s.t. count_with_1 = count_with_2:        39511  (93.57%)
+reads s.t. count_with_1 = count_with_2 = 0:    39413  (93.34%)
+
+reads s.t. cov_crit_1 > cov_crit_2:         446  (1.06%)
+reads s.t. cov_crit_1 < cov_crit_2:        2274  (5.39%)
+reads s.t. cov_crit_1 = cov_crit_2:       39506  (93.56%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   39413  (93.34%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2            424  (1.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2           2389  (5.66%)
+reads s.t. Jac_ind_1 = Jac_ind_2          39413  (93.34%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2       415  (0.98%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      2398  (5.68%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     39413  (93.34%)
+
+latex:
+	count_with:   01 / 05
+	cov_crit:     01 / 05
+	Jac_ind:      01 / 06
+	Jac_ind_cov:  01 / 06
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__###-#-##-#-##--##--###-#-#####__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        ###-#-##-#-##--##--###-#-#####
+weight:      20
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5172941)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3651369)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      0.16
+average cov_crit_1 per read:        0.84
+
+average count_with_2 per read:      0.35
+average cov_crit_2 per read:        1.83
+
+reads s.t. count_with_1 > count_with_2:          394  (0.93%)
+reads s.t. count_with_1 < count_with_2:         1861  (4.41%)
+reads s.t. count_with_1 = count_with_2:        39971  (94.66%)
+reads s.t. count_with_1 = count_with_2 = 0:    39907  (94.51%)
+
+reads s.t. cov_crit_1 > cov_crit_2:         408  (0.97%)
+reads s.t. cov_crit_1 < cov_crit_2:        1844  (4.37%)
+reads s.t. cov_crit_1 = cov_crit_2:       39974  (94.67%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   39907  (94.51%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2            380  (0.90%)
+reads s.t. Jac_ind_1 < Jac_ind_2           1939  (4.59%)
+reads s.t. Jac_ind_1 = Jac_ind_2          39907  (94.51%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2       362  (0.86%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      1957  (4.63%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     39907  (94.51%)
+
+latex:
+	count_with:   01 / 04
+	cov_crit:     01 / 04
+	Jac_ind:      01 / 05
+	Jac_ind_cov:  01 / 05
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__#--#--##---#####-#-#--#-#-#####---##__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        #--#--##---#####-#-#--#-#-#####---##
+weight:      20
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5173651)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3651918)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      0.14
+average cov_crit_1 per read:        0.78
+
+average count_with_2 per read:      0.32
+average cov_crit_2 per read:        1.73
+
+reads s.t. count_with_1 > count_with_2:          350  (0.83%)
+reads s.t. count_with_1 < count_with_2:         1763  (4.18%)
+reads s.t. count_with_1 = count_with_2:        40113  (95.00%)
+reads s.t. count_with_1 = count_with_2 = 0:    40042  (94.83%)
+
+reads s.t. cov_crit_1 > cov_crit_2:         358  (0.85%)
+reads s.t. cov_crit_1 < cov_crit_2:        1756  (4.16%)
+reads s.t. cov_crit_1 = cov_crit_2:       40112  (94.99%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   40042  (94.83%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2            329  (0.78%)
+reads s.t. Jac_ind_1 < Jac_ind_2           1855  (4.39%)
+reads s.t. Jac_ind_1 = Jac_ind_2          40042  (94.83%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2       317  (0.75%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      1867  (4.42%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     40042  (94.83%)
+
+latex:
+	count_with:   01 / 04
+	cov_crit:     01 / 04
+	Jac_ind:      01 / 04
+	Jac_ind_cov:  01 / 04
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__######################__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        ######################
+weight:      22
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5172268)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3650617)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      0.17
+average cov_crit_1 per read:        0.48
+
+average count_with_2 per read:      0.38
+average cov_crit_2 per read:        1.08
+
+reads s.t. count_with_1 > count_with_2:          143  (0.34%)
+reads s.t. count_with_1 < count_with_2:         1018  (2.41%)
+reads s.t. count_with_1 = count_with_2:        41065  (97.25%)
+reads s.t. count_with_1 = count_with_2 = 0:    40994  (97.08%)
+
+reads s.t. cov_crit_1 > cov_crit_2:         143  (0.34%)
+reads s.t. cov_crit_1 < cov_crit_2:        1016  (2.41%)
+reads s.t. cov_crit_1 = cov_crit_2:       41067  (97.26%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   40994  (97.08%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2            128  (0.30%)
+reads s.t. Jac_ind_1 < Jac_ind_2           1104  (2.61%)
+reads s.t. Jac_ind_1 = Jac_ind_2          40994  (97.08%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2       107  (0.25%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      1125  (2.66%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     40994  (97.08%)
+
+latex:
+	count_with:   00 / 02
+	cov_crit:     00 / 02
+	Jac_ind:      00 / 03
+	Jac_ind_cov:  00 / 03
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__######--####----#--##-#-#--#######__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        ######--####----#--##-#-#--#######
+weight:      22
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5174839)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3652770)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      0.12
+average cov_crit_1 per read:        0.66
+
+average count_with_2 per read:      0.27
+average cov_crit_2 per read:        1.40
+
+reads s.t. count_with_1 > count_with_2:          180  (0.43%)
+reads s.t. count_with_1 < count_with_2:         1219  (2.89%)
+reads s.t. count_with_1 = count_with_2:        40827  (96.69%)
+reads s.t. count_with_1 = count_with_2 = 0:    40761  (96.53%)
+
+reads s.t. cov_crit_1 > cov_crit_2:         188  (0.45%)
+reads s.t. cov_crit_1 < cov_crit_2:        1222  (2.89%)
+reads s.t. cov_crit_1 = cov_crit_2:       40816  (96.66%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   40761  (96.53%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2            163  (0.39%)
+reads s.t. Jac_ind_1 < Jac_ind_2           1302  (3.08%)
+reads s.t. Jac_ind_1 = Jac_ind_2          40761  (96.53%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2       155  (0.37%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      1310  (3.10%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     40761  (96.53%)
+
+latex:
+	count_with:   00 / 03
+	cov_crit:     00 / 03
+	Jac_ind:      00 / 03
+	Jac_ind_cov:  00 / 03
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__####-##-#-#-##-###-#-#--##--#####__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        ####-##-#-#-##-###-#-#--##--#####
+weight:      22
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5174755)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3652603)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      0.12
+average cov_crit_1 per read:        0.67
+
+average count_with_2 per read:      0.29
+average cov_crit_2 per read:        1.52
+
+reads s.t. count_with_1 > count_with_2:          179  (0.42%)
+reads s.t. count_with_1 < count_with_2:         1395  (3.30%)
+reads s.t. count_with_1 = count_with_2:        40652  (96.27%)
+reads s.t. count_with_1 = count_with_2 = 0:    40587  (96.12%)
+
+reads s.t. cov_crit_1 > cov_crit_2:         198  (0.47%)
+reads s.t. cov_crit_1 < cov_crit_2:        1386  (3.28%)
+reads s.t. cov_crit_1 = cov_crit_2:       40642  (96.25%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   40587  (96.12%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2            172  (0.41%)
+reads s.t. Jac_ind_1 < Jac_ind_2           1467  (3.47%)
+reads s.t. Jac_ind_1 = Jac_ind_2          40587  (96.12%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2       157  (0.37%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      1482  (3.51%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     40587  (96.12%)
+
+latex:
+	count_with:   00 / 03
+	cov_crit:     00 / 03
+	Jac_ind:      00 / 03
+	Jac_ind_cov:  00 / 04
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_pumilus_SAFR_032__#-##-#-##---#-----###-#---#####-###--#-#--#__Bacillus_licheniformis_ATCC_14580_uid58097
+seed:        #-##-#-##---#-----###-#---#####-###--#-#--#
+weight:      22
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5175911)
+gen. 2:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3653658)
+gen. reads:  Bacillus_licheniformis_ATCC_14580_uid58097
+
+average count_with_1 per read:      0.10
+average cov_crit_1 per read:        0.62
+
+average count_with_2 per read:      0.23
+average cov_crit_2 per read:        1.35
+
+reads s.t. count_with_1 > count_with_2:          172  (0.41%)
+reads s.t. count_with_1 < count_with_2:         1175  (2.78%)
+reads s.t. count_with_1 = count_with_2:        40879  (96.81%)
+reads s.t. count_with_1 = count_with_2 = 0:    40820  (96.67%)
+
+reads s.t. cov_crit_1 > cov_crit_2:         177  (0.42%)
+reads s.t. cov_crit_1 < cov_crit_2:        1180  (2.79%)
+reads s.t. cov_crit_1 = cov_crit_2:       40869  (96.79%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   40820  (96.67%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2            154  (0.36%)
+reads s.t. Jac_ind_1 < Jac_ind_2           1252  (2.96%)
+reads s.t. Jac_ind_1 = Jac_ind_2          40820  (96.67%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2       146  (0.35%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      1260  (2.98%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     40820  (96.67%)
+
+latex:
+	count_with:   00 / 03
+	cov_crit:     00 / 03
+	Jac_ind:      00 / 03
+	Jac_ind_cov:  00 / 03

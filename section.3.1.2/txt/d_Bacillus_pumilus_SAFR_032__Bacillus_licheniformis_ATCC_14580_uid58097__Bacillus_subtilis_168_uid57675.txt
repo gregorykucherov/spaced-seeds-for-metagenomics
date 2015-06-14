@@ -1,0 +1,820 @@
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__##############__Bacillus_subtilis_168_uid57675
+seed:        ##############
+weight:      14
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3553351)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4058513)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      5.81
+average cov_crit_1 per read:        36.28
+
+average count_with_2 per read:      6.74
+average cov_crit_2 per read:        40.23
+
+reads s.t. count_with_1 > count_with_2:        15303  (36.30%)
+reads s.t. count_with_1 < count_with_2:        21885  (51.91%)
+reads s.t. count_with_1 = count_with_2:         4968  (11.78%)
+reads s.t. count_with_1 = count_with_2 = 0:       53  (0.13%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       16778  (39.80%)
+reads s.t. cov_crit_1 < cov_crit_2:       23648  (56.10%)
+reads s.t. cov_crit_1 = cov_crit_2:        1730  (4.10%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:      53  (0.13%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          20849  (49.46%)
+reads s.t. Jac_ind_1 < Jac_ind_2          21254  (50.42%)
+reads s.t. Jac_ind_1 = Jac_ind_2             53  (0.13%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     22642  (53.71%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     19461  (46.16%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2        53  (0.13%)
+
+latex:
+	count_with:   36 / 52
+	cov_crit:     40 / 56
+	Jac_ind:      49 / 50
+	Jac_ind_cov:  54 / 46
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__###-##-#-#---#-#-#--#--###__Bacillus_subtilis_168_uid57675
+seed:        ###-##-#-#---#-#-#--#--###
+weight:      14
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3592264)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4117089)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      3.56
+average cov_crit_1 per read:        33.56
+
+average count_with_2 per read:      3.99
+average cov_crit_2 per read:        36.52
+
+reads s.t. count_with_1 > count_with_2:        14567  (34.55%)
+reads s.t. count_with_1 < count_with_2:        19330  (45.85%)
+reads s.t. count_with_1 = count_with_2:         8259  (19.59%)
+reads s.t. count_with_1 = count_with_2 = 0:       50  (0.12%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       17138  (40.65%)
+reads s.t. cov_crit_1 < cov_crit_2:       22195  (52.65%)
+reads s.t. cov_crit_1 = cov_crit_2:        2823  (6.70%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:      50  (0.12%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          22983  (54.52%)
+reads s.t. Jac_ind_1 < Jac_ind_2          19123  (45.36%)
+reads s.t. Jac_ind_1 = Jac_ind_2             50  (0.12%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     23440  (55.60%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     18666  (44.28%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2        50  (0.12%)
+
+latex:
+	count_with:   35 / 46
+	cov_crit:     41 / 53
+	Jac_ind:      55 / 45
+	Jac_ind_cov:  56 / 44
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__###-###--#-#--#-##--###__Bacillus_subtilis_168_uid57675
+seed:        ###-###--#-#--#-##--###
+weight:      14
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3586702)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4110550)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      3.92
+average cov_crit_1 per read:        35.83
+
+average count_with_2 per read:      4.38
+average cov_crit_2 per read:        38.85
+
+reads s.t. count_with_1 > count_with_2:        14675  (34.81%)
+reads s.t. count_with_1 < count_with_2:        19554  (46.38%)
+reads s.t. count_with_1 = count_with_2:         7927  (18.80%)
+reads s.t. count_with_1 = count_with_2 = 0:       32  (0.08%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       17200  (40.80%)
+reads s.t. cov_crit_1 < cov_crit_2:       22487  (53.34%)
+reads s.t. cov_crit_1 = cov_crit_2:        2469  (5.86%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:      32  (0.08%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          22828  (54.15%)
+reads s.t. Jac_ind_1 < Jac_ind_2          19296  (45.77%)
+reads s.t. Jac_ind_1 = Jac_ind_2             32  (0.08%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     23417  (55.55%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     18707  (44.38%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2        32  (0.08%)
+
+latex:
+	count_with:   35 / 46
+	cov_crit:     41 / 53
+	Jac_ind:      54 / 46
+	Jac_ind_cov:  56 / 44
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__##----#-###-##-###-#----##__Bacillus_subtilis_168_uid57675
+seed:        ##----#-###-##-###-#----##
+weight:      14
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3585467)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4109562)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      4.01
+average cov_crit_1 per read:        36.22
+
+average count_with_2 per read:      4.53
+average cov_crit_2 per read:        39.44
+
+reads s.t. count_with_1 > count_with_2:        14551  (34.52%)
+reads s.t. count_with_1 < count_with_2:        19891  (47.18%)
+reads s.t. count_with_1 = count_with_2:         7714  (18.30%)
+reads s.t. count_with_1 = count_with_2 = 0:       27  (0.06%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       17094  (40.55%)
+reads s.t. cov_crit_1 < cov_crit_2:       22662  (53.76%)
+reads s.t. cov_crit_1 = cov_crit_2:        2400  (5.69%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:      27  (0.06%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          22551  (53.49%)
+reads s.t. Jac_ind_1 < Jac_ind_2          19578  (46.44%)
+reads s.t. Jac_ind_1 = Jac_ind_2             27  (0.06%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     23386  (55.47%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     18743  (44.46%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2        27  (0.06%)
+
+latex:
+	count_with:   35 / 47
+	cov_crit:     41 / 54
+	Jac_ind:      53 / 46
+	Jac_ind_cov:  55 / 44
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__################__Bacillus_subtilis_168_uid57675
+seed:        ################
+weight:      16
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3637770)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4167349)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      1.55
+average cov_crit_1 per read:        8.26
+
+average count_with_2 per read:      1.92
+average cov_crit_2 per read:        9.80
+
+reads s.t. count_with_1 > count_with_2:        10093  (23.94%)
+reads s.t. count_with_1 < count_with_2:        13173  (31.25%)
+reads s.t. count_with_1 = count_with_2:        18890  (44.81%)
+reads s.t. count_with_1 = count_with_2 = 0:    16451  (39.02%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       10211  (24.22%)
+reads s.t. cov_crit_1 < cov_crit_2:       13317  (31.59%)
+reads s.t. cov_crit_1 = cov_crit_2:       18628  (44.19%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   16451  (39.02%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          12650  (30.01%)
+reads s.t. Jac_ind_1 < Jac_ind_2          13055  (30.97%)
+reads s.t. Jac_ind_1 = Jac_ind_2          16451  (39.02%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     13654  (32.39%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     12051  (28.59%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     16451  (39.02%)
+
+latex:
+	count_with:   24 / 31
+	cov_crit:     24 / 32
+	Jac_ind:      30 / 31
+	Jac_ind_cov:  32 / 29
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__###-##-#-#---#-#-#--#--#####__Bacillus_subtilis_168_uid57675
+seed:        ###-##-#-#---#-#-#--#--#####
+weight:      16
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3644801)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4175105)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      1.03
+average cov_crit_1 per read:        7.96
+
+average count_with_2 per read:      1.28
+average cov_crit_2 per read:        9.66
+
+reads s.t. count_with_1 > count_with_2:         8762  (20.78%)
+reads s.t. count_with_1 < count_with_2:        11531  (27.35%)
+reads s.t. count_with_1 = count_with_2:        21863  (51.86%)
+reads s.t. count_with_1 = count_with_2 = 0:    18291  (43.39%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        8828  (20.94%)
+reads s.t. cov_crit_1 < cov_crit_2:       11662  (27.66%)
+reads s.t. cov_crit_1 = cov_crit_2:       21666  (51.39%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   18291  (43.39%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          12426  (29.48%)
+reads s.t. Jac_ind_1 < Jac_ind_2          11439  (27.13%)
+reads s.t. Jac_ind_1 = Jac_ind_2          18291  (43.39%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     12575  (29.83%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     11290  (26.78%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     18291  (43.39%)
+
+latex:
+	count_with:   21 / 27
+	cov_crit:     21 / 28
+	Jac_ind:      29 / 27
+	Jac_ind_cov:  30 / 27
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__###-###--#-#--#-##--#####__Bacillus_subtilis_168_uid57675
+seed:        ###-###--#-#--#-##--#####
+weight:      16
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3643530)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4174056)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      1.16
+average cov_crit_1 per read:        8.98
+
+average count_with_2 per read:      1.43
+average cov_crit_2 per read:        10.84
+
+reads s.t. count_with_1 > count_with_2:         9422  (22.35%)
+reads s.t. count_with_1 < count_with_2:        12586  (29.86%)
+reads s.t. count_with_1 = count_with_2:        20148  (47.79%)
+reads s.t. count_with_1 = count_with_2 = 0:    16039  (38.05%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9533  (22.61%)
+reads s.t. cov_crit_1 < cov_crit_2:       12755  (30.26%)
+reads s.t. cov_crit_1 = cov_crit_2:       19868  (47.13%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   16039  (38.05%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          13643  (32.36%)
+reads s.t. Jac_ind_1 < Jac_ind_2          12474  (29.59%)
+reads s.t. Jac_ind_1 = Jac_ind_2          16039  (38.05%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     13782  (32.69%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     12335  (29.26%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     16039  (38.05%)
+
+latex:
+	count_with:   22 / 30
+	cov_crit:     23 / 30
+	Jac_ind:      32 / 30
+	Jac_ind_cov:  33 / 29
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__#--#--#----###-#-#---####-##-##__Bacillus_subtilis_168_uid57675
+seed:        #--#--#----###-#-#---####-##-##
+weight:      16
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3643857)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4174764)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      1.29
+average cov_crit_1 per read:        10.62
+
+average count_with_2 per read:      1.63
+average cov_crit_2 per read:        13.09
+
+reads s.t. count_with_1 > count_with_2:         9576  (22.72%)
+reads s.t. count_with_1 < count_with_2:        13392  (31.77%)
+reads s.t. count_with_1 = count_with_2:        19188  (45.52%)
+reads s.t. count_with_1 = count_with_2 = 0:    15028  (35.65%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9797  (23.24%)
+reads s.t. cov_crit_1 < cov_crit_2:       13717  (32.54%)
+reads s.t. cov_crit_1 = cov_crit_2:       18642  (44.22%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   15028  (35.65%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          13853  (32.86%)
+reads s.t. Jac_ind_1 < Jac_ind_2          13275  (31.49%)
+reads s.t. Jac_ind_1 = Jac_ind_2          15028  (35.65%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     14047  (33.32%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     13081  (31.03%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     15028  (35.65%)
+
+latex:
+	count_with:   23 / 32
+	cov_crit:     23 / 33
+	Jac_ind:      33 / 31
+	Jac_ind_cov:  33 / 31
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__##################__Bacillus_subtilis_168_uid57675
+seed:        ##################
+weight:      18
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3647080)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4178321)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      0.87
+average cov_crit_1 per read:        2.78
+
+average count_with_2 per read:      1.10
+average cov_crit_2 per read:        3.53
+
+reads s.t. count_with_1 > count_with_2:         2803  (6.65%)
+reads s.t. count_with_1 < count_with_2:         4072  (9.66%)
+reads s.t. count_with_1 = count_with_2:        35281  (83.69%)
+reads s.t. count_with_1 = count_with_2 = 0:    34870  (82.72%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        2793  (6.63%)
+reads s.t. cov_crit_1 < cov_crit_2:        4081  (9.68%)
+reads s.t. cov_crit_1 = cov_crit_2:       35282  (83.69%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   34870  (82.72%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           3297  (7.82%)
+reads s.t. Jac_ind_1 < Jac_ind_2           3989  (9.46%)
+reads s.t. Jac_ind_1 = Jac_ind_2          34870  (82.72%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      3435  (8.15%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      3851  (9.14%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     34870  (82.72%)
+
+latex:
+	count_with:   07 / 10
+	cov_crit:     07 / 10
+	Jac_ind:      08 / 09
+	Jac_ind_cov:  08 / 09
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__####-##--##--#--#-#-#-##-####__Bacillus_subtilis_168_uid57675
+seed:        ####-##--##--#--#-#-#-##-####
+weight:      18
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3650012)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4180579)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      0.65
+average cov_crit_1 per read:        3.57
+
+average count_with_2 per read:      0.84
+average cov_crit_2 per read:        4.82
+
+reads s.t. count_with_1 > count_with_2:         3011  (7.14%)
+reads s.t. count_with_1 < count_with_2:         4876  (11.57%)
+reads s.t. count_with_1 = count_with_2:        34269  (81.29%)
+reads s.t. count_with_1 = count_with_2 = 0:    33647  (79.82%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        3033  (7.19%)
+reads s.t. cov_crit_1 < cov_crit_2:        4911  (11.65%)
+reads s.t. cov_crit_1 = cov_crit_2:       34212  (81.16%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   33647  (79.82%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           3712  (8.81%)
+reads s.t. Jac_ind_1 < Jac_ind_2           4797  (11.38%)
+reads s.t. Jac_ind_1 = Jac_ind_2          33647  (79.82%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      3855  (9.14%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      4654  (11.04%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     33647  (79.82%)
+
+latex:
+	count_with:   07 / 12
+	cov_crit:     07 / 12
+	Jac_ind:      09 / 11
+	Jac_ind_cov:  09 / 11
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__###-#--###-##--#-#--###-####__Bacillus_subtilis_168_uid57675
+seed:        ###-#--###-##--#-#--###-####
+weight:      18
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3649832)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4180398)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      0.67
+average cov_crit_1 per read:        3.62
+
+average count_with_2 per read:      0.86
+average cov_crit_2 per read:        4.88
+
+reads s.t. count_with_1 > count_with_2:         3033  (7.19%)
+reads s.t. count_with_1 < count_with_2:         4918  (11.67%)
+reads s.t. count_with_1 = count_with_2:        34205  (81.14%)
+reads s.t. count_with_1 = count_with_2 = 0:    33519  (79.51%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        3051  (7.24%)
+reads s.t. cov_crit_1 < cov_crit_2:        4967  (11.78%)
+reads s.t. cov_crit_1 = cov_crit_2:       34138  (80.98%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   33519  (79.51%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           3801  (9.02%)
+reads s.t. Jac_ind_1 < Jac_ind_2           4836  (11.47%)
+reads s.t. Jac_ind_1 = Jac_ind_2          33519  (79.51%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      3928  (9.32%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      4709  (11.17%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     33519  (79.51%)
+
+latex:
+	count_with:   07 / 12
+	cov_crit:     07 / 12
+	Jac_ind:      09 / 11
+	Jac_ind_cov:  09 / 11
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__#-#--##-#----###-####-###----#-##__Bacillus_subtilis_168_uid57675
+seed:        #-#--##-#----###-####-###----#-##
+weight:      18
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3650007)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4180670)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      0.67
+average cov_crit_1 per read:        4.10
+
+average count_with_2 per read:      0.86
+average cov_crit_2 per read:        5.60
+
+reads s.t. count_with_1 > count_with_2:         3422  (8.12%)
+reads s.t. count_with_1 < count_with_2:         5650  (13.40%)
+reads s.t. count_with_1 = count_with_2:        33084  (78.48%)
+reads s.t. count_with_1 = count_with_2 = 0:    32241  (76.48%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        3449  (8.18%)
+reads s.t. cov_crit_1 < cov_crit_2:        5718  (13.56%)
+reads s.t. cov_crit_1 = cov_crit_2:       32989  (78.25%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   32241  (76.48%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           4342  (10.30%)
+reads s.t. Jac_ind_1 < Jac_ind_2           5573  (13.22%)
+reads s.t. Jac_ind_1 = Jac_ind_2          32241  (76.48%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      4483  (10.63%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      5432  (12.89%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     32241  (76.48%)
+
+latex:
+	count_with:   08 / 13
+	cov_crit:     08 / 14
+	Jac_ind:      10 / 13
+	Jac_ind_cov:  11 / 13
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__####################__Bacillus_subtilis_168_uid57675
+seed:        ####################
+weight:      20
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3649282)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4180169)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      0.68
+average cov_crit_1 per read:        1.94
+
+average count_with_2 per read:      0.85
+average cov_crit_2 per read:        2.55
+
+reads s.t. count_with_1 > count_with_2:         1342  (3.18%)
+reads s.t. count_with_1 < count_with_2:         2314  (5.49%)
+reads s.t. count_with_1 = count_with_2:        38500  (91.33%)
+reads s.t. count_with_1 = count_with_2 = 0:    38143  (90.48%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1338  (3.17%)
+reads s.t. cov_crit_1 < cov_crit_2:        2321  (5.51%)
+reads s.t. cov_crit_1 = cov_crit_2:       38497  (91.32%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   38143  (90.48%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           1777  (4.22%)
+reads s.t. Jac_ind_1 < Jac_ind_2           2236  (5.30%)
+reads s.t. Jac_ind_1 = Jac_ind_2          38143  (90.48%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      1855  (4.40%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      2158  (5.12%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     38143  (90.48%)
+
+latex:
+	count_with:   03 / 05
+	cov_crit:     03 / 06
+	Jac_ind:      04 / 05
+	Jac_ind_cov:  04 / 05
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__#####-###---##--#--#-#-#-##-####__Bacillus_subtilis_168_uid57675
+seed:        #####-###---##--#--#-#-#-##-####
+weight:      20
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3651619)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4181794)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      0.53
+average cov_crit_1 per read:        2.91
+
+average count_with_2 per read:      0.67
+average cov_crit_2 per read:        3.97
+
+reads s.t. count_with_1 > count_with_2:         1884  (4.47%)
+reads s.t. count_with_1 < count_with_2:         3430  (8.14%)
+reads s.t. count_with_1 = count_with_2:        36842  (87.39%)
+reads s.t. count_with_1 = count_with_2 = 0:    36316  (86.15%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1895  (4.50%)
+reads s.t. cov_crit_1 < cov_crit_2:        3466  (8.22%)
+reads s.t. cov_crit_1 = cov_crit_2:       36795  (87.28%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   36316  (86.15%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           2473  (5.87%)
+reads s.t. Jac_ind_1 < Jac_ind_2           3367  (7.99%)
+reads s.t. Jac_ind_1 = Jac_ind_2          36316  (86.15%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      2600  (6.17%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      3240  (7.69%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     36316  (86.15%)
+
+latex:
+	count_with:   04 / 08
+	cov_crit:     04 / 08
+	Jac_ind:      06 / 08
+	Jac_ind_cov:  06 / 08
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__###-#-##-#-##--##--###-#-#####__Bacillus_subtilis_168_uid57675
+seed:        ###-#-##-#-##--##--###-#-#####
+weight:      20
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3651369)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4181674)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      0.53
+average cov_crit_1 per read:        2.56
+
+average count_with_2 per read:      0.67
+average cov_crit_2 per read:        3.47
+
+reads s.t. count_with_1 > count_with_2:         1569  (3.72%)
+reads s.t. count_with_1 < count_with_2:         2848  (6.76%)
+reads s.t. count_with_1 = count_with_2:        37739  (89.52%)
+reads s.t. count_with_1 = count_with_2 = 0:    37325  (88.54%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1581  (3.75%)
+reads s.t. cov_crit_1 < cov_crit_2:        2877  (6.82%)
+reads s.t. cov_crit_1 = cov_crit_2:       37698  (89.42%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   37325  (88.54%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           2054  (4.87%)
+reads s.t. Jac_ind_1 < Jac_ind_2           2777  (6.59%)
+reads s.t. Jac_ind_1 = Jac_ind_2          37325  (88.54%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      2169  (5.15%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      2662  (6.31%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     37325  (88.54%)
+
+latex:
+	count_with:   04 / 07
+	cov_crit:     04 / 07
+	Jac_ind:      05 / 07
+	Jac_ind_cov:  05 / 06
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__#--#--##---#####-#-#--#-#-#####---##__Bacillus_subtilis_168_uid57675
+seed:        #--#--##---#####-#-#--#-#-#####---##
+weight:      20
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3651918)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4182095)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      0.48
+average cov_crit_1 per read:        2.43
+
+average count_with_2 per read:      0.61
+average cov_crit_2 per read:        3.35
+
+reads s.t. count_with_1 > count_with_2:         1452  (3.44%)
+reads s.t. count_with_1 < count_with_2:         2732  (6.48%)
+reads s.t. count_with_1 = count_with_2:        37972  (90.07%)
+reads s.t. count_with_1 = count_with_2 = 0:    37556  (89.09%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1463  (3.47%)
+reads s.t. cov_crit_1 < cov_crit_2:        2764  (6.56%)
+reads s.t. cov_crit_1 = cov_crit_2:       37929  (89.97%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   37556  (89.09%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           1926  (4.57%)
+reads s.t. Jac_ind_1 < Jac_ind_2           2674  (6.34%)
+reads s.t. Jac_ind_1 = Jac_ind_2          37556  (89.09%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      2042  (4.84%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      2558  (6.07%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     37556  (89.09%)
+
+latex:
+	count_with:   03 / 06
+	cov_crit:     03 / 07
+	Jac_ind:      05 / 06
+	Jac_ind_cov:  05 / 06
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__######################__Bacillus_subtilis_168_uid57675
+seed:        ######################
+weight:      22
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3650617)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4181050)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      0.56
+average cov_crit_1 per read:        1.53
+
+average count_with_2 per read:      0.69
+average cov_crit_2 per read:        1.96
+
+reads s.t. count_with_1 > count_with_2:          802  (1.90%)
+reads s.t. count_with_1 < count_with_2:         1455  (3.45%)
+reads s.t. count_with_1 = count_with_2:        39899  (94.65%)
+reads s.t. count_with_1 = count_with_2 = 0:    39576  (93.88%)
+
+reads s.t. cov_crit_1 > cov_crit_2:         813  (1.93%)
+reads s.t. cov_crit_1 < cov_crit_2:        1448  (3.43%)
+reads s.t. cov_crit_1 = cov_crit_2:       39895  (94.64%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   39576  (93.88%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           1191  (2.83%)
+reads s.t. Jac_ind_1 < Jac_ind_2           1389  (3.29%)
+reads s.t. Jac_ind_1 = Jac_ind_2          39576  (93.88%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      1260  (2.99%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      1320  (3.13%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     39576  (93.88%)
+
+latex:
+	count_with:   02 / 03
+	cov_crit:     02 / 03
+	Jac_ind:      03 / 03
+	Jac_ind_cov:  03 / 03
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__######--####----#--##-#-#--#######__Bacillus_subtilis_168_uid57675
+seed:        ######--####----#--##-#-#--#######
+weight:      22
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3652770)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4182586)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      0.42
+average cov_crit_1 per read:        2.08
+
+average count_with_2 per read:      0.53
+average cov_crit_2 per read:        2.75
+
+reads s.t. count_with_1 > count_with_2:         1051  (2.49%)
+reads s.t. count_with_1 < count_with_2:         1958  (4.64%)
+reads s.t. count_with_1 = count_with_2:        39147  (92.86%)
+reads s.t. count_with_1 = count_with_2 = 0:    38818  (92.08%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1048  (2.49%)
+reads s.t. cov_crit_1 < cov_crit_2:        1978  (4.69%)
+reads s.t. cov_crit_1 = cov_crit_2:       39130  (92.82%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   38818  (92.08%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           1437  (3.41%)
+reads s.t. Jac_ind_1 < Jac_ind_2           1901  (4.51%)
+reads s.t. Jac_ind_1 = Jac_ind_2          38818  (92.08%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      1533  (3.64%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      1805  (4.28%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     38818  (92.08%)
+
+latex:
+	count_with:   02 / 05
+	cov_crit:     02 / 05
+	Jac_ind:      03 / 05
+	Jac_ind_cov:  04 / 04
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__####-##-#-#-##-###-#-#--##--#####__Bacillus_subtilis_168_uid57675
+seed:        ####-##-#-#-##-###-#-#--##--#####
+weight:      22
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3652603)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4182471)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      0.44
+average cov_crit_1 per read:        2.17
+
+average count_with_2 per read:      0.55
+average cov_crit_2 per read:        2.93
+
+reads s.t. count_with_1 > count_with_2:         1123  (2.66%)
+reads s.t. count_with_1 < count_with_2:         2131  (5.06%)
+reads s.t. count_with_1 = count_with_2:        38902  (92.28%)
+reads s.t. count_with_1 = count_with_2 = 0:    38536  (91.41%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1112  (2.64%)
+reads s.t. cov_crit_1 < cov_crit_2:        2166  (5.14%)
+reads s.t. cov_crit_1 = cov_crit_2:       38878  (92.22%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   38536  (91.41%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           1552  (3.68%)
+reads s.t. Jac_ind_1 < Jac_ind_2           2068  (4.91%)
+reads s.t. Jac_ind_1 = Jac_ind_2          38536  (91.41%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      1647  (3.91%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      1973  (4.68%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     38536  (91.41%)
+
+latex:
+	count_with:   03 / 05
+	cov_crit:     03 / 05
+	Jac_ind:      04 / 05
+	Jac_ind_cov:  04 / 05
+
+================================
+
+experiment:  Bacillus_pumilus_SAFR_032__Bacillus_licheniformis_ATCC_14580_uid58097__#-##-#-##---#-----###-#---#####-###--#-#--#__Bacillus_subtilis_168_uid57675
+seed:        #-##-#-##---#-----###-#---#####-###--#-#--#
+weight:      22
+gen. 1:      Bacillus_pumilus_SAFR_032
+    (size:    3757471 B, number of kmers: 3653658)
+gen. 2:      Bacillus_licheniformis_ATCC_14580_uid58097
+    (size:    4283013 B, number of kmers: 4183202)
+gen. reads:  Bacillus_subtilis_168_uid57675
+
+average count_with_1 per read:      0.36
+average cov_crit_1 per read:        1.99
+
+average count_with_2 per read:      0.45
+average cov_crit_2 per read:        2.68
+
+reads s.t. count_with_1 > count_with_2:          976  (2.32%)
+reads s.t. count_with_1 < count_with_2:         1898  (4.50%)
+reads s.t. count_with_1 = count_with_2:        39282  (93.18%)
+reads s.t. count_with_1 = count_with_2 = 0:    38956  (92.41%)
+
+reads s.t. cov_crit_1 > cov_crit_2:         988  (2.34%)
+reads s.t. cov_crit_1 < cov_crit_2:        1921  (4.56%)
+reads s.t. cov_crit_1 = cov_crit_2:       39247  (93.10%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   38956  (92.41%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           1357  (3.22%)
+reads s.t. Jac_ind_1 < Jac_ind_2           1843  (4.37%)
+reads s.t. Jac_ind_1 = Jac_ind_2          38956  (92.41%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      1448  (3.43%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      1752  (4.16%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     38956  (92.41%)
+
+latex:
+	count_with:   02 / 05
+	cov_crit:     02 / 05
+	Jac_ind:      03 / 04
+	Jac_ind_cov:  03 / 04

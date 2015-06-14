@@ -1,0 +1,820 @@
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__##############__Borrelia_garinii
+seed:        ##############
+weight:      14
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 863823)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1032594)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      61.05
+average cov_crit_1 per read:        91.34
+
+average count_with_2 per read:      2.41
+average cov_crit_2 per read:        20.48
+
+reads s.t. count_with_1 > count_with_2:         9055  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9054  (99.99%)
+reads s.t. cov_crit_1 < cov_crit_2:           1  (0.01%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9055  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9055  (100.00%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__###-##-#-#---#-#-#--#--###__Borrelia_garinii
+seed:        ###-##-#-#---#-#-#--#--###
+weight:      14
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 875211)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1035400)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      52.37
+average cov_crit_1 per read:        96.44
+
+average count_with_2 per read:      1.53
+average cov_crit_2 per read:        19.26
+
+reads s.t. count_with_1 > count_with_2:         9055  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9055  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9055  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9055  (100.00%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__###-###--#-#--#-##--###__Borrelia_garinii
+seed:        ###-###--#-#--#-##--###
+weight:      14
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 872813)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1035217)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      54.54
+average cov_crit_1 per read:        96.28
+
+average count_with_2 per read:      1.69
+average cov_crit_2 per read:        20.90
+
+reads s.t. count_with_1 > count_with_2:         9055  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9055  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9055  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9055  (100.00%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__##----#-###-##-###-#----##__Borrelia_garinii
+seed:        ##----#-###-##-###-#----##
+weight:      14
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 871990)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1034985)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      52.42
+average cov_crit_1 per read:        95.27
+
+average count_with_2 per read:      1.66
+average cov_crit_2 per read:        20.44
+
+reads s.t. count_with_1 > count_with_2:         9055  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9055  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9055  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9055  (100.00%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__################__Borrelia_garinii
+seed:        ################
+weight:      16
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 895782)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039081)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      55.48
+average cov_crit_1 per read:        87.38
+
+average count_with_2 per read:      0.27
+average cov_crit_2 per read:        2.83
+
+reads s.t. count_with_1 > count_with_2:         9055  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9055  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9055  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9055  (100.00%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__###-##-#-#---#-#-#--#--#####__Borrelia_garinii
+seed:        ###-##-#-#---#-#-#--#--#####
+weight:      16
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 897697)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039470)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      47.62
+average cov_crit_1 per read:        95.20
+
+average count_with_2 per read:      0.16
+average cov_crit_2 per read:        2.41
+
+reads s.t. count_with_1 > count_with_2:         9055  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9055  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9055  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9055  (100.00%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__###-###--#-#--#-##--#####__Borrelia_garinii
+seed:        ###-###--#-#--#-##--#####
+weight:      16
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 897377)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039447)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      49.59
+average cov_crit_1 per read:        95.06
+
+average count_with_2 per read:      0.19
+average cov_crit_2 per read:        2.88
+
+reads s.t. count_with_1 > count_with_2:         9055  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9055  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9055  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9055  (100.00%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__#--#--#----###-#-#---####-##-##__Borrelia_garinii
+seed:        #--#--#----###-#-#---####-##-##
+weight:      16
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 897432)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039434)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      45.65
+average cov_crit_1 per read:        93.82
+
+average count_with_2 per read:      0.20
+average cov_crit_2 per read:        2.92
+
+reads s.t. count_with_1 > count_with_2:         9055  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9055  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9055  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9055  (100.00%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__##################__Borrelia_garinii
+seed:        ##################
+weight:      18
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 900226)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039686)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      51.18
+average cov_crit_1 per read:        84.67
+
+average count_with_2 per read:      0.04
+average cov_crit_2 per read:        0.36
+
+reads s.t. count_with_1 > count_with_2:         9054  (99.99%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            1  (0.01%)
+reads s.t. count_with_1 = count_with_2 = 0:        1  (0.01%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9054  (99.99%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           1  (0.01%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       1  (0.01%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9054  (99.99%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              1  (0.01%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9054  (99.99%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         1  (0.01%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__####-##--##--#--#-#-#-##-####__Borrelia_garinii
+seed:        ####-##--##--#--#-#-#-##-####
+weight:      18
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 900589)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039804)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      44.42
+average cov_crit_1 per read:        94.47
+
+average count_with_2 per read:      0.03
+average cov_crit_2 per read:        0.35
+
+reads s.t. count_with_1 > count_with_2:         9055  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9055  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9055  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9055  (100.00%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__###-#--###-##--#-#--###-####__Borrelia_garinii
+seed:        ###-#--###-##--#-#--###-####
+weight:      18
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 900542)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039793)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      45.03
+average cov_crit_1 per read:        94.20
+
+average count_with_2 per read:      0.03
+average cov_crit_2 per read:        0.34
+
+reads s.t. count_with_1 > count_with_2:         9055  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9055  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9055  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9055  (100.00%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__#-#--##-#----###-####-###----#-##__Borrelia_garinii
+seed:        #-#--##-#----###-####-###----#-##
+weight:      18
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 900565)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039810)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      41.94
+average cov_crit_1 per read:        92.97
+
+average count_with_2 per read:      0.03
+average cov_crit_2 per read:        0.35
+
+reads s.t. count_with_1 > count_with_2:         9055  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9055  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9055  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9055  (100.00%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__####################__Borrelia_garinii
+seed:        ####################
+weight:      20
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 900873)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039772)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      47.30
+average cov_crit_1 per read:        82.00
+
+average count_with_2 per read:      0.01
+average cov_crit_2 per read:        0.08
+
+reads s.t. count_with_1 > count_with_2:         9044  (99.88%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:           11  (0.12%)
+reads s.t. count_with_1 = count_with_2 = 0:       11  (0.12%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9044  (99.88%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:          11  (0.12%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:      11  (0.12%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9044  (99.88%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2             11  (0.12%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9044  (99.88%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2        11  (0.12%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__#####-###---##--#--#-#-#-##-####__Borrelia_garinii
+seed:        #####-###---##--#--#-#-#-##-####
+weight:      20
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 900985)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039853)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      40.33
+average cov_crit_1 per read:        93.82
+
+average count_with_2 per read:      0.01
+average cov_crit_2 per read:        0.10
+
+reads s.t. count_with_1 > count_with_2:         9055  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9055  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9055  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9055  (100.00%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__###-#-##-#-##--##--###-#-#####__Borrelia_garinii
+seed:        ###-#-##-#-##--##--###-#-#####
+weight:      20
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 901002)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039837)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      41.48
+average cov_crit_1 per read:        93.52
+
+average count_with_2 per read:      0.01
+average cov_crit_2 per read:        0.10
+
+reads s.t. count_with_1 > count_with_2:         9055  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9055  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9055  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9055  (100.00%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__#--#--##---#####-#-#--#-#-#####---##__Borrelia_garinii
+seed:        #--#--##---#####-#-#--#-#-#####---##
+weight:      20
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 901005)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039856)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      37.98
+average cov_crit_1 per read:        92.13
+
+average count_with_2 per read:      0.01
+average cov_crit_2 per read:        0.07
+
+reads s.t. count_with_1 > count_with_2:         9055  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9055  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9055  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9055  (100.00%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__######################__Borrelia_garinii
+seed:        ######################
+weight:      22
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 901061)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039814)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      43.72
+average cov_crit_1 per read:        79.30
+
+average count_with_2 per read:      0.01
+average cov_crit_2 per read:        0.03
+
+reads s.t. count_with_1 > count_with_2:         9027  (99.69%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:           28  (0.31%)
+reads s.t. count_with_1 = count_with_2 = 0:       28  (0.31%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9027  (99.69%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:          28  (0.31%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:      28  (0.31%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9027  (99.69%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2             28  (0.31%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9027  (99.69%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2        28  (0.31%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__######--####----#--##-#-#--#######__Borrelia_garinii
+seed:        ######--####----#--##-#-#--#######
+weight:      22
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 901144)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039874)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      37.07
+average cov_crit_1 per read:        92.20
+
+average count_with_2 per read:      0.01
+average cov_crit_2 per read:        0.08
+
+reads s.t. count_with_1 > count_with_2:         9055  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9055  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9055  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9055  (100.00%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__####-##-#-#-##-###-#-#--##--#####__Borrelia_garinii
+seed:        ####-##-#-#-##-###-#-#--##--#####
+weight:      22
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 901153)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039870)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      37.64
+average cov_crit_1 per read:        92.88
+
+average count_with_2 per read:      0.01
+average cov_crit_2 per read:        0.07
+
+reads s.t. count_with_1 > count_with_2:         9052  (99.97%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            3  (0.03%)
+reads s.t. count_with_1 = count_with_2 = 0:        3  (0.03%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9052  (99.97%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           3  (0.03%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       3  (0.03%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9052  (99.97%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              3  (0.03%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9052  (99.97%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         3  (0.03%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Borrelia_garinii__Chlamydia_trachomatis__#-##-#-##---#-----###-#---#####-###--#-#--#__Borrelia_garinii
+seed:        #-##-#-##---#-----###-#---#####-###--#-#--#
+weight:      22
+gen. 1:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 901148)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039901)
+gen. reads:  Borrelia_garinii
+
+average count_with_1 per read:      32.11
+average cov_crit_1 per read:        91.37
+
+average count_with_2 per read:      0.01
+average cov_crit_2 per read:        0.06
+
+reads s.t. count_with_1 > count_with_2:         9055  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9055  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9055  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9055  (100.00%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         0  (0.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00

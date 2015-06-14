@@ -1,0 +1,820 @@
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__##############__Mycobacterium_vanbaalenii
+seed:        ##############
+weight:      14
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 5820275)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 4784717)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      22.60
+average cov_crit_1 per read:        75.61
+
+average count_with_2 per read:      22.81
+average cov_crit_2 per read:        74.26
+
+reads s.t. count_with_1 > count_with_2:        33765  (52.01%)
+reads s.t. count_with_1 < count_with_2:        26897  (41.43%)
+reads s.t. count_with_1 = count_with_2:         4257  (6.56%)
+reads s.t. count_with_1 = count_with_2 = 0:        7  (0.01%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       34911  (53.78%)
+reads s.t. cov_crit_1 < cov_crit_2:       27313  (42.07%)
+reads s.t. cov_crit_1 = cov_crit_2:        2695  (4.15%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       7  (0.01%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          19542  (30.10%)
+reads s.t. Jac_ind_1 < Jac_ind_2          45370  (69.89%)
+reads s.t. Jac_ind_1 = Jac_ind_2              7  (0.01%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9772  (15.05%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     55140  (84.94%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         7  (0.01%)
+
+latex:
+	count_with:   52 / 41
+	cov_crit:     54 / 42
+	Jac_ind:      30 / 70
+	Jac_ind_cov:  15 / 85
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__###-##-#-#---#-#-#--#--###__Mycobacterium_vanbaalenii
+seed:        ###-##-#-#---#-#-#--#--###
+weight:      14
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 6148754)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 5000448)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      15.41
+average cov_crit_1 per read:        79.13
+
+average count_with_2 per read:      15.83
+average cov_crit_2 per read:        78.13
+
+reads s.t. count_with_1 > count_with_2:        32970  (50.79%)
+reads s.t. count_with_1 < count_with_2:        25659  (39.52%)
+reads s.t. count_with_1 = count_with_2:         6290  (9.69%)
+reads s.t. count_with_1 = count_with_2 = 0:        3  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       34564  (53.24%)
+reads s.t. cov_crit_1 < cov_crit_2:       27279  (42.02%)
+reads s.t. cov_crit_1 = cov_crit_2:        3076  (4.74%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       3  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          18972  (29.22%)
+reads s.t. Jac_ind_1 < Jac_ind_2          45944  (70.77%)
+reads s.t. Jac_ind_1 = Jac_ind_2              3  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      6287  (9.68%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     58629  (90.31%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         3  (0.00%)
+
+latex:
+	count_with:   51 / 40
+	cov_crit:     53 / 42
+	Jac_ind:      29 / 71
+	Jac_ind_cov:  10 / 90
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__###-###--#-#--#-##--###__Mycobacterium_vanbaalenii
+seed:        ###-###--#-#--#-##--###
+weight:      14
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 6087903)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 4956589)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      16.79
+average cov_crit_1 per read:        80.53
+
+average count_with_2 per read:      17.21
+average cov_crit_2 per read:        79.55
+
+reads s.t. count_with_1 > count_with_2:        33294  (51.29%)
+reads s.t. count_with_1 < count_with_2:        25624  (39.47%)
+reads s.t. count_with_1 = count_with_2:         6001  (9.24%)
+reads s.t. count_with_1 = count_with_2 = 0:        2  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       34459  (53.08%)
+reads s.t. cov_crit_1 < cov_crit_2:       27203  (41.90%)
+reads s.t. cov_crit_1 = cov_crit_2:        3257  (5.02%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       2  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          18181  (28.01%)
+reads s.t. Jac_ind_1 < Jac_ind_2          46736  (71.99%)
+reads s.t. Jac_ind_1 = Jac_ind_2              2  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      5679  (8.75%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     59238  (91.25%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         2  (0.00%)
+
+latex:
+	count_with:   51 / 39
+	cov_crit:     53 / 42
+	Jac_ind:      28 / 72
+	Jac_ind_cov:  09 / 91
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__##----#-###-##-###-#----##__Mycobacterium_vanbaalenii
+seed:        ##----#-###-##-###-#----##
+weight:      14
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 6033497)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 4914942)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      16.97
+average cov_crit_1 per read:        78.58
+
+average count_with_2 per read:      17.55
+average cov_crit_2 per read:        77.95
+
+reads s.t. count_with_1 > count_with_2:        32283  (49.73%)
+reads s.t. count_with_1 < count_with_2:        26591  (40.96%)
+reads s.t. count_with_1 = count_with_2:         6045  (9.31%)
+reads s.t. count_with_1 = count_with_2 = 0:        5  (0.01%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       33721  (51.94%)
+reads s.t. cov_crit_1 < cov_crit_2:       27768  (42.77%)
+reads s.t. cov_crit_1 = cov_crit_2:        3430  (5.28%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       5  (0.01%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          17207  (26.51%)
+reads s.t. Jac_ind_1 < Jac_ind_2          47707  (73.49%)
+reads s.t. Jac_ind_1 = Jac_ind_2              5  (0.01%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      5389  (8.30%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     59525  (91.69%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         5  (0.01%)
+
+latex:
+	count_with:   50 / 41
+	cov_crit:     52 / 43
+	Jac_ind:      27 / 73
+	Jac_ind_cov:  08 / 92
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__################__Mycobacterium_vanbaalenii
+seed:        ################
+weight:      16
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 6667882)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 5394424)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      5.69
+average cov_crit_1 per read:        33.51
+
+average count_with_2 per read:      7.59
+average cov_crit_2 per read:        35.09
+
+reads s.t. count_with_1 > count_with_2:        25317  (39.00%)
+reads s.t. count_with_1 < count_with_2:        30878  (47.56%)
+reads s.t. count_with_1 = count_with_2:         8724  (13.44%)
+reads s.t. count_with_1 = count_with_2 = 0:     2229  (3.43%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       28742  (44.27%)
+reads s.t. cov_crit_1 < cov_crit_2:       30712  (47.31%)
+reads s.t. cov_crit_1 = cov_crit_2:        5465  (8.42%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    2229  (3.43%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          22964  (35.37%)
+reads s.t. Jac_ind_1 < Jac_ind_2          39726  (61.19%)
+reads s.t. Jac_ind_1 = Jac_ind_2           2229  (3.43%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     20102  (30.96%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     42588  (65.60%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      2229  (3.43%)
+
+latex:
+	count_with:   39 / 48
+	cov_crit:     44 / 47
+	Jac_ind:      35 / 61
+	Jac_ind_cov:  31 / 66
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__###-##-#-#---#-#-#--#--#####__Mycobacterium_vanbaalenii
+seed:        ###-##-#-#---#-#-#--#--#####
+weight:      16
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 6743846)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 5444845)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      3.45
+average cov_crit_1 per read:        34.46
+
+average count_with_2 per read:      5.13
+average cov_crit_2 per read:        38.93
+
+reads s.t. count_with_1 > count_with_2:        21856  (33.67%)
+reads s.t. count_with_1 < count_with_2:        30219  (46.55%)
+reads s.t. count_with_1 = count_with_2:        12844  (19.78%)
+reads s.t. count_with_1 = count_with_2 = 0:     1873  (2.89%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       25111  (38.68%)
+reads s.t. cov_crit_1 < cov_crit_2:       32645  (50.29%)
+reads s.t. cov_crit_1 = cov_crit_2:        7163  (11.03%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    1873  (2.89%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          20853  (32.12%)
+reads s.t. Jac_ind_1 < Jac_ind_2          42193  (64.99%)
+reads s.t. Jac_ind_1 = Jac_ind_2           1873  (2.89%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     18097  (27.88%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     44949  (69.24%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      1873  (2.89%)
+
+latex:
+	count_with:   34 / 47
+	cov_crit:     39 / 50
+	Jac_ind:      32 / 65
+	Jac_ind_cov:  28 / 69
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__###-###--#-#--#-##--#####__Mycobacterium_vanbaalenii
+seed:        ###-###--#-#--#-##--#####
+weight:      16
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 6725875)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 5430851)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      4.00
+average cov_crit_1 per read:        37.68
+
+average count_with_2 per read:      5.80
+average cov_crit_2 per read:        41.96
+
+reads s.t. count_with_1 > count_with_2:        22009  (33.90%)
+reads s.t. count_with_1 < count_with_2:        31017  (47.78%)
+reads s.t. count_with_1 = count_with_2:        11893  (18.32%)
+reads s.t. count_with_1 = count_with_2 = 0:     1531  (2.36%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       25521  (39.31%)
+reads s.t. cov_crit_1 < cov_crit_2:       33200  (51.14%)
+reads s.t. cov_crit_1 = cov_crit_2:        6198  (9.55%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    1531  (2.36%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          20482  (31.55%)
+reads s.t. Jac_ind_1 < Jac_ind_2          42906  (66.09%)
+reads s.t. Jac_ind_1 = Jac_ind_2           1531  (2.36%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     17425  (26.84%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     45963  (70.80%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      1531  (2.36%)
+
+latex:
+	count_with:   34 / 48
+	cov_crit:     39 / 51
+	Jac_ind:      32 / 66
+	Jac_ind_cov:  27 / 71
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__#--#--#----###-#-#---####-##-##__Mycobacterium_vanbaalenii
+seed:        #--#--#----###-#-#---####-##-##
+weight:      16
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 6695901)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 5404034)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      4.52
+average cov_crit_1 per read:        40.27
+
+average count_with_2 per read:      6.39
+average cov_crit_2 per read:        45.11
+
+reads s.t. count_with_1 > count_with_2:        21329  (32.85%)
+reads s.t. count_with_1 < count_with_2:        32000  (49.29%)
+reads s.t. count_with_1 = count_with_2:        11590  (17.85%)
+reads s.t. count_with_1 = count_with_2 = 0:     1685  (2.60%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       24763  (38.14%)
+reads s.t. cov_crit_1 < cov_crit_2:       34402  (52.99%)
+reads s.t. cov_crit_1 = cov_crit_2:        5754  (8.86%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    1685  (2.60%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          19176  (29.54%)
+reads s.t. Jac_ind_1 < Jac_ind_2          44058  (67.87%)
+reads s.t. Jac_ind_1 = Jac_ind_2           1685  (2.60%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     15427  (23.76%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     47807  (73.64%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      1685  (2.60%)
+
+latex:
+	count_with:   33 / 49
+	cov_crit:     38 / 53
+	Jac_ind:      30 / 68
+	Jac_ind_cov:  24 / 74
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__##################__Mycobacterium_vanbaalenii
+seed:        ##################
+weight:      18
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 6807974)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 5493966)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      1.97
+average cov_crit_1 per read:        10.89
+
+average count_with_2 per read:      3.90
+average cov_crit_2 per read:        15.05
+
+reads s.t. count_with_1 > count_with_2:        15517  (23.90%)
+reads s.t. count_with_1 < count_with_2:        23888  (36.80%)
+reads s.t. count_with_1 = count_with_2:        25514  (39.30%)
+reads s.t. count_with_1 = count_with_2 = 0:    22514  (34.68%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       15938  (24.55%)
+reads s.t. cov_crit_1 < cov_crit_2:       23912  (36.83%)
+reads s.t. cov_crit_1 = cov_crit_2:       25069  (38.62%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   22514  (34.68%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          15169  (23.37%)
+reads s.t. Jac_ind_1 < Jac_ind_2          27236  (41.95%)
+reads s.t. Jac_ind_1 = Jac_ind_2          22514  (34.68%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     13267  (20.44%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     29138  (44.88%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     22514  (34.68%)
+
+latex:
+	count_with:   24 / 37
+	cov_crit:     25 / 37
+	Jac_ind:      23 / 42
+	Jac_ind_cov:  20 / 45
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__####-##--##--#--#-#-#-##-####__Mycobacterium_vanbaalenii
+seed:        ####-##--##--#--#-#-#-##-####
+weight:      18
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 6823139)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 5504923)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      1.31
+average cov_crit_1 per read:        13.08
+
+average count_with_2 per read:      2.94
+average cov_crit_2 per read:        20.88
+
+reads s.t. count_with_1 > count_with_2:        13172  (20.29%)
+reads s.t. count_with_1 < count_with_2:        26011  (40.07%)
+reads s.t. count_with_1 = count_with_2:        25736  (39.64%)
+reads s.t. count_with_1 = count_with_2 = 0:    20078  (30.93%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       13644  (21.02%)
+reads s.t. cov_crit_1 < cov_crit_2:       26555  (40.90%)
+reads s.t. cov_crit_1 = cov_crit_2:       24720  (38.08%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   20078  (30.93%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          12936  (19.93%)
+reads s.t. Jac_ind_1 < Jac_ind_2          31905  (49.15%)
+reads s.t. Jac_ind_1 = Jac_ind_2          20078  (30.93%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     12189  (18.78%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     32652  (50.30%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     20078  (30.93%)
+
+latex:
+	count_with:   20 / 40
+	cov_crit:     21 / 41
+	Jac_ind:      20 / 49
+	Jac_ind_cov:  19 / 50
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__###-#--###-##--#-#--###-####__Mycobacterium_vanbaalenii
+seed:        ###-#--###-##--#-#--###-####
+weight:      18
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 6822118)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 5504032)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      1.35
+average cov_crit_1 per read:        13.37
+
+average count_with_2 per read:      3.02
+average cov_crit_2 per read:        21.19
+
+reads s.t. count_with_1 > count_with_2:        13282  (20.46%)
+reads s.t. count_with_1 < count_with_2:        26578  (40.94%)
+reads s.t. count_with_1 = count_with_2:        25059  (38.60%)
+reads s.t. count_with_1 = count_with_2 = 0:    19406  (29.89%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       13737  (21.16%)
+reads s.t. cov_crit_1 < cov_crit_2:       27101  (41.75%)
+reads s.t. cov_crit_1 = cov_crit_2:       24081  (37.09%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   19406  (29.89%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          13019  (20.05%)
+reads s.t. Jac_ind_1 < Jac_ind_2          32494  (50.05%)
+reads s.t. Jac_ind_1 = Jac_ind_2          19406  (29.89%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     12280  (18.92%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     33233  (51.19%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     19406  (29.89%)
+
+latex:
+	count_with:   20 / 41
+	cov_crit:     21 / 42
+	Jac_ind:      20 / 50
+	Jac_ind_cov:  19 / 51
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__#-#--##-#----###-####-###----#-##__Mycobacterium_vanbaalenii
+seed:        #-#--##-#----###-####-###----#-##
+weight:      18
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 6819286)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 5501537)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      1.43
+average cov_crit_1 per read:        14.68
+
+average count_with_2 per read:      3.06
+average cov_crit_2 per read:        22.61
+
+reads s.t. count_with_1 > count_with_2:        13689  (21.09%)
+reads s.t. count_with_1 < count_with_2:        27155  (41.83%)
+reads s.t. count_with_1 = count_with_2:        24075  (37.08%)
+reads s.t. count_with_1 = count_with_2 = 0:    17940  (27.63%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       14261  (21.97%)
+reads s.t. cov_crit_1 < cov_crit_2:       27790  (42.81%)
+reads s.t. cov_crit_1 = cov_crit_2:       22868  (35.23%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   17940  (27.63%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          13394  (20.63%)
+reads s.t. Jac_ind_1 < Jac_ind_2          33585  (51.73%)
+reads s.t. Jac_ind_1 = Jac_ind_2          17940  (27.63%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     12500  (19.25%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     34479  (53.11%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     17940  (27.63%)
+
+latex:
+	count_with:   21 / 42
+	cov_crit:     22 / 43
+	Jac_ind:      21 / 52
+	Jac_ind_cov:  19 / 53
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__####################__Mycobacterium_vanbaalenii
+seed:        ####################
+weight:      20
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 6828332)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 5508853)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      1.09
+average cov_crit_1 per read:        5.02
+
+average count_with_2 per read:      2.74
+average cov_crit_2 per read:        9.51
+
+reads s.t. count_with_1 > count_with_2:         7444  (11.47%)
+reads s.t. count_with_1 < count_with_2:        15771  (24.29%)
+reads s.t. count_with_1 = count_with_2:        41704  (64.24%)
+reads s.t. count_with_1 = count_with_2 = 0:    40745  (62.76%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        7451  (11.48%)
+reads s.t. cov_crit_1 < cov_crit_2:       15821  (24.37%)
+reads s.t. cov_crit_1 = cov_crit_2:       41647  (64.15%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   40745  (62.76%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           7255  (11.18%)
+reads s.t. Jac_ind_1 < Jac_ind_2          16919  (26.06%)
+reads s.t. Jac_ind_1 = Jac_ind_2          40745  (62.76%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      6491  (10.00%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     17683  (27.24%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     40745  (62.76%)
+
+latex:
+	count_with:   11 / 24
+	cov_crit:     11 / 24
+	Jac_ind:      11 / 26
+	Jac_ind_cov:  10 / 27
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__#####-###---##--#--#-#-#-##-####__Mycobacterium_vanbaalenii
+seed:        #####-###---##--#--#-#-#-##-####
+weight:      20
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 6833419)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 5513549)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      0.80
+average cov_crit_1 per read:        8.05
+
+average count_with_2 per read:      2.17
+average cov_crit_2 per read:        16.12
+
+reads s.t. count_with_1 > count_with_2:         7581  (11.68%)
+reads s.t. count_with_1 < count_with_2:        20597  (31.73%)
+reads s.t. count_with_1 = count_with_2:        36741  (56.60%)
+reads s.t. count_with_1 = count_with_2 = 0:    34544  (53.21%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        7814  (12.04%)
+reads s.t. cov_crit_1 < cov_crit_2:       20918  (32.22%)
+reads s.t. cov_crit_1 = cov_crit_2:       36187  (55.74%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   34544  (53.21%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           7432  (11.45%)
+reads s.t. Jac_ind_1 < Jac_ind_2          22943  (35.34%)
+reads s.t. Jac_ind_1 = Jac_ind_2          34544  (53.21%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      6834  (10.53%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     23541  (36.26%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     34544  (53.21%)
+
+latex:
+	count_with:   12 / 32
+	cov_crit:     12 / 32
+	Jac_ind:      11 / 35
+	Jac_ind_cov:  11 / 36
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__###-#-##-#-##--##--###-#-#####__Mycobacterium_vanbaalenii
+seed:        ###-#-##-#-##--##--###-#-#####
+weight:      20
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 6833515)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 5513548)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      0.78
+average cov_crit_1 per read:        7.25
+
+average count_with_2 per read:      2.14
+average cov_crit_2 per read:        14.70
+
+reads s.t. count_with_1 > count_with_2:         7377  (11.36%)
+reads s.t. count_with_1 < count_with_2:        19358  (29.82%)
+reads s.t. count_with_1 = count_with_2:        38184  (58.82%)
+reads s.t. count_with_1 = count_with_2 = 0:    36304  (55.92%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        7516  (11.58%)
+reads s.t. cov_crit_1 < cov_crit_2:       19687  (30.33%)
+reads s.t. cov_crit_1 = cov_crit_2:       37716  (58.10%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   36304  (55.92%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           7221  (11.12%)
+reads s.t. Jac_ind_1 < Jac_ind_2          21394  (32.95%)
+reads s.t. Jac_ind_1 = Jac_ind_2          36304  (55.92%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      6676  (10.28%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     21939  (33.79%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     36304  (55.92%)
+
+latex:
+	count_with:   11 / 30
+	cov_crit:     12 / 30
+	Jac_ind:      11 / 33
+	Jac_ind_cov:  10 / 34
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__#--#--##---#####-#-#--#-#-#####---##__Mycobacterium_vanbaalenii
+seed:        #--#--##---#####-#-#--#-#-#####---##
+weight:      20
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 6834128)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 5514292)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      0.70
+average cov_crit_1 per read:        6.87
+
+average count_with_2 per read:      1.94
+average cov_crit_2 per read:        13.99
+
+reads s.t. count_with_1 > count_with_2:         7098  (10.93%)
+reads s.t. count_with_1 < count_with_2:        18610  (28.67%)
+reads s.t. count_with_1 = count_with_2:        39211  (60.40%)
+reads s.t. count_with_1 = count_with_2 = 0:    37418  (57.64%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        7226  (11.13%)
+reads s.t. cov_crit_1 < cov_crit_2:       18895  (29.11%)
+reads s.t. cov_crit_1 = cov_crit_2:       38798  (59.76%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   37418  (57.64%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           6958  (10.72%)
+reads s.t. Jac_ind_1 < Jac_ind_2          20543  (31.64%)
+reads s.t. Jac_ind_1 = Jac_ind_2          37418  (57.64%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      6457  (9.95%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     21044  (32.42%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     37418  (57.64%)
+
+latex:
+	count_with:   11 / 29
+	cov_crit:     11 / 29
+	Jac_ind:      11 / 32
+	Jac_ind_cov:  10 / 32
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__######################__Mycobacterium_vanbaalenii
+seed:        ######################
+weight:      22
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 6832883)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 5512953)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      0.74
+average cov_crit_1 per read:        3.07
+
+average count_with_2 per read:      2.11
+average cov_crit_2 per read:        7.03
+
+reads s.t. count_with_1 > count_with_2:         4232  (6.52%)
+reads s.t. count_with_1 < count_with_2:        11236  (17.31%)
+reads s.t. count_with_1 = count_with_2:        49451  (76.17%)
+reads s.t. count_with_1 = count_with_2 = 0:    48951  (75.40%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        4209  (6.48%)
+reads s.t. cov_crit_1 < cov_crit_2:       11270  (17.36%)
+reads s.t. cov_crit_1 = cov_crit_2:       49440  (76.16%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   48951  (75.40%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           4112  (6.33%)
+reads s.t. Jac_ind_1 < Jac_ind_2          11856  (18.26%)
+reads s.t. Jac_ind_1 = Jac_ind_2          48951  (75.40%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      3664  (5.64%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     12304  (18.95%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     48951  (75.40%)
+
+latex:
+	count_with:   07 / 17
+	cov_crit:     06 / 17
+	Jac_ind:      06 / 18
+	Jac_ind_cov:  06 / 19
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__######--####----#--##-#-#--#######__Mycobacterium_vanbaalenii
+seed:        ######--####----#--##-#-#--#######
+weight:      22
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 6836211)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 5516294)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      0.52
+average cov_crit_1 per read:        5.15
+
+average count_with_2 per read:      1.60
+average cov_crit_2 per read:        11.63
+
+reads s.t. count_with_1 > count_with_2:         5165  (7.96%)
+reads s.t. count_with_1 < count_with_2:        15235  (23.47%)
+reads s.t. count_with_1 = count_with_2:        44519  (68.58%)
+reads s.t. count_with_1 = count_with_2 = 0:    43388  (66.83%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        5245  (8.08%)
+reads s.t. cov_crit_1 < cov_crit_2:       15451  (23.80%)
+reads s.t. cov_crit_1 = cov_crit_2:       44223  (68.12%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   43388  (66.83%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           5069  (7.81%)
+reads s.t. Jac_ind_1 < Jac_ind_2          16462  (25.36%)
+reads s.t. Jac_ind_1 = Jac_ind_2          43388  (66.83%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      4715  (7.26%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     16816  (25.90%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     43388  (66.83%)
+
+latex:
+	count_with:   08 / 23
+	cov_crit:     08 / 24
+	Jac_ind:      08 / 25
+	Jac_ind_cov:  07 / 26
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__####-##-#-#-##-###-#-#--##--#####__Mycobacterium_vanbaalenii
+seed:        ####-##-#-#-##-###-#-#--##--#####
+weight:      22
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 6836139)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 5516151)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      0.54
+average cov_crit_1 per read:        5.40
+
+average count_with_2 per read:      1.65
+average cov_crit_2 per read:        12.24
+
+reads s.t. count_with_1 > count_with_2:         5147  (7.93%)
+reads s.t. count_with_1 < count_with_2:        15940  (24.55%)
+reads s.t. count_with_1 = count_with_2:        43832  (67.52%)
+reads s.t. count_with_1 = count_with_2 = 0:    42458  (65.40%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        5239  (8.07%)
+reads s.t. cov_crit_1 < cov_crit_2:       16202  (24.96%)
+reads s.t. cov_crit_1 = cov_crit_2:       43478  (66.97%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   42458  (65.40%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           5047  (7.77%)
+reads s.t. Jac_ind_1 < Jac_ind_2          17414  (26.82%)
+reads s.t. Jac_ind_1 = Jac_ind_2          42458  (65.40%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      4631  (7.13%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     17830  (27.46%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     42458  (65.40%)
+
+latex:
+	count_with:   08 / 25
+	cov_crit:     08 / 25
+	Jac_ind:      08 / 27
+	Jac_ind_cov:  07 / 27
+
+================================
+
+experiment:  Mycobacterium_smegmatis__Mycobacterium_gilvum__#-##-#-##---#-----###-#---#####-###--#-#--#__Mycobacterium_vanbaalenii
+seed:        #-##-#-##---#-----###-#---#####-###--#-#--#
+weight:      22
+gen. 1:      Mycobacterium_smegmatis
+    (size:    7088136 B, number of kmers: 6837264)
+gen. 2:      Mycobacterium_gilvum
+    (size:    5699976 B, number of kmers: 5517356)
+gen. reads:  Mycobacterium_vanbaalenii
+
+average count_with_1 per read:      0.43
+average cov_crit_1 per read:        4.84
+
+average count_with_2 per read:      1.36
+average cov_crit_2 per read:        11.35
+
+reads s.t. count_with_1 > count_with_2:         4668  (7.19%)
+reads s.t. count_with_1 < count_with_2:        14767  (22.75%)
+reads s.t. count_with_1 = count_with_2:        45484  (70.06%)
+reads s.t. count_with_1 = count_with_2 = 0:    44269  (68.19%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        4756  (7.33%)
+reads s.t. cov_crit_1 < cov_crit_2:       14954  (23.03%)
+reads s.t. cov_crit_1 = cov_crit_2:       45209  (69.64%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   44269  (68.19%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           4593  (7.07%)
+reads s.t. Jac_ind_1 < Jac_ind_2          16057  (24.73%)
+reads s.t. Jac_ind_1 = Jac_ind_2          44269  (68.19%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      4241  (6.53%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     16409  (25.28%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     44269  (68.19%)
+
+latex:
+	count_with:   07 / 23
+	cov_crit:     07 / 23
+	Jac_ind:      07 / 25
+	Jac_ind_cov:  07 / 25

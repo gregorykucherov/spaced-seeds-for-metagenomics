@@ -1,0 +1,820 @@
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__##############__Mycobacterium_tuberculosis
+seed:        ##############
+weight:      14
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 5657986)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 5801484)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      18.24
+average cov_crit_1 per read:        68.06
+
+average count_with_2 per read:      17.48
+average cov_crit_2 per read:        67.91
+
+reads s.t. count_with_1 > count_with_2:        22301  (50.55%)
+reads s.t. count_with_1 < count_with_2:        18481  (41.89%)
+reads s.t. count_with_1 = count_with_2:         3335  (7.56%)
+reads s.t. count_with_1 = count_with_2 = 0:        6  (0.01%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       21338  (48.37%)
+reads s.t. cov_crit_1 < cov_crit_2:       21164  (47.97%)
+reads s.t. cov_crit_1 = cov_crit_2:        1615  (3.66%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       6  (0.01%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          25706  (58.27%)
+reads s.t. Jac_ind_1 < Jac_ind_2          18405  (41.72%)
+reads s.t. Jac_ind_1 = Jac_ind_2              6  (0.01%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     24915  (56.47%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     19196  (43.51%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         6  (0.01%)
+
+latex:
+	count_with:   51 / 42
+	cov_crit:     48 / 48
+	Jac_ind:      58 / 42
+	Jac_ind_cov:  56 / 44
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__###-##-#-#---#-#-#--#--###__Mycobacterium_tuberculosis
+seed:        ###-##-#-#---#-#-#--#--###
+weight:      14
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 5853194)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 5981325)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      12.57
+average cov_crit_1 per read:        72.19
+
+average count_with_2 per read:      12.02
+average cov_crit_2 per read:        71.28
+
+reads s.t. count_with_1 > count_with_2:        21481  (48.69%)
+reads s.t. count_with_1 < count_with_2:        17500  (39.67%)
+reads s.t. count_with_1 = count_with_2:         5136  (11.64%)
+reads s.t. count_with_1 = count_with_2 = 0:        2  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       22575  (51.17%)
+reads s.t. cov_crit_1 < cov_crit_2:       19696  (44.64%)
+reads s.t. cov_crit_1 = cov_crit_2:        1846  (4.18%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       2  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          26631  (60.36%)
+reads s.t. Jac_ind_1 < Jac_ind_2          17484  (39.63%)
+reads s.t. Jac_ind_1 = Jac_ind_2              2  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     26264  (59.53%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     17851  (40.46%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         2  (0.00%)
+
+latex:
+	count_with:   49 / 40
+	cov_crit:     51 / 45
+	Jac_ind:      60 / 40
+	Jac_ind_cov:  60 / 40
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__###-###--#-#--#-##--###__Mycobacterium_tuberculosis
+seed:        ###-###--#-#--#-##--###
+weight:      14
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 5821517)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 5951235)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      13.58
+average cov_crit_1 per read:        73.56
+
+average count_with_2 per read:      13.00
+average cov_crit_2 per read:        72.80
+
+reads s.t. count_with_1 > count_with_2:        21688  (49.16%)
+reads s.t. count_with_1 < count_with_2:        17492  (39.65%)
+reads s.t. count_with_1 = count_with_2:         4937  (11.19%)
+reads s.t. count_with_1 = count_with_2 = 0:        1  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       22231  (50.39%)
+reads s.t. cov_crit_1 < cov_crit_2:       19921  (45.15%)
+reads s.t. cov_crit_1 = cov_crit_2:        1965  (4.45%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       1  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          26652  (60.41%)
+reads s.t. Jac_ind_1 < Jac_ind_2          17464  (39.59%)
+reads s.t. Jac_ind_1 = Jac_ind_2              1  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     26309  (59.63%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     17807  (40.36%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         1  (0.00%)
+
+latex:
+	count_with:   49 / 40
+	cov_crit:     50 / 45
+	Jac_ind:      60 / 40
+	Jac_ind_cov:  60 / 40
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__##----#-###-##-###-#----##__Mycobacterium_tuberculosis
+seed:        ##----#-###-##-###-#----##
+weight:      14
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 5790055)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 5922667)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      13.81
+average cov_crit_1 per read:        72.15
+
+average count_with_2 per read:      13.23
+average cov_crit_2 per read:        71.41
+
+reads s.t. count_with_1 > count_with_2:        21665  (49.11%)
+reads s.t. count_with_1 < count_with_2:        17484  (39.63%)
+reads s.t. count_with_1 = count_with_2:         4968  (11.26%)
+reads s.t. count_with_1 = count_with_2 = 0:        4  (0.01%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       22269  (50.48%)
+reads s.t. cov_crit_1 < cov_crit_2:       19853  (45.00%)
+reads s.t. cov_crit_1 = cov_crit_2:        1995  (4.52%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       4  (0.01%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          26659  (60.43%)
+reads s.t. Jac_ind_1 < Jac_ind_2          17454  (39.56%)
+reads s.t. Jac_ind_1 = Jac_ind_2              4  (0.01%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     26509  (60.09%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     17604  (39.90%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         4  (0.01%)
+
+latex:
+	count_with:   49 / 40
+	cov_crit:     50 / 45
+	Jac_ind:      60 / 40
+	Jac_ind_cov:  60 / 40
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__################__Mycobacterium_tuberculosis
+seed:        ################
+weight:      16
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 6223973)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 6330050)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      5.49
+average cov_crit_1 per read:        28.15
+
+average count_with_2 per read:      4.97
+average cov_crit_2 per read:        26.68
+
+reads s.t. count_with_1 > count_with_2:        19790  (44.86%)
+reads s.t. count_with_1 < count_with_2:        16657  (37.76%)
+reads s.t. count_with_1 = count_with_2:         7670  (17.39%)
+reads s.t. count_with_1 = count_with_2 = 0:     2820  (6.39%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       20663  (46.84%)
+reads s.t. cov_crit_1 < cov_crit_2:       17718  (40.16%)
+reads s.t. cov_crit_1 = cov_crit_2:        5736  (13.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    2820  (6.39%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          24640  (55.85%)
+reads s.t. Jac_ind_1 < Jac_ind_2          16657  (37.76%)
+reads s.t. Jac_ind_1 = Jac_ind_2           2820  (6.39%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     23659  (53.63%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     17638  (39.98%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      2820  (6.39%)
+
+latex:
+	count_with:   45 / 38
+	cov_crit:     47 / 40
+	Jac_ind:      56 / 38
+	Jac_ind_cov:  54 / 40
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__###-##-#-#---#-#-#--#--#####__Mycobacterium_tuberculosis
+seed:        ###-##-#-#---#-#-#--#--#####
+weight:      16
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 6272121)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 6382744)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      3.61
+average cov_crit_1 per read:        32.26
+
+average count_with_2 per read:      3.23
+average cov_crit_2 per read:        29.92
+
+reads s.t. count_with_1 > count_with_2:        18721  (42.43%)
+reads s.t. count_with_1 < count_with_2:        15134  (34.30%)
+reads s.t. count_with_1 = count_with_2:        10262  (23.26%)
+reads s.t. count_with_1 = count_with_2 = 0:     2190  (4.96%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       20280  (45.97%)
+reads s.t. cov_crit_1 < cov_crit_2:       16712  (37.88%)
+reads s.t. cov_crit_1 = cov_crit_2:        7125  (16.15%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    2190  (4.96%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          26793  (60.73%)
+reads s.t. Jac_ind_1 < Jac_ind_2          15134  (34.30%)
+reads s.t. Jac_ind_1 = Jac_ind_2           2190  (4.96%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     25347  (57.45%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     16580  (37.58%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      2190  (4.96%)
+
+latex:
+	count_with:   42 / 34
+	cov_crit:     46 / 38
+	Jac_ind:      61 / 34
+	Jac_ind_cov:  57 / 38
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__###-###--#-#--#-##--#####__Mycobacterium_tuberculosis
+seed:        ###-###--#-#--#-##--#####
+weight:      16
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 6260573)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 6370847)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      4.07
+average cov_crit_1 per read:        34.55
+
+average count_with_2 per read:      3.68
+average cov_crit_2 per read:        32.25
+
+reads s.t. count_with_1 > count_with_2:        18998  (43.06%)
+reads s.t. count_with_1 < count_with_2:        15426  (34.97%)
+reads s.t. count_with_1 = count_with_2:         9693  (21.97%)
+reads s.t. count_with_1 = count_with_2 = 0:     1871  (4.24%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       20720  (46.97%)
+reads s.t. cov_crit_1 < cov_crit_2:       16986  (38.50%)
+reads s.t. cov_crit_1 = cov_crit_2:        6411  (14.53%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    1871  (4.24%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          26821  (60.80%)
+reads s.t. Jac_ind_1 < Jac_ind_2          15425  (34.96%)
+reads s.t. Jac_ind_1 = Jac_ind_2           1871  (4.24%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     25440  (57.66%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     16806  (38.09%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      1871  (4.24%)
+
+latex:
+	count_with:   43 / 35
+	cov_crit:     47 / 39
+	Jac_ind:      61 / 35
+	Jac_ind_cov:  58 / 38
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__#--#--#----###-#-#---####-##-##__Mycobacterium_tuberculosis
+seed:        #--#--#----###-#-#---####-##-##
+weight:      16
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 6248520)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 6361089)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      4.49
+average cov_crit_1 per read:        37.00
+
+average count_with_2 per read:      4.07
+average cov_crit_2 per read:        34.81
+
+reads s.t. count_with_1 > count_with_2:        19194  (43.51%)
+reads s.t. count_with_1 < count_with_2:        15254  (34.58%)
+reads s.t. count_with_1 = count_with_2:         9669  (21.92%)
+reads s.t. count_with_1 = count_with_2 = 0:     2025  (4.59%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       20935  (47.45%)
+reads s.t. cov_crit_1 < cov_crit_2:       17076  (38.71%)
+reads s.t. cov_crit_1 = cov_crit_2:        6106  (13.84%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    2025  (4.59%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          26838  (60.83%)
+reads s.t. Jac_ind_1 < Jac_ind_2          15254  (34.58%)
+reads s.t. Jac_ind_1 = Jac_ind_2           2025  (4.59%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     25247  (57.23%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     16845  (38.18%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      2025  (4.59%)
+
+latex:
+	count_with:   44 / 35
+	cov_crit:     47 / 39
+	Jac_ind:      61 / 35
+	Jac_ind_cov:  57 / 38
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__##################__Mycobacterium_tuberculosis
+seed:        ##################
+weight:      18
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 6313023)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 6421364)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      2.57
+average cov_crit_1 per read:        11.41
+
+average count_with_2 per read:      2.21
+average cov_crit_2 per read:        10.14
+
+reads s.t. count_with_1 > count_with_2:        12400  (28.11%)
+reads s.t. count_with_1 < count_with_2:        10300  (23.35%)
+reads s.t. count_with_1 = count_with_2:        21417  (48.55%)
+reads s.t. count_with_1 = count_with_2 = 0:    19592  (44.41%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       12581  (28.52%)
+reads s.t. cov_crit_1 < cov_crit_2:       10335  (23.43%)
+reads s.t. cov_crit_1 = cov_crit_2:       21201  (48.06%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   19592  (44.41%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          14225  (32.24%)
+reads s.t. Jac_ind_1 < Jac_ind_2          10300  (23.35%)
+reads s.t. Jac_ind_1 = Jac_ind_2          19592  (44.41%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     14213  (32.22%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     10312  (23.37%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     19592  (44.41%)
+
+latex:
+	count_with:   28 / 23
+	cov_crit:     29 / 23
+	Jac_ind:      32 / 23
+	Jac_ind_cov:  32 / 23
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__####-##--##--#--#-#-#-##-####__Mycobacterium_tuberculosis
+seed:        ####-##--##--#--#-#-#-##-####
+weight:      18
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 6328779)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 6443628)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      1.83
+average cov_crit_1 per read:        16.95
+
+average count_with_2 per read:      1.55
+average cov_crit_2 per read:        14.80
+
+reads s.t. count_with_1 > count_with_2:        13676  (31.00%)
+reads s.t. count_with_1 < count_with_2:        10717  (24.29%)
+reads s.t. count_with_1 = count_with_2:        19724  (44.71%)
+reads s.t. count_with_1 = count_with_2 = 0:    16088  (36.47%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       14143  (32.06%)
+reads s.t. cov_crit_1 < cov_crit_2:       11068  (25.09%)
+reads s.t. cov_crit_1 = cov_crit_2:       18906  (42.85%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   16088  (36.47%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          17312  (39.24%)
+reads s.t. Jac_ind_1 < Jac_ind_2          10717  (24.29%)
+reads s.t. Jac_ind_1 = Jac_ind_2          16088  (36.47%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     17004  (38.54%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     11025  (24.99%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     16088  (36.47%)
+
+latex:
+	count_with:   31 / 24
+	cov_crit:     32 / 25
+	Jac_ind:      39 / 24
+	Jac_ind_cov:  39 / 25
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__###-#--###-##--#-#--###-####__Mycobacterium_tuberculosis
+seed:        ###-#--###-##--#-#--###-####
+weight:      18
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 6327198)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 6441419)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      1.89
+average cov_crit_1 per read:        17.26
+
+average count_with_2 per read:      1.61
+average cov_crit_2 per read:        15.05
+
+reads s.t. count_with_1 > count_with_2:        13855  (31.41%)
+reads s.t. count_with_1 < count_with_2:        10790  (24.46%)
+reads s.t. count_with_1 = count_with_2:        19472  (44.14%)
+reads s.t. count_with_1 = count_with_2 = 0:    15677  (35.54%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       14357  (32.54%)
+reads s.t. cov_crit_1 < cov_crit_2:       11104  (25.17%)
+reads s.t. cov_crit_1 = cov_crit_2:       18656  (42.29%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   15677  (35.54%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          17650  (40.01%)
+reads s.t. Jac_ind_1 < Jac_ind_2          10790  (24.46%)
+reads s.t. Jac_ind_1 = Jac_ind_2          15677  (35.54%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     17401  (39.44%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     11039  (25.02%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     15677  (35.54%)
+
+latex:
+	count_with:   31 / 24
+	cov_crit:     33 / 25
+	Jac_ind:      40 / 24
+	Jac_ind_cov:  39 / 25
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__#-#--##-#----###-####-###----#-##__Mycobacterium_tuberculosis
+seed:        #-#--##-#----###-####-###----#-##
+weight:      18
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 6326308)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 6439740)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      1.96
+average cov_crit_1 per read:        18.45
+
+average count_with_2 per read:      1.69
+average cov_crit_2 per read:        16.38
+
+reads s.t. count_with_1 > count_with_2:        13994  (31.72%)
+reads s.t. count_with_1 < count_with_2:        11130  (25.23%)
+reads s.t. count_with_1 = count_with_2:        18993  (43.05%)
+reads s.t. count_with_1 = count_with_2 = 0:    14873  (33.71%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       14553  (32.99%)
+reads s.t. cov_crit_1 < cov_crit_2:       11591  (26.27%)
+reads s.t. cov_crit_1 = cov_crit_2:       17973  (40.74%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   14873  (33.71%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          18114  (41.06%)
+reads s.t. Jac_ind_1 < Jac_ind_2          11130  (25.23%)
+reads s.t. Jac_ind_1 = Jac_ind_2          14873  (33.71%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     17728  (40.18%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2     11516  (26.10%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     14873  (33.71%)
+
+latex:
+	count_with:   32 / 25
+	cov_crit:     33 / 26
+	Jac_ind:      41 / 25
+	Jac_ind_cov:  40 / 26
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__####################__Mycobacterium_tuberculosis
+seed:        ####################
+weight:      20
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 6331216)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 6446171)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      1.60
+average cov_crit_1 per read:        7.05
+
+average count_with_2 per read:      1.33
+average cov_crit_2 per read:        6.04
+
+reads s.t. count_with_1 > count_with_2:         7747  (17.56%)
+reads s.t. count_with_1 < count_with_2:         6141  (13.92%)
+reads s.t. count_with_1 = count_with_2:        30229  (68.52%)
+reads s.t. count_with_1 = count_with_2 = 0:    29278  (66.36%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        7814  (17.71%)
+reads s.t. cov_crit_1 < cov_crit_2:        6149  (13.94%)
+reads s.t. cov_crit_1 = cov_crit_2:       30154  (68.35%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   29278  (66.36%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           8698  (19.72%)
+reads s.t. Jac_ind_1 < Jac_ind_2           6141  (13.92%)
+reads s.t. Jac_ind_1 = Jac_ind_2          29278  (66.36%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      8700  (19.72%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      6139  (13.92%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     29278  (66.36%)
+
+latex:
+	count_with:   18 / 14
+	cov_crit:     18 / 14
+	Jac_ind:      20 / 14
+	Jac_ind_cov:  20 / 14
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__#####-###---##--#--#-#-#-##-####__Mycobacterium_tuberculosis
+seed:        #####-###---##--#--#-#-#-##-####
+weight:      20
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 6340262)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 6461145)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      1.21
+average cov_crit_1 per read:        12.80
+
+average count_with_2 per read:      1.00
+average cov_crit_2 per read:        10.88
+
+reads s.t. count_with_1 > count_with_2:        10315  (23.38%)
+reads s.t. count_with_1 < count_with_2:         7704  (17.46%)
+reads s.t. count_with_1 = count_with_2:        26098  (59.16%)
+reads s.t. count_with_1 = count_with_2 = 0:    23672  (53.66%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       10638  (24.11%)
+reads s.t. cov_crit_1 < cov_crit_2:        7972  (18.07%)
+reads s.t. cov_crit_1 = cov_crit_2:       25507  (57.82%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   23672  (53.66%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          12741  (28.88%)
+reads s.t. Jac_ind_1 < Jac_ind_2           7704  (17.46%)
+reads s.t. Jac_ind_1 = Jac_ind_2          23672  (53.66%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     12519  (28.38%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      7926  (17.97%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     23672  (53.66%)
+
+latex:
+	count_with:   23 / 17
+	cov_crit:     24 / 18
+	Jac_ind:      29 / 17
+	Jac_ind_cov:  28 / 18
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__###-#-##-#-##--##--###-#-#####__Mycobacterium_tuberculosis
+seed:        ###-#-##-#-##--##--###-#-#####
+weight:      20
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 6339723)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 6459625)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      1.17
+average cov_crit_1 per read:        11.58
+
+average count_with_2 per read:      0.95
+average cov_crit_2 per read:        9.60
+
+reads s.t. count_with_1 > count_with_2:         9868  (22.37%)
+reads s.t. count_with_1 < count_with_2:         7227  (16.38%)
+reads s.t. count_with_1 = count_with_2:        27022  (61.25%)
+reads s.t. count_with_1 = count_with_2 = 0:    24994  (56.65%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       10140  (22.98%)
+reads s.t. cov_crit_1 < cov_crit_2:        7413  (16.80%)
+reads s.t. cov_crit_1 = cov_crit_2:       26564  (60.21%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   24994  (56.65%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11896  (26.96%)
+reads s.t. Jac_ind_1 < Jac_ind_2           7227  (16.38%)
+reads s.t. Jac_ind_1 = Jac_ind_2          24994  (56.65%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11756  (26.65%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      7367  (16.70%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     24994  (56.65%)
+
+latex:
+	count_with:   22 / 16
+	cov_crit:     23 / 17
+	Jac_ind:      27 / 16
+	Jac_ind_cov:  27 / 17
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__#--#--##---#####-#-#--#-#-#####---##__Mycobacterium_tuberculosis
+seed:        #--#--##---#####-#-#--#-#-#####---##
+weight:      20
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 6341678)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 6463440)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      1.05
+average cov_crit_1 per read:        10.89
+
+average count_with_2 per read:      0.87
+average cov_crit_2 per read:        9.21
+
+reads s.t. count_with_1 > count_with_2:         9440  (21.40%)
+reads s.t. count_with_1 < count_with_2:         7137  (16.18%)
+reads s.t. count_with_1 = count_with_2:        27540  (62.42%)
+reads s.t. count_with_1 = count_with_2 = 0:    25554  (57.92%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        9696  (21.98%)
+reads s.t. cov_crit_1 < cov_crit_2:        7295  (16.54%)
+reads s.t. cov_crit_1 = cov_crit_2:       27126  (61.49%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   25554  (57.92%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11426  (25.90%)
+reads s.t. Jac_ind_1 < Jac_ind_2           7137  (16.18%)
+reads s.t. Jac_ind_1 = Jac_ind_2          25554  (57.92%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11296  (25.60%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      7267  (16.47%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     25554  (57.92%)
+
+latex:
+	count_with:   21 / 16
+	cov_crit:     22 / 17
+	Jac_ind:      26 / 16
+	Jac_ind_cov:  26 / 16
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__######################__Mycobacterium_tuberculosis
+seed:        ######################
+weight:      22
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 6338747)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 6458758)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      1.08
+average cov_crit_1 per read:        4.78
+
+average count_with_2 per read:      0.87
+average cov_crit_2 per read:        3.96
+
+reads s.t. count_with_1 > count_with_2:         5188  (11.76%)
+reads s.t. count_with_1 < count_with_2:         3983  (9.03%)
+reads s.t. count_with_1 = count_with_2:        34946  (79.21%)
+reads s.t. count_with_1 = count_with_2 = 0:    34336  (77.83%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        5245  (11.89%)
+reads s.t. cov_crit_1 < cov_crit_2:        3956  (8.97%)
+reads s.t. cov_crit_1 = cov_crit_2:       34916  (79.14%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   34336  (77.83%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           5798  (13.14%)
+reads s.t. Jac_ind_1 < Jac_ind_2           3983  (9.03%)
+reads s.t. Jac_ind_1 = Jac_ind_2          34336  (77.83%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      5835  (13.23%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      3946  (8.94%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     34336  (77.83%)
+
+latex:
+	count_with:   12 / 09
+	cov_crit:     12 / 09
+	Jac_ind:      13 / 09
+	Jac_ind_cov:  13 / 09
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__######--####----#--##-#-#--#######__Mycobacterium_tuberculosis
+seed:        ######--####----#--##-#-#--#######
+weight:      22
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 6345226)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 6469260)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      0.76
+average cov_crit_1 per read:        8.38
+
+average count_with_2 per read:      0.61
+average cov_crit_2 per read:        6.87
+
+reads s.t. count_with_1 > count_with_2:         7351  (16.66%)
+reads s.t. count_with_1 < count_with_2:         5444  (12.34%)
+reads s.t. count_with_1 = count_with_2:        31322  (71.00%)
+reads s.t. count_with_1 = count_with_2 = 0:    29940  (67.86%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        7486  (16.97%)
+reads s.t. cov_crit_1 < cov_crit_2:        5595  (12.68%)
+reads s.t. cov_crit_1 = cov_crit_2:       31036  (70.35%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   29940  (67.86%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           8733  (19.80%)
+reads s.t. Jac_ind_1 < Jac_ind_2           5444  (12.34%)
+reads s.t. Jac_ind_1 = Jac_ind_2          29940  (67.86%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      8597  (19.49%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      5580  (12.65%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     29940  (67.86%)
+
+latex:
+	count_with:   17 / 12
+	cov_crit:     17 / 13
+	Jac_ind:      20 / 12
+	Jac_ind_cov:  19 / 13
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__####-##-#-#-##-###-#-#--##--#####__Mycobacterium_tuberculosis
+seed:        ####-##-#-#-##-###-#-#--##--#####
+weight:      22
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 6345284)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 6469623)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      0.79
+average cov_crit_1 per read:        8.85
+
+average count_with_2 per read:      0.64
+average cov_crit_2 per read:        7.28
+
+reads s.t. count_with_1 > count_with_2:         7675  (17.40%)
+reads s.t. count_with_1 < count_with_2:         5600  (12.69%)
+reads s.t. count_with_1 = count_with_2:        30842  (69.91%)
+reads s.t. count_with_1 = count_with_2 = 0:    29268  (66.34%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        7845  (17.78%)
+reads s.t. cov_crit_1 < cov_crit_2:        5723  (12.97%)
+reads s.t. cov_crit_1 = cov_crit_2:       30549  (69.25%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   29268  (66.34%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           9249  (20.96%)
+reads s.t. Jac_ind_1 < Jac_ind_2           5600  (12.69%)
+reads s.t. Jac_ind_1 = Jac_ind_2          29268  (66.34%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      9156  (20.75%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      5693  (12.90%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     29268  (66.34%)
+
+latex:
+	count_with:   17 / 13
+	cov_crit:     18 / 13
+	Jac_ind:      21 / 13
+	Jac_ind_cov:  21 / 13
+
+================================
+
+experiment:  Mycobacterium_kansasii__Mycobacterium_marinum__#-##-#-##---#-----###-#---#####-###--#-#--#__Mycobacterium_tuberculosis
+seed:        #-##-#-##---#-----###-#---#####-###--#-#--#
+weight:      22
+gen. 1:      Mycobacterium_kansasii
+    (size:    6524249 B, number of kmers: 6347852)
+gen. 2:      Mycobacterium_marinum
+    (size:    6731722 B, number of kmers: 6473395)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      0.65
+average cov_crit_1 per read:        8.09
+
+average count_with_2 per read:      0.50
+average cov_crit_2 per read:        6.51
+
+reads s.t. count_with_1 > count_with_2:         7183  (16.28%)
+reads s.t. count_with_1 < count_with_2:         5027  (11.39%)
+reads s.t. count_with_1 = count_with_2:        31907  (72.32%)
+reads s.t. count_with_1 = count_with_2 = 0:    30433  (68.98%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        7366  (16.70%)
+reads s.t. cov_crit_1 < cov_crit_2:        5147  (11.67%)
+reads s.t. cov_crit_1 = cov_crit_2:       31604  (71.64%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:   30433  (68.98%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2           8657  (19.62%)
+reads s.t. Jac_ind_1 < Jac_ind_2           5027  (11.39%)
+reads s.t. Jac_ind_1 = Jac_ind_2          30433  (68.98%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2      8557  (19.40%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      5127  (11.62%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2     30433  (68.98%)
+
+latex:
+	count_with:   16 / 11
+	cov_crit:     17 / 12
+	Jac_ind:      20 / 11
+	Jac_ind_cov:  19 / 12

@@ -1,0 +1,820 @@
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__##############__Mycobacterium_tuberculosis
+seed:        ##############
+weight:      14
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4022219)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1032594)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      62.17
+average cov_crit_1 per read:        93.03
+
+average count_with_2 per read:      0.30
+average cov_crit_2 per read:        3.14
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44112  (99.99%)
+reads s.t. Jac_ind_1 < Jac_ind_2              5  (0.01%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43588  (98.80%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2       529  (1.20%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  99 / 01
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__###-##-#-#---#-#-#--#--###__Mycobacterium_tuberculosis
+seed:        ###-##-#-#---#-#-#--#--###
+weight:      14
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4120675)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1035400)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      53.21
+average cov_crit_1 per read:        97.05
+
+average count_with_2 per read:      0.26
+average cov_crit_2 per read:        3.60
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44115  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              2  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43505  (98.61%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2       612  (1.39%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  99 / 01
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__###-###--#-#--#-##--###__Mycobacterium_tuberculosis
+seed:        ###-###--#-#--#-##--###
+weight:      14
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4105159)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1035217)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      55.40
+average cov_crit_1 per read:        96.94
+
+average count_with_2 per read:      0.28
+average cov_crit_2 per read:        3.77
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44114  (99.99%)
+reads s.t. Jac_ind_1 < Jac_ind_2              3  (0.01%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43454  (98.50%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2       663  (1.50%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  98 / 02
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__##----#-###-##-###-#----##__Mycobacterium_tuberculosis
+seed:        ##----#-###-##-###-#----##
+weight:      14
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4089698)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1034985)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      53.34
+average cov_crit_1 per read:        95.97
+
+average count_with_2 per read:      0.28
+average cov_crit_2 per read:        3.88
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44115  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              2  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43413  (98.40%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2       704  (1.60%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  98 / 02
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__################__Mycobacterium_tuberculosis
+seed:        ################
+weight:      16
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4284384)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039081)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      55.70
+average cov_crit_1 per read:        87.76
+
+average count_with_2 per read:      0.02
+average cov_crit_2 per read:        0.24
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44113  (99.99%)
+reads s.t. Jac_ind_1 < Jac_ind_2              4  (0.01%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44059  (99.87%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        58  (0.13%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__###-##-#-#---#-#-#--#--#####__Mycobacterium_tuberculosis
+seed:        ###-##-#-#---#-#-#--#--#####
+weight:      16
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4312815)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039470)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      47.78
+average cov_crit_1 per read:        95.34
+
+average count_with_2 per read:      0.02
+average cov_crit_2 per read:        0.28
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44114  (99.99%)
+reads s.t. Jac_ind_1 < Jac_ind_2              3  (0.01%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44090  (99.94%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        27  (0.06%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__###-###--#-#--#-##--#####__Mycobacterium_tuberculosis
+seed:        ###-###--#-#--#-##--#####
+weight:      16
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4306717)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039447)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      49.75
+average cov_crit_1 per read:        95.19
+
+average count_with_2 per read:      0.02
+average cov_crit_2 per read:        0.28
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44116  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              1  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44092  (99.94%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        25  (0.06%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__#--#--#----###-#-#---####-##-##__Mycobacterium_tuberculosis
+seed:        #--#--#----###-#-#---####-##-##
+weight:      16
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4302760)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039434)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      45.85
+average cov_crit_1 per read:        93.96
+
+average count_with_2 per read:      0.02
+average cov_crit_2 per read:        0.32
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44115  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              2  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44093  (99.95%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        24  (0.05%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__##################__Mycobacterium_tuberculosis
+seed:        ##################
+weight:      18
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4327450)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039686)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      51.28
+average cov_crit_1 per read:        84.69
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.03
+
+reads s.t. count_with_1 > count_with_2:        44106  (99.98%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:           11  (0.02%)
+reads s.t. count_with_1 = count_with_2 = 0:       11  (0.02%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44106  (99.98%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:          11  (0.02%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:      11  (0.02%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44106  (99.98%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2             11  (0.02%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44090  (99.94%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        16  (0.04%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2        11  (0.02%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__####-##--##--#--#-#-#-##-####__Mycobacterium_tuberculosis
+seed:        ####-##--##--#--#-#-#-##-####
+weight:      18
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4340752)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039804)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      44.51
+average cov_crit_1 per read:        94.52
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.04
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44114  (99.99%)
+reads s.t. Jac_ind_1 < Jac_ind_2              3  (0.01%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44105  (99.97%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        12  (0.03%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__###-#--###-##--#-#--###-####__Mycobacterium_tuberculosis
+seed:        ###-#--###-##--#-#--###-####
+weight:      18
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4339507)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039793)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      45.12
+average cov_crit_1 per read:        94.28
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.03
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44116  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              1  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44105  (99.97%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        12  (0.03%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__#-#--##-#----###-####-###----#-##__Mycobacterium_tuberculosis
+seed:        #-#--##-#----###-####-###----#-##
+weight:      18
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4339340)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039810)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      42.03
+average cov_crit_1 per read:        92.95
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.03
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44117  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44105  (99.97%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        12  (0.03%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__####################__Mycobacterium_tuberculosis
+seed:        ####################
+weight:      20
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4339838)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039772)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      47.39
+average cov_crit_1 per read:        82.04
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.01
+
+reads s.t. count_with_1 > count_with_2:        44076  (99.91%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:           41  (0.09%)
+reads s.t. count_with_1 = count_with_2 = 0:       41  (0.09%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44076  (99.91%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:          41  (0.09%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:      41  (0.09%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44076  (99.91%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2             41  (0.09%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44068  (99.89%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         8  (0.02%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2        41  (0.09%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__#####-###---##--#--#-#-#-##-####__Mycobacterium_tuberculosis
+seed:        #####-###---##--#--#-#-#-##-####
+weight:      20
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4349116)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039853)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      40.40
+average cov_crit_1 per read:        93.77
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.02
+
+reads s.t. count_with_1 > count_with_2:        44116  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            1  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        1  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44116  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           1  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       1  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44115  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              1  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              1  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44105  (99.97%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        11  (0.02%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         1  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__###-#-##-#-##--##--###-#-#####__Mycobacterium_tuberculosis
+seed:        ###-#-##-#-##--##--###-#-#####
+weight:      20
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4348267)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039837)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      41.56
+average cov_crit_1 per read:        93.54
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.01
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44117  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44106  (99.98%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        11  (0.02%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__#--#--##---#####-#-#--#-#-#####---##__Mycobacterium_tuberculosis
+seed:        #--#--##---#####-#-#--#-#-#####---##
+weight:      20
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4350243)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039856)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      38.06
+average cov_crit_1 per read:        92.09
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.02
+
+reads s.t. count_with_1 > count_with_2:        44116  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            1  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        1  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44116  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           1  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       1  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44116  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              1  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44106  (99.98%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        10  (0.02%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         1  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__######################__Mycobacterium_tuberculosis
+seed:        ######################
+weight:      22
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4346347)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039814)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      43.79
+average cov_crit_1 per read:        79.42
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.00
+
+reads s.t. count_with_1 > count_with_2:        43997  (99.73%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:          120  (0.27%)
+reads s.t. count_with_1 = count_with_2 = 0:      120  (0.27%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       43997  (99.73%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:         120  (0.27%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:     120  (0.27%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          43997  (99.73%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2            120  (0.27%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43990  (99.71%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         7  (0.02%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2       120  (0.27%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__######--####----#--##-#-#--#######__Mycobacterium_tuberculosis
+seed:        ######--####----#--##-#-#--#######
+weight:      22
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4353168)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039874)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      37.19
+average cov_crit_1 per read:        92.27
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.01
+
+reads s.t. count_with_1 > count_with_2:        44114  (99.99%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            3  (0.01%)
+reads s.t. count_with_1 = count_with_2 = 0:        3  (0.01%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44114  (99.99%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           3  (0.01%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       3  (0.01%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44113  (99.99%)
+reads s.t. Jac_ind_1 < Jac_ind_2              1  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              3  (0.01%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44103  (99.97%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        11  (0.02%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         3  (0.01%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__####-##-#-#-##-###-#-#--##--#####__Mycobacterium_tuberculosis
+seed:        ####-##-#-#-##-###-#-#--##--#####
+weight:      22
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4353230)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039870)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      37.74
+average cov_crit_1 per read:        92.85
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.01
+
+reads s.t. count_with_1 > count_with_2:        44115  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            2  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        2  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44115  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           2  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       2  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44115  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              2  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44107  (99.98%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         8  (0.02%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         2  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Chlamydia_trachomatis__#-##-#-##---#-----###-#---#####-###--#-#--#__Mycobacterium_tuberculosis
+seed:        #-##-#-##---#-----###-#---#####-###--#-#--#
+weight:      22
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4355494)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039901)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      32.20
+average cov_crit_1 per read:        91.36
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.01
+
+reads s.t. count_with_1 > count_with_2:        44113  (99.99%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            4  (0.01%)
+reads s.t. count_with_1 = count_with_2 = 0:        4  (0.01%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44113  (99.99%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           4  (0.01%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       4  (0.01%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44113  (99.99%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              4  (0.01%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44103  (99.97%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        10  (0.02%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         4  (0.01%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00

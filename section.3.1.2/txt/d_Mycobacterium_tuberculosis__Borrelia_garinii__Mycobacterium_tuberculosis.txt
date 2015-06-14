@@ -1,0 +1,820 @@
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__##############__Mycobacterium_tuberculosis
+seed:        ##############
+weight:      14
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4022219)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 863823)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      62.17
+average cov_crit_1 per read:        93.03
+
+average count_with_2 per read:      0.10
+average cov_crit_2 per read:        1.02
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44111  (99.99%)
+reads s.t. Jac_ind_1 < Jac_ind_2              6  (0.01%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43959  (99.64%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2       158  (0.36%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__###-##-#-#---#-#-#--#--###__Mycobacterium_tuberculosis
+seed:        ###-##-#-#---#-#-#--#--###
+weight:      14
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4120675)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 875211)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      53.21
+average cov_crit_1 per read:        97.05
+
+average count_with_2 per read:      0.09
+average cov_crit_2 per read:        1.16
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44114  (99.99%)
+reads s.t. Jac_ind_1 < Jac_ind_2              3  (0.01%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43930  (99.58%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2       187  (0.42%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__###-###--#-#--#-##--###__Mycobacterium_tuberculosis
+seed:        ###-###--#-#--#-##--###
+weight:      14
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4105159)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 872813)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      55.40
+average cov_crit_1 per read:        96.94
+
+average count_with_2 per read:      0.09
+average cov_crit_2 per read:        1.21
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44111  (99.99%)
+reads s.t. Jac_ind_1 < Jac_ind_2              6  (0.01%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43973  (99.67%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2       144  (0.33%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__##----#-###-##-###-#----##__Mycobacterium_tuberculosis
+seed:        ##----#-###-##-###-#----##
+weight:      14
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4089698)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 871990)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      53.34
+average cov_crit_1 per read:        95.97
+
+average count_with_2 per read:      0.10
+average cov_crit_2 per read:        1.38
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44113  (99.99%)
+reads s.t. Jac_ind_1 < Jac_ind_2              4  (0.01%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43892  (99.49%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2       225  (0.51%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  99 / 01
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__################__Mycobacterium_tuberculosis
+seed:        ################
+weight:      16
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4284384)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 895782)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      55.70
+average cov_crit_1 per read:        87.76
+
+average count_with_2 per read:      0.01
+average cov_crit_2 per read:        0.07
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44112  (99.99%)
+reads s.t. Jac_ind_1 < Jac_ind_2              5  (0.01%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44060  (99.87%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        57  (0.13%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__###-##-#-#---#-#-#--#--#####__Mycobacterium_tuberculosis
+seed:        ###-##-#-#---#-#-#--#--#####
+weight:      16
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4312815)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 897697)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      47.78
+average cov_crit_1 per read:        95.34
+
+average count_with_2 per read:      0.01
+average cov_crit_2 per read:        0.09
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44113  (99.99%)
+reads s.t. Jac_ind_1 < Jac_ind_2              4  (0.01%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44099  (99.96%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        18  (0.04%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__###-###--#-#--#-##--#####__Mycobacterium_tuberculosis
+seed:        ###-###--#-#--#-##--#####
+weight:      16
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4306717)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 897377)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      49.75
+average cov_crit_1 per read:        95.19
+
+average count_with_2 per read:      0.01
+average cov_crit_2 per read:        0.09
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44114  (99.99%)
+reads s.t. Jac_ind_1 < Jac_ind_2              3  (0.01%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44097  (99.95%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        20  (0.05%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__#--#--#----###-#-#---####-##-##__Mycobacterium_tuberculosis
+seed:        #--#--#----###-#-#---####-##-##
+weight:      16
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4302760)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 897432)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      45.85
+average cov_crit_1 per read:        93.96
+
+average count_with_2 per read:      0.01
+average cov_crit_2 per read:        0.11
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44114  (99.99%)
+reads s.t. Jac_ind_1 < Jac_ind_2              3  (0.01%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44096  (99.95%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        21  (0.05%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__##################__Mycobacterium_tuberculosis
+seed:        ##################
+weight:      18
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4327450)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 900226)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      51.28
+average cov_crit_1 per read:        84.69
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.02
+
+reads s.t. count_with_1 > count_with_2:        44106  (99.98%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:           11  (0.02%)
+reads s.t. count_with_1 = count_with_2 = 0:       11  (0.02%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44106  (99.98%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:          11  (0.02%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:      11  (0.02%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44102  (99.97%)
+reads s.t. Jac_ind_1 < Jac_ind_2              4  (0.01%)
+reads s.t. Jac_ind_1 = Jac_ind_2             11  (0.02%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44082  (99.92%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        24  (0.05%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2        11  (0.02%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__####-##--##--#--#-#-#-##-####__Mycobacterium_tuberculosis
+seed:        ####-##--##--#--#-#-#-##-####
+weight:      18
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4340752)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 900589)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      44.51
+average cov_crit_1 per read:        94.52
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.02
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44116  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              1  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44105  (99.97%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        12  (0.03%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__###-#--###-##--#-#--###-####__Mycobacterium_tuberculosis
+seed:        ###-#--###-##--#-#--###-####
+weight:      18
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4339507)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 900542)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      45.12
+average cov_crit_1 per read:        94.28
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.02
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44116  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              1  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44107  (99.98%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        10  (0.02%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__#-#--##-#----###-####-###----#-##__Mycobacterium_tuberculosis
+seed:        #-#--##-#----###-####-###----#-##
+weight:      18
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4339340)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 900565)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      42.03
+average cov_crit_1 per read:        92.95
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.02
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44115  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              2  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44105  (99.97%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        12  (0.03%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__####################__Mycobacterium_tuberculosis
+seed:        ####################
+weight:      20
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4339838)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 900873)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      47.39
+average cov_crit_1 per read:        82.04
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.01
+
+reads s.t. count_with_1 > count_with_2:        44076  (99.91%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:           41  (0.09%)
+reads s.t. count_with_1 = count_with_2 = 0:       41  (0.09%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44076  (99.91%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:          41  (0.09%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:      41  (0.09%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44072  (99.90%)
+reads s.t. Jac_ind_1 < Jac_ind_2              4  (0.01%)
+reads s.t. Jac_ind_1 = Jac_ind_2             41  (0.09%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44060  (99.87%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        16  (0.04%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2        41  (0.09%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__#####-###---##--#--#-#-#-##-####__Mycobacterium_tuberculosis
+seed:        #####-###---##--#--#-#-#-##-####
+weight:      20
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4349116)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 900985)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      40.40
+average cov_crit_1 per read:        93.77
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.01
+
+reads s.t. count_with_1 > count_with_2:        44116  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            1  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        1  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44116  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           1  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       1  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44116  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              1  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44098  (99.96%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        18  (0.04%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         1  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__###-#-##-#-##--##--###-#-#####__Mycobacterium_tuberculosis
+seed:        ###-#-##-#-##--##--###-#-#####
+weight:      20
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4348267)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 901002)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      41.56
+average cov_crit_1 per read:        93.54
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.01
+
+reads s.t. count_with_1 > count_with_2:        44117  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44117  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44116  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              1  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44105  (99.97%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        12  (0.03%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__#--#--##---#####-#-#--#-#-#####---##__Mycobacterium_tuberculosis
+seed:        #--#--##---#####-#-#--#-#-#####---##
+weight:      20
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4350243)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 901005)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      38.06
+average cov_crit_1 per read:        92.09
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.01
+
+reads s.t. count_with_1 > count_with_2:        44116  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            1  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        1  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44116  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           1  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       1  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44114  (99.99%)
+reads s.t. Jac_ind_1 < Jac_ind_2              2  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              1  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44103  (99.97%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        13  (0.03%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         1  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__######################__Mycobacterium_tuberculosis
+seed:        ######################
+weight:      22
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4346347)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 901061)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      43.79
+average cov_crit_1 per read:        79.42
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.01
+
+reads s.t. count_with_1 > count_with_2:        43997  (99.73%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:          120  (0.27%)
+reads s.t. count_with_1 = count_with_2 = 0:      120  (0.27%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       43997  (99.73%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:         120  (0.27%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:     120  (0.27%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          43995  (99.72%)
+reads s.t. Jac_ind_1 < Jac_ind_2              2  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2            120  (0.27%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43985  (99.70%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        12  (0.03%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2       120  (0.27%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__######--####----#--##-#-#--#######__Mycobacterium_tuberculosis
+seed:        ######--####----#--##-#-#--#######
+weight:      22
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4353168)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 901144)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      37.19
+average cov_crit_1 per read:        92.27
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.01
+
+reads s.t. count_with_1 > count_with_2:        44114  (99.99%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            3  (0.01%)
+reads s.t. count_with_1 = count_with_2 = 0:        3  (0.01%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44114  (99.99%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           3  (0.01%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       3  (0.01%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44114  (99.99%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              3  (0.01%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44102  (99.97%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        12  (0.03%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         3  (0.01%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__####-##-#-#-##-###-#-#--##--#####__Mycobacterium_tuberculosis
+seed:        ####-##-#-#-##-###-#-#--##--#####
+weight:      22
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4353230)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 901153)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      37.74
+average cov_crit_1 per read:        92.85
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.01
+
+reads s.t. count_with_1 > count_with_2:        44115  (100.00%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            2  (0.00%)
+reads s.t. count_with_1 = count_with_2 = 0:        2  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44115  (100.00%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           2  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       2  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44115  (100.00%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              2  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44105  (99.97%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        10  (0.02%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         2  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Borrelia_garinii__#-##-#-##---#-----###-#---#####-###--#-#--#__Mycobacterium_tuberculosis
+seed:        #-##-#-##---#-----###-#---#####-###--#-#--#
+weight:      22
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4355494)
+gen. 2:      Borrelia_garinii
+    (size:     918562 B, number of kmers: 901148)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      32.20
+average cov_crit_1 per read:        91.36
+
+average count_with_2 per read:      0.00
+average cov_crit_2 per read:        0.01
+
+reads s.t. count_with_1 > count_with_2:        44113  (99.99%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            4  (0.01%)
+reads s.t. count_with_1 = count_with_2 = 0:        4  (0.01%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       44113  (99.99%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           4  (0.01%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       4  (0.01%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44113  (99.99%)
+reads s.t. Jac_ind_1 < Jac_ind_2              0  (0.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2              4  (0.01%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44104  (99.97%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2         9  (0.02%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         4  (0.01%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00

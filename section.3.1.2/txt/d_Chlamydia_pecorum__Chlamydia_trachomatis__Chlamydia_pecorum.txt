@@ -1,0 +1,820 @@
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__##############__Chlamydia_pecorum
+seed:        ##############
+weight:      14
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1096579)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1032594)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      60.30
+average cov_crit_1 per read:        90.10
+
+average count_with_2 per read:      2.25
+average cov_crit_2 per read:        16.86
+
+reads s.t. count_with_1 > count_with_2:        11056  (99.93%)
+reads s.t. count_with_1 < count_with_2:            1  (0.01%)
+reads s.t. count_with_1 = count_with_2:            7  (0.06%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11053  (99.90%)
+reads s.t. cov_crit_1 < cov_crit_2:           4  (0.04%)
+reads s.t. cov_crit_1 = cov_crit_2:           7  (0.06%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11056  (99.93%)
+reads s.t. Jac_ind_1 < Jac_ind_2              8  (0.07%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11049  (99.86%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        15  (0.14%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__###-##-#-#---#-#-#--#--###__Chlamydia_pecorum
+seed:        ###-##-#-#---#-#-#--#--###
+weight:      14
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1100366)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1035400)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      51.90
+average cov_crit_1 per read:        95.86
+
+average count_with_2 per read:      1.36
+average cov_crit_2 per read:        15.14
+
+reads s.t. count_with_1 > count_with_2:        11059  (99.95%)
+reads s.t. count_with_1 < count_with_2:            4  (0.04%)
+reads s.t. count_with_1 = count_with_2:            1  (0.01%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11056  (99.93%)
+reads s.t. cov_crit_1 < cov_crit_2:           3  (0.03%)
+reads s.t. cov_crit_1 = cov_crit_2:           5  (0.05%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11058  (99.95%)
+reads s.t. Jac_ind_1 < Jac_ind_2              6  (0.05%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11047  (99.85%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        17  (0.15%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__###-###--#-#--#-##--###__Chlamydia_pecorum
+seed:        ###-###--#-#--#-##--###
+weight:      14
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1099878)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1035217)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      53.99
+average cov_crit_1 per read:        95.65
+
+average count_with_2 per read:      1.52
+average cov_crit_2 per read:        16.52
+
+reads s.t. count_with_1 > count_with_2:        11060  (99.96%)
+reads s.t. count_with_1 < count_with_2:            1  (0.01%)
+reads s.t. count_with_1 = count_with_2:            3  (0.03%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11056  (99.93%)
+reads s.t. cov_crit_1 < cov_crit_2:           2  (0.02%)
+reads s.t. cov_crit_1 = cov_crit_2:           6  (0.05%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11057  (99.94%)
+reads s.t. Jac_ind_1 < Jac_ind_2              7  (0.06%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11047  (99.85%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        17  (0.15%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__##----#-###-##-###-#----##__Chlamydia_pecorum
+seed:        ##----#-###-##-###-#----##
+weight:      14
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1099649)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1034985)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      51.91
+average cov_crit_1 per read:        94.61
+
+average count_with_2 per read:      1.66
+average cov_crit_2 per read:        17.80
+
+reads s.t. count_with_1 > count_with_2:        11059  (99.95%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            5  (0.05%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11058  (99.95%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           6  (0.05%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11056  (99.93%)
+reads s.t. Jac_ind_1 < Jac_ind_2              8  (0.07%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11045  (99.83%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        19  (0.17%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__################__Chlamydia_pecorum
+seed:        ################
+weight:      16
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1104915)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039081)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      55.57
+average cov_crit_1 per read:        87.17
+
+average count_with_2 per read:      0.58
+average cov_crit_2 per read:        3.28
+
+reads s.t. count_with_1 > count_with_2:        11056  (99.93%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            8  (0.07%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11056  (99.93%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           8  (0.07%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11056  (99.93%)
+reads s.t. Jac_ind_1 < Jac_ind_2              8  (0.07%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11053  (99.90%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        11  (0.10%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__###-##-#-#---#-#-#--#--#####__Chlamydia_pecorum
+seed:        ###-##-#-#---#-#-#--#--#####
+weight:      16
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1105513)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039470)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      47.72
+average cov_crit_1 per read:        95.12
+
+average count_with_2 per read:      0.37
+average cov_crit_2 per read:        3.31
+
+reads s.t. count_with_1 > count_with_2:        11059  (99.95%)
+reads s.t. count_with_1 < count_with_2:            2  (0.02%)
+reads s.t. count_with_1 = count_with_2:            3  (0.03%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11057  (99.94%)
+reads s.t. cov_crit_1 < cov_crit_2:           4  (0.04%)
+reads s.t. cov_crit_1 = cov_crit_2:           3  (0.03%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11056  (99.93%)
+reads s.t. Jac_ind_1 < Jac_ind_2              8  (0.07%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11048  (99.86%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        16  (0.14%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__###-###--#-#--#-##--#####__Chlamydia_pecorum
+seed:        ###-###--#-#--#-##--#####
+weight:      16
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1105408)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039447)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      49.69
+average cov_crit_1 per read:        94.95
+
+average count_with_2 per read:      0.43
+average cov_crit_2 per read:        3.94
+
+reads s.t. count_with_1 > count_with_2:        11060  (99.96%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            4  (0.04%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11057  (99.94%)
+reads s.t. cov_crit_1 < cov_crit_2:           4  (0.04%)
+reads s.t. cov_crit_1 = cov_crit_2:           3  (0.03%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11057  (99.94%)
+reads s.t. Jac_ind_1 < Jac_ind_2              7  (0.06%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11049  (99.86%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        15  (0.14%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__#--#--#----###-#-#---####-##-##__Chlamydia_pecorum
+seed:        #--#--#----###-#-#---####-##-##
+weight:      16
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1105430)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039434)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      45.74
+average cov_crit_1 per read:        93.72
+
+average count_with_2 per read:      0.56
+average cov_crit_2 per read:        5.57
+
+reads s.t. count_with_1 > count_with_2:        11059  (99.95%)
+reads s.t. count_with_1 < count_with_2:            3  (0.03%)
+reads s.t. count_with_1 = count_with_2:            2  (0.02%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11057  (99.94%)
+reads s.t. cov_crit_1 < cov_crit_2:           6  (0.05%)
+reads s.t. cov_crit_1 = cov_crit_2:           1  (0.01%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11057  (99.94%)
+reads s.t. Jac_ind_1 < Jac_ind_2              7  (0.06%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11048  (99.86%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        16  (0.14%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__##################__Chlamydia_pecorum
+seed:        ##################
+weight:      18
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1105751)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039686)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      51.42
+average cov_crit_1 per read:        84.68
+
+average count_with_2 per read:      0.31
+average cov_crit_2 per read:        1.09
+
+reads s.t. count_with_1 > count_with_2:        11054  (99.91%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:           10  (0.09%)
+reads s.t. count_with_1 = count_with_2 = 0:        2  (0.02%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11054  (99.91%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:          10  (0.09%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       2  (0.02%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11054  (99.91%)
+reads s.t. Jac_ind_1 < Jac_ind_2              8  (0.07%)
+reads s.t. Jac_ind_1 = Jac_ind_2              2  (0.02%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11051  (99.88%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        11  (0.10%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         2  (0.02%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__####-##--##--#--#-#-#-##-####__Chlamydia_pecorum
+seed:        ####-##--##--#--#-#-#-##-####
+weight:      18
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1105951)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039804)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      44.62
+average cov_crit_1 per read:        94.52
+
+average count_with_2 per read:      0.23
+average cov_crit_2 per read:        1.58
+
+reads s.t. count_with_1 > count_with_2:        11058  (99.95%)
+reads s.t. count_with_1 < count_with_2:            1  (0.01%)
+reads s.t. count_with_1 = count_with_2:            5  (0.05%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11058  (99.95%)
+reads s.t. cov_crit_1 < cov_crit_2:           3  (0.03%)
+reads s.t. cov_crit_1 = cov_crit_2:           3  (0.03%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11056  (99.93%)
+reads s.t. Jac_ind_1 < Jac_ind_2              8  (0.07%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11049  (99.86%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        15  (0.14%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__###-#--###-##--#-#--###-####__Chlamydia_pecorum
+seed:        ###-#--###-##--#-#--###-####
+weight:      18
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1105932)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039793)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      45.24
+average cov_crit_1 per read:        94.29
+
+average count_with_2 per read:      0.23
+average cov_crit_2 per read:        1.53
+
+reads s.t. count_with_1 > count_with_2:        11061  (99.97%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            3  (0.03%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11062  (99.98%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:           2  (0.02%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11058  (99.95%)
+reads s.t. Jac_ind_1 < Jac_ind_2              6  (0.05%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11051  (99.88%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        13  (0.12%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__#-#--##-#----###-####-###----#-##__Chlamydia_pecorum
+seed:        #-#--##-#----###-####-###----#-##
+weight:      18
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1105927)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039810)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      42.15
+average cov_crit_1 per read:        93.06
+
+average count_with_2 per read:      0.25
+average cov_crit_2 per read:        2.05
+
+reads s.t. count_with_1 > count_with_2:        11060  (99.96%)
+reads s.t. count_with_1 < count_with_2:            2  (0.02%)
+reads s.t. count_with_1 = count_with_2:            2  (0.02%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11057  (99.94%)
+reads s.t. cov_crit_1 < cov_crit_2:           5  (0.05%)
+reads s.t. cov_crit_1 = cov_crit_2:           2  (0.02%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11055  (99.92%)
+reads s.t. Jac_ind_1 < Jac_ind_2              9  (0.08%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11047  (99.85%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        17  (0.15%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__####################__Chlamydia_pecorum
+seed:        ####################
+weight:      20
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1105898)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039772)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      47.57
+average cov_crit_1 per read:        82.16
+
+average count_with_2 per read:      0.23
+average cov_crit_2 per read:        0.74
+
+reads s.t. count_with_1 > count_with_2:        11046  (99.84%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:           18  (0.16%)
+reads s.t. count_with_1 = count_with_2 = 0:       10  (0.09%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11046  (99.84%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:          18  (0.16%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:      10  (0.09%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11046  (99.84%)
+reads s.t. Jac_ind_1 < Jac_ind_2              8  (0.07%)
+reads s.t. Jac_ind_1 = Jac_ind_2             10  (0.09%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11043  (99.81%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        11  (0.10%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2        10  (0.09%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__#####-###---##--#--#-#-#-##-####__Chlamydia_pecorum
+seed:        #####-###---##--#--#-#-#-##-####
+weight:      20
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1106020)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039853)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      40.52
+average cov_crit_1 per read:        93.89
+
+average count_with_2 per read:      0.17
+average cov_crit_2 per read:        1.21
+
+reads s.t. count_with_1 > count_with_2:        11059  (99.95%)
+reads s.t. count_with_1 < count_with_2:            2  (0.02%)
+reads s.t. count_with_1 = count_with_2:            3  (0.03%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11056  (99.93%)
+reads s.t. cov_crit_1 < cov_crit_2:           4  (0.04%)
+reads s.t. cov_crit_1 = cov_crit_2:           4  (0.04%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11056  (99.93%)
+reads s.t. Jac_ind_1 < Jac_ind_2              8  (0.07%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11051  (99.88%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        13  (0.12%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__###-#-##-#-##--##--###-#-#####__Chlamydia_pecorum
+seed:        ###-#-##-#-##--##--###-#-#####
+weight:      20
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1106006)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039837)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      41.70
+average cov_crit_1 per read:        93.64
+
+average count_with_2 per read:      0.17
+average cov_crit_2 per read:        0.96
+
+reads s.t. count_with_1 > count_with_2:        11060  (99.96%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:            4  (0.04%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11057  (99.94%)
+reads s.t. cov_crit_1 < cov_crit_2:           6  (0.05%)
+reads s.t. cov_crit_1 = cov_crit_2:           1  (0.01%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11057  (99.94%)
+reads s.t. Jac_ind_1 < Jac_ind_2              7  (0.06%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11047  (99.85%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        17  (0.15%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__#--#--##---#####-#-#--#-#-#####---##__Chlamydia_pecorum
+seed:        #--#--##---#####-#-#--#-#-#####---##
+weight:      20
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1106012)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039856)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      38.17
+average cov_crit_1 per read:        92.17
+
+average count_with_2 per read:      0.15
+average cov_crit_2 per read:        0.93
+
+reads s.t. count_with_1 > count_with_2:        11061  (99.97%)
+reads s.t. count_with_1 < count_with_2:            1  (0.01%)
+reads s.t. count_with_1 = count_with_2:            2  (0.02%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11057  (99.94%)
+reads s.t. cov_crit_1 < cov_crit_2:           4  (0.04%)
+reads s.t. cov_crit_1 = cov_crit_2:           3  (0.03%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11058  (99.95%)
+reads s.t. Jac_ind_1 < Jac_ind_2              6  (0.05%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11049  (99.86%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        15  (0.14%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__######################__Chlamydia_pecorum
+seed:        ######################
+weight:      22
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1105957)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039814)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      44.00
+average cov_crit_1 per read:        79.55
+
+average count_with_2 per read:      0.18
+average cov_crit_2 per read:        0.57
+
+reads s.t. count_with_1 > count_with_2:        11031  (99.70%)
+reads s.t. count_with_1 < count_with_2:            0  (0.00%)
+reads s.t. count_with_1 = count_with_2:           33  (0.30%)
+reads s.t. count_with_1 = count_with_2 = 0:       25  (0.23%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11031  (99.70%)
+reads s.t. cov_crit_1 < cov_crit_2:           0  (0.00%)
+reads s.t. cov_crit_1 = cov_crit_2:          33  (0.30%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:      25  (0.23%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11030  (99.69%)
+reads s.t. Jac_ind_1 < Jac_ind_2              9  (0.08%)
+reads s.t. Jac_ind_1 = Jac_ind_2             25  (0.23%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11028  (99.67%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        11  (0.10%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2        25  (0.23%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__######--####----#--##-#-#--#######__Chlamydia_pecorum
+seed:        ######--####----#--##-#-#--#######
+weight:      22
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1106035)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039874)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      37.27
+average cov_crit_1 per read:        92.38
+
+average count_with_2 per read:      0.13
+average cov_crit_2 per read:        0.78
+
+reads s.t. count_with_1 > count_with_2:        11060  (99.96%)
+reads s.t. count_with_1 < count_with_2:            2  (0.02%)
+reads s.t. count_with_1 = count_with_2:            2  (0.02%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11057  (99.94%)
+reads s.t. cov_crit_1 < cov_crit_2:           3  (0.03%)
+reads s.t. cov_crit_1 = cov_crit_2:           4  (0.04%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11056  (99.93%)
+reads s.t. Jac_ind_1 < Jac_ind_2              8  (0.07%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11052  (99.89%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        12  (0.11%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__####-##-#-#-##-###-#-#--##--#####__Chlamydia_pecorum
+seed:        ####-##-#-#-##-###-#-#--##--#####
+weight:      22
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1106041)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039870)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      37.84
+average cov_crit_1 per read:        92.95
+
+average count_with_2 per read:      0.13
+average cov_crit_2 per read:        0.83
+
+reads s.t. count_with_1 > count_with_2:        11057  (99.94%)
+reads s.t. count_with_1 < count_with_2:            1  (0.01%)
+reads s.t. count_with_1 = count_with_2:            6  (0.05%)
+reads s.t. count_with_1 = count_with_2 = 0:        2  (0.02%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11058  (99.95%)
+reads s.t. cov_crit_1 < cov_crit_2:           2  (0.02%)
+reads s.t. cov_crit_1 = cov_crit_2:           4  (0.04%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       2  (0.02%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11054  (99.91%)
+reads s.t. Jac_ind_1 < Jac_ind_2              8  (0.07%)
+reads s.t. Jac_ind_1 = Jac_ind_2              2  (0.02%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11047  (99.85%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        15  (0.14%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         2  (0.02%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Chlamydia_pecorum__Chlamydia_trachomatis__#-##-#-##---#-----###-#---#####-###--#-#--#__Chlamydia_pecorum
+seed:        #-##-#-##---#-----###-#---#####-###--#-#--#
+weight:      22
+gen. 1:      Chlamydia_pecorum
+    (size:    1122286 B, number of kmers: 1106047)
+gen. 2:      Chlamydia_trachomatis
+    (size:    1061198 B, number of kmers: 1039901)
+gen. reads:  Chlamydia_pecorum
+
+average count_with_1 per read:      32.28
+average cov_crit_1 per read:        91.50
+
+average count_with_2 per read:      0.10
+average cov_crit_2 per read:        0.73
+
+reads s.t. count_with_1 > count_with_2:        11061  (99.97%)
+reads s.t. count_with_1 < count_with_2:            1  (0.01%)
+reads s.t. count_with_1 = count_with_2:            2  (0.02%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       11060  (99.96%)
+reads s.t. cov_crit_1 < cov_crit_2:           3  (0.03%)
+reads s.t. cov_crit_1 = cov_crit_2:           1  (0.01%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          11059  (99.95%)
+reads s.t. Jac_ind_1 < Jac_ind_2              5  (0.05%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     11050  (99.87%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        14  (0.13%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   100 / 00
+	cov_crit:     100 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00

@@ -1,0 +1,820 @@
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__##############__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        ##############
+weight:      14
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 4889906)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5019384)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      48.81
+average cov_crit_1 per read:        85.09
+
+average count_with_2 per read:      27.09
+average cov_crit_2 per read:        71.29
+
+reads s.t. count_with_1 > count_with_2:        43373  (82.81%)
+reads s.t. count_with_1 < count_with_2:         7118  (13.59%)
+reads s.t. count_with_1 = count_with_2:         1886  (3.60%)
+reads s.t. count_with_1 = count_with_2 = 0:        6  (0.01%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       40622  (77.56%)
+reads s.t. cov_crit_1 < cov_crit_2:        9150  (17.47%)
+reads s.t. cov_crit_1 = cov_crit_2:        2605  (4.97%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       6  (0.01%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          45678  (87.21%)
+reads s.t. Jac_ind_1 < Jac_ind_2           6693  (12.78%)
+reads s.t. Jac_ind_1 = Jac_ind_2              6  (0.01%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44675  (85.30%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      7696  (14.69%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         6  (0.01%)
+
+latex:
+	count_with:   83 / 14
+	cov_crit:     78 / 17
+	Jac_ind:      87 / 13
+	Jac_ind_cov:  85 / 15
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__###-##-#-#---#-#-#--#--###__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        ###-##-#-#---#-#-#--#--###
+weight:      14
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 4962544)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5094498)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      41.27
+average cov_crit_1 per read:        90.65
+
+average count_with_2 per read:      21.70
+average cov_crit_2 per read:        79.25
+
+reads s.t. count_with_1 > count_with_2:        43681  (83.40%)
+reads s.t. count_with_1 < count_with_2:         6660  (12.72%)
+reads s.t. count_with_1 = count_with_2:         2036  (3.89%)
+reads s.t. count_with_1 = count_with_2 = 0:        3  (0.01%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       41953  (80.10%)
+reads s.t. cov_crit_1 < cov_crit_2:        7759  (14.81%)
+reads s.t. cov_crit_1 = cov_crit_2:        2665  (5.09%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       3  (0.01%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          46053  (87.93%)
+reads s.t. Jac_ind_1 < Jac_ind_2           6321  (12.07%)
+reads s.t. Jac_ind_1 = Jac_ind_2              3  (0.01%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     46656  (89.08%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      5718  (10.92%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         3  (0.01%)
+
+latex:
+	count_with:   83 / 13
+	cov_crit:     80 / 15
+	Jac_ind:      88 / 12
+	Jac_ind_cov:  89 / 11
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__###-###--#-#--#-##--###__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        ###-###--#-#--#-##--###
+weight:      14
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 4950780)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5081730)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      43.09
+average cov_crit_1 per read:        90.74
+
+average count_with_2 per read:      22.96
+average cov_crit_2 per read:        79.83
+
+reads s.t. count_with_1 > count_with_2:        43630  (83.30%)
+reads s.t. count_with_1 < count_with_2:         6793  (12.97%)
+reads s.t. count_with_1 = count_with_2:         1954  (3.73%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       41600  (79.42%)
+reads s.t. cov_crit_1 < cov_crit_2:        7975  (15.23%)
+reads s.t. cov_crit_1 = cov_crit_2:        2802  (5.35%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          46011  (87.85%)
+reads s.t. Jac_ind_1 < Jac_ind_2           6366  (12.15%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     46538  (88.85%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      5839  (11.15%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   83 / 13
+	cov_crit:     79 / 15
+	Jac_ind:      88 / 12
+	Jac_ind_cov:  89 / 11
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__##----#-###-##-###-#----##__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        ##----#-###-##-###-#----##
+weight:      14
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 4945502)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5076615)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      41.51
+average cov_crit_1 per read:        89.41
+
+average count_with_2 per read:      22.58
+average cov_crit_2 per read:        78.57
+
+reads s.t. count_with_1 > count_with_2:        43522  (83.09%)
+reads s.t. count_with_1 < count_with_2:         6843  (13.06%)
+reads s.t. count_with_1 = count_with_2:         2012  (3.84%)
+reads s.t. count_with_1 = count_with_2 = 0:        1  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       41893  (79.98%)
+reads s.t. cov_crit_1 < cov_crit_2:        7992  (15.26%)
+reads s.t. cov_crit_1 = cov_crit_2:        2492  (4.76%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       1  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          45918  (87.67%)
+reads s.t. Jac_ind_1 < Jac_ind_2           6458  (12.33%)
+reads s.t. Jac_ind_1 = Jac_ind_2              1  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     46382  (88.55%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      5994  (11.44%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         1  (0.00%)
+
+latex:
+	count_with:   83 / 13
+	cov_crit:     80 / 15
+	Jac_ind:      88 / 12
+	Jac_ind_cov:  89 / 11
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__################__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        ################
+weight:      16
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5136770)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5282019)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      41.51
+average cov_crit_1 per read:        72.54
+
+average count_with_2 per read:      18.20
+average cov_crit_2 per read:        45.43
+
+reads s.t. count_with_1 > count_with_2:        42482  (81.11%)
+reads s.t. count_with_1 < count_with_2:         5960  (11.38%)
+reads s.t. count_with_1 = count_with_2:         3935  (7.51%)
+reads s.t. count_with_1 = count_with_2 = 0:      824  (1.57%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       42119  (80.42%)
+reads s.t. cov_crit_1 < cov_crit_2:        6327  (12.08%)
+reads s.t. cov_crit_1 = cov_crit_2:        3931  (7.51%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:     824  (1.57%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          45730  (87.31%)
+reads s.t. Jac_ind_1 < Jac_ind_2           5823  (11.12%)
+reads s.t. Jac_ind_1 = Jac_ind_2            824  (1.57%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     45682  (87.22%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      5871  (11.21%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2       824  (1.57%)
+
+latex:
+	count_with:   81 / 11
+	cov_crit:     80 / 12
+	Jac_ind:      87 / 11
+	Jac_ind_cov:  87 / 11
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__###-##-#-#---#-#-#--#--#####__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        ###-##-#-#---#-#-#--#--#####
+weight:      16
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5150499)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5298588)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      35.26
+average cov_crit_1 per read:        82.40
+
+average count_with_2 per read:      14.86
+average cov_crit_2 per read:        59.80
+
+reads s.t. count_with_1 > count_with_2:        42967  (82.03%)
+reads s.t. count_with_1 < count_with_2:         5631  (10.75%)
+reads s.t. count_with_1 = count_with_2:         3779  (7.21%)
+reads s.t. count_with_1 = count_with_2 = 0:      718  (1.37%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       42744  (81.61%)
+reads s.t. cov_crit_1 < cov_crit_2:        5862  (11.19%)
+reads s.t. cov_crit_1 = cov_crit_2:        3771  (7.20%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:     718  (1.37%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          46157  (88.12%)
+reads s.t. Jac_ind_1 < Jac_ind_2           5502  (10.50%)
+reads s.t. Jac_ind_1 = Jac_ind_2            718  (1.37%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     46620  (89.01%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      5039  (9.62%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2       718  (1.37%)
+
+latex:
+	count_with:   82 / 11
+	cov_crit:     82 / 11
+	Jac_ind:      88 / 11
+	Jac_ind_cov:  89 / 10
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__###-###--#-#--#-##--#####__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        ###-###--#-#--#-##--#####
+weight:      16
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5147719)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5295338)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      36.82
+average cov_crit_1 per read:        82.47
+
+average count_with_2 per read:      15.78
+average cov_crit_2 per read:        60.59
+
+reads s.t. count_with_1 > count_with_2:        42979  (82.06%)
+reads s.t. count_with_1 < count_with_2:         5727  (10.93%)
+reads s.t. count_with_1 = count_with_2:         3671  (7.01%)
+reads s.t. count_with_1 = count_with_2 = 0:      610  (1.16%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       42716  (81.55%)
+reads s.t. cov_crit_1 < cov_crit_2:        5973  (11.40%)
+reads s.t. cov_crit_1 = cov_crit_2:        3688  (7.04%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:     610  (1.16%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          46191  (88.19%)
+reads s.t. Jac_ind_1 < Jac_ind_2           5576  (10.65%)
+reads s.t. Jac_ind_1 = Jac_ind_2            610  (1.16%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     46677  (89.12%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      5090  (9.72%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2       610  (1.16%)
+
+latex:
+	count_with:   82 / 11
+	cov_crit:     82 / 11
+	Jac_ind:      88 / 11
+	Jac_ind_cov:  89 / 10
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__#--#--#----###-#-#---####-##-##__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        #--#--#----###-#-#---####-##-##
+weight:      16
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5147717)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5294788)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      33.95
+average cov_crit_1 per read:        81.14
+
+average count_with_2 per read:      15.18
+average cov_crit_2 per read:        60.88
+
+reads s.t. count_with_1 > count_with_2:        42792  (81.70%)
+reads s.t. count_with_1 < count_with_2:         5767  (11.01%)
+reads s.t. count_with_1 = count_with_2:         3818  (7.29%)
+reads s.t. count_with_1 = count_with_2 = 0:      684  (1.31%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       42608  (81.35%)
+reads s.t. cov_crit_1 < cov_crit_2:        6078  (11.60%)
+reads s.t. cov_crit_1 = cov_crit_2:        3691  (7.05%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:     684  (1.31%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          46030  (87.88%)
+reads s.t. Jac_ind_1 < Jac_ind_2           5663  (10.81%)
+reads s.t. Jac_ind_1 = Jac_ind_2            684  (1.31%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     46411  (88.61%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      5282  (10.08%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2       684  (1.31%)
+
+latex:
+	count_with:   82 / 11
+	cov_crit:     81 / 12
+	Jac_ind:      88 / 11
+	Jac_ind_cov:  89 / 10
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__##################__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        ##################
+weight:      18
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5165118)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5313883)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      37.37
+average cov_crit_1 per read:        67.28
+
+average count_with_2 per read:      14.69
+average cov_crit_2 per read:        35.65
+
+reads s.t. count_with_1 > count_with_2:        41157  (78.58%)
+reads s.t. count_with_1 < count_with_2:         4696  (8.97%)
+reads s.t. count_with_1 = count_with_2:         6524  (12.46%)
+reads s.t. count_with_1 = count_with_2 = 0:     3451  (6.59%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       41126  (78.52%)
+reads s.t. cov_crit_1 < cov_crit_2:        4745  (9.06%)
+reads s.t. cov_crit_1 = cov_crit_2:        6506  (12.42%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    3451  (6.59%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44295  (84.57%)
+reads s.t. Jac_ind_1 < Jac_ind_2           4631  (8.84%)
+reads s.t. Jac_ind_1 = Jac_ind_2           3451  (6.59%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44461  (84.89%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      4465  (8.52%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      3451  (6.59%)
+
+latex:
+	count_with:   79 / 09
+	cov_crit:     79 / 09
+	Jac_ind:      85 / 09
+	Jac_ind_cov:  85 / 09
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__####-##--##--#--#-#-#-##-####__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        ####-##--##--#--#-#-#-##-####
+weight:      18
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5169687)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5320855)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      32.16
+average cov_crit_1 per read:        79.49
+
+average count_with_2 per read:      12.30
+average cov_crit_2 per read:        52.31
+
+reads s.t. count_with_1 > count_with_2:        42067  (80.32%)
+reads s.t. count_with_1 < count_with_2:         4774  (9.11%)
+reads s.t. count_with_1 = count_with_2:         5536  (10.57%)
+reads s.t. count_with_1 = count_with_2 = 0:     3010  (5.75%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       42022  (80.23%)
+reads s.t. cov_crit_1 < cov_crit_2:        4759  (9.09%)
+reads s.t. cov_crit_1 = cov_crit_2:        5596  (10.68%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    3010  (5.75%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44637  (85.22%)
+reads s.t. Jac_ind_1 < Jac_ind_2           4730  (9.03%)
+reads s.t. Jac_ind_1 = Jac_ind_2           3010  (5.75%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     45175  (86.25%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      4192  (8.00%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      3010  (5.75%)
+
+latex:
+	count_with:   80 / 09
+	cov_crit:     80 / 09
+	Jac_ind:      85 / 09
+	Jac_ind_cov:  86 / 08
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__###-#--###-##--#-#--###-####__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        ###-#--###-##--#-#--###-####
+weight:      18
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5169398)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5320261)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      32.63
+average cov_crit_1 per read:        79.27
+
+average count_with_2 per read:      12.51
+average cov_crit_2 per read:        52.21
+
+reads s.t. count_with_1 > count_with_2:        42044  (80.27%)
+reads s.t. count_with_1 < count_with_2:         4755  (9.08%)
+reads s.t. count_with_1 = count_with_2:         5578  (10.65%)
+reads s.t. count_with_1 = count_with_2 = 0:     3003  (5.73%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       42079  (80.34%)
+reads s.t. cov_crit_1 < cov_crit_2:        4705  (8.98%)
+reads s.t. cov_crit_1 = cov_crit_2:        5593  (10.68%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    3003  (5.73%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44661  (85.27%)
+reads s.t. Jac_ind_1 < Jac_ind_2           4713  (9.00%)
+reads s.t. Jac_ind_1 = Jac_ind_2           3003  (5.73%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     45219  (86.33%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      4155  (7.93%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      3003  (5.73%)
+
+latex:
+	count_with:   80 / 09
+	cov_crit:     80 / 09
+	Jac_ind:      85 / 09
+	Jac_ind_cov:  86 / 08
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__#-#--##-#----###-####-###----#-##__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        #-#--##-#----###-####-###----#-##
+weight:      18
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5169640)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5320574)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      30.39
+average cov_crit_1 per read:        77.88
+
+average count_with_2 per read:      11.91
+average cov_crit_2 per read:        52.05
+
+reads s.t. count_with_1 > count_with_2:        41847  (79.90%)
+reads s.t. count_with_1 < count_with_2:         4811  (9.19%)
+reads s.t. count_with_1 = count_with_2:         5719  (10.92%)
+reads s.t. count_with_1 = count_with_2 = 0:     3062  (5.85%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       41770  (79.75%)
+reads s.t. cov_crit_1 < cov_crit_2:        4980  (9.51%)
+reads s.t. cov_crit_1 = cov_crit_2:        5627  (10.74%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    3062  (5.85%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44550  (85.06%)
+reads s.t. Jac_ind_1 < Jac_ind_2           4765  (9.10%)
+reads s.t. Jac_ind_1 = Jac_ind_2           3062  (5.85%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44905  (85.73%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      4410  (8.42%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      3062  (5.85%)
+
+latex:
+	count_with:   80 / 09
+	cov_crit:     80 / 10
+	Jac_ind:      85 / 09
+	Jac_ind_cov:  86 / 08
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__####################__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        ####################
+weight:      20
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5170083)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5320585)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      33.92
+average cov_crit_1 per read:        64.09
+
+average count_with_2 per read:      12.32
+average cov_crit_2 per read:        31.74
+
+reads s.t. count_with_1 > count_with_2:        40361  (77.06%)
+reads s.t. count_with_1 < count_with_2:         4296  (8.20%)
+reads s.t. count_with_1 = count_with_2:         7720  (14.74%)
+reads s.t. count_with_1 = count_with_2 = 0:     4531  (8.65%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       40337  (77.01%)
+reads s.t. cov_crit_1 < cov_crit_2:        4353  (8.31%)
+reads s.t. cov_crit_1 = cov_crit_2:        7687  (14.68%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    4531  (8.65%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          43584  (83.21%)
+reads s.t. Jac_ind_1 < Jac_ind_2           4262  (8.14%)
+reads s.t. Jac_ind_1 = Jac_ind_2           4531  (8.65%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43734  (83.50%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      4112  (7.85%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      4531  (8.65%)
+
+latex:
+	count_with:   77 / 08
+	cov_crit:     77 / 08
+	Jac_ind:      83 / 08
+	Jac_ind_cov:  83 / 08
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__#####-###---##--#--#-#-#-##-####__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        #####-###---##--#--#-#-#-##-####
+weight:      20
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5173173)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5325672)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      28.67
+average cov_crit_1 per read:        77.96
+
+average count_with_2 per read:      10.23
+average cov_crit_2 per read:        49.20
+
+reads s.t. count_with_1 > count_with_2:        41622  (79.47%)
+reads s.t. count_with_1 < count_with_2:         4413  (8.43%)
+reads s.t. count_with_1 = count_with_2:         6342  (12.11%)
+reads s.t. count_with_1 = count_with_2 = 0:     3803  (7.26%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       41682  (79.58%)
+reads s.t. cov_crit_1 < cov_crit_2:        4409  (8.42%)
+reads s.t. cov_crit_1 = cov_crit_2:        6286  (12.00%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    3803  (7.26%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44197  (84.38%)
+reads s.t. Jac_ind_1 < Jac_ind_2           4377  (8.36%)
+reads s.t. Jac_ind_1 = Jac_ind_2           3803  (7.26%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44680  (85.30%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      3894  (7.43%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      3803  (7.26%)
+
+latex:
+	count_with:   79 / 08
+	cov_crit:     80 / 08
+	Jac_ind:      84 / 08
+	Jac_ind_cov:  85 / 07
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__###-#-##-#-##--##--###-#-#####__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        ###-#-##-#-##--##--###-#-#####
+weight:      20
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5172941)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5325323)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      29.51
+average cov_crit_1 per read:        77.51
+
+average count_with_2 per read:      10.40
+average cov_crit_2 per read:        47.32
+
+reads s.t. count_with_1 > count_with_2:        41586  (79.40%)
+reads s.t. count_with_1 < count_with_2:         4447  (8.49%)
+reads s.t. count_with_1 = count_with_2:         6344  (12.11%)
+reads s.t. count_with_1 = count_with_2 = 0:     3833  (7.32%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       41627  (79.48%)
+reads s.t. cov_crit_1 < cov_crit_2:        4451  (8.50%)
+reads s.t. cov_crit_1 = cov_crit_2:        6299  (12.03%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    3833  (7.32%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44134  (84.26%)
+reads s.t. Jac_ind_1 < Jac_ind_2           4410  (8.42%)
+reads s.t. Jac_ind_1 = Jac_ind_2           3833  (7.32%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44569  (85.09%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      3975  (7.59%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      3833  (7.32%)
+
+latex:
+	count_with:   79 / 08
+	cov_crit:     79 / 08
+	Jac_ind:      84 / 08
+	Jac_ind_cov:  85 / 08
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__#--#--##---#####-#-#--#-#-#####---##__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        #--#--##---#####-#-#--#-#-#####---##
+weight:      20
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5173651)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5326344)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      26.98
+average cov_crit_1 per read:        75.92
+
+average count_with_2 per read:      9.49
+average cov_crit_2 per read:        45.84
+
+reads s.t. count_with_1 > count_with_2:        41449  (79.14%)
+reads s.t. count_with_1 < count_with_2:         4437  (8.47%)
+reads s.t. count_with_1 = count_with_2:         6491  (12.39%)
+reads s.t. count_with_1 = count_with_2 = 0:     3901  (7.45%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       41537  (79.30%)
+reads s.t. cov_crit_1 < cov_crit_2:        4450  (8.50%)
+reads s.t. cov_crit_1 = cov_crit_2:        6390  (12.20%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    3901  (7.45%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44063  (84.13%)
+reads s.t. Jac_ind_1 < Jac_ind_2           4413  (8.43%)
+reads s.t. Jac_ind_1 = Jac_ind_2           3901  (7.45%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44463  (84.89%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      4013  (7.66%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      3901  (7.45%)
+
+latex:
+	count_with:   79 / 08
+	cov_crit:     79 / 08
+	Jac_ind:      84 / 08
+	Jac_ind_cov:  85 / 08
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__######################__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        ######################
+weight:      22
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5172268)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5324089)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      30.82
+average cov_crit_1 per read:        61.03
+
+average count_with_2 per read:      10.40
+average cov_crit_2 per read:        27.82
+
+reads s.t. count_with_1 > count_with_2:        39666  (75.73%)
+reads s.t. count_with_1 < count_with_2:         4051  (7.73%)
+reads s.t. count_with_1 = count_with_2:         8660  (16.53%)
+reads s.t. count_with_1 = count_with_2 = 0:     5354  (10.22%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       39688  (75.77%)
+reads s.t. cov_crit_1 < cov_crit_2:        4065  (7.76%)
+reads s.t. cov_crit_1 = cov_crit_2:        8624  (16.47%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    5354  (10.22%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          43002  (82.10%)
+reads s.t. Jac_ind_1 < Jac_ind_2           4021  (7.68%)
+reads s.t. Jac_ind_1 = Jac_ind_2           5354  (10.22%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43138  (82.36%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      3885  (7.42%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      5354  (10.22%)
+
+latex:
+	count_with:   76 / 08
+	cov_crit:     76 / 08
+	Jac_ind:      82 / 08
+	Jac_ind_cov:  82 / 07
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__######--####----#--##-#-#--#######__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        ######--####----#--##-#-#--#######
+weight:      22
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5174839)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5328512)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      25.92
+average cov_crit_1 per read:        75.45
+
+average count_with_2 per read:      8.45
+average cov_crit_2 per read:        42.91
+
+reads s.t. count_with_1 > count_with_2:        41360  (78.97%)
+reads s.t. count_with_1 < count_with_2:         4219  (8.06%)
+reads s.t. count_with_1 = count_with_2:         6798  (12.98%)
+reads s.t. count_with_1 = count_with_2 = 0:     4254  (8.12%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       41412  (79.07%)
+reads s.t. cov_crit_1 < cov_crit_2:        4249  (8.11%)
+reads s.t. cov_crit_1 = cov_crit_2:        6716  (12.82%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    4254  (8.12%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          43924  (83.86%)
+reads s.t. Jac_ind_1 < Jac_ind_2           4199  (8.02%)
+reads s.t. Jac_ind_1 = Jac_ind_2           4254  (8.12%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44278  (84.54%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      3845  (7.34%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      4254  (8.12%)
+
+latex:
+	count_with:   79 / 08
+	cov_crit:     79 / 08
+	Jac_ind:      84 / 08
+	Jac_ind_cov:  85 / 07
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__####-##-#-#-##-###-#-#--##--#####__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        ####-##-#-#-##-###-#-#--##--#####
+weight:      22
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5174755)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5328228)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      26.33
+average cov_crit_1 per read:        76.07
+
+average count_with_2 per read:      8.64
+average cov_crit_2 per read:        44.00
+
+reads s.t. count_with_1 > count_with_2:        41352  (78.95%)
+reads s.t. count_with_1 < count_with_2:         4294  (8.20%)
+reads s.t. count_with_1 = count_with_2:         6731  (12.85%)
+reads s.t. count_with_1 = count_with_2 = 0:     4187  (7.99%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       41388  (79.02%)
+reads s.t. cov_crit_1 < cov_crit_2:        4329  (8.27%)
+reads s.t. cov_crit_1 = cov_crit_2:        6660  (12.72%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    4187  (7.99%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          43925  (83.86%)
+reads s.t. Jac_ind_1 < Jac_ind_2           4265  (8.14%)
+reads s.t. Jac_ind_1 = Jac_ind_2           4187  (7.99%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44306  (84.59%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      3884  (7.42%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      4187  (7.99%)
+
+latex:
+	count_with:   79 / 08
+	cov_crit:     79 / 08
+	Jac_ind:      84 / 08
+	Jac_ind_cov:  85 / 07
+
+================================
+
+experiment:  Bacillus_anthracis_Ames_uid57909__Bacillus_cereus_ATCC_14579_uid57975__#-##-#-##---#-----###-#---#####-###--#-#--#__Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+seed:        #-##-#-##---#-----###-#---#####-###--#-#--#
+weight:      22
+gen. 1:      Bacillus_anthracis_Ames_uid57909
+    (size:    5302056 B, number of kmers: 5175911)
+gen. 2:      Bacillus_cereus_ATCC_14579_uid57975
+    (size:    5489206 B, number of kmers: 5330169)
+gen. reads:  Bacillus_thuringiensis_serovar_konkukian_97_27_uid58089
+
+average count_with_1 per read:      22.37
+average cov_crit_1 per read:        74.47
+
+average count_with_2 per read:      7.25
+average cov_crit_2 per read:        42.36
+
+reads s.t. count_with_1 > count_with_2:        41129  (78.52%)
+reads s.t. count_with_1 < count_with_2:         4175  (7.97%)
+reads s.t. count_with_1 = count_with_2:         7073  (13.50%)
+reads s.t. count_with_1 = count_with_2 = 0:     4385  (8.37%)
+
+reads s.t. cov_crit_1 > cov_crit_2:       41249  (78.75%)
+reads s.t. cov_crit_1 < cov_crit_2:        4228  (8.07%)
+reads s.t. cov_crit_1 = cov_crit_2:        6900  (13.17%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:    4385  (8.37%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          43833  (83.69%)
+reads s.t. Jac_ind_1 < Jac_ind_2           4159  (7.94%)
+reads s.t. Jac_ind_1 = Jac_ind_2           4385  (8.37%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44198  (84.38%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2      3794  (7.24%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2      4385  (8.37%)
+
+latex:
+	count_with:   79 / 08
+	cov_crit:     79 / 08
+	Jac_ind:      84 / 08
+	Jac_ind_cov:  84 / 07

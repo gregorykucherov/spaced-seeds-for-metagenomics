@@ -1,0 +1,820 @@
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__##############__Mycobacterium_tuberculosis
+seed:        ##############
+weight:      14
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4022219)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4025419)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      62.17
+average cov_crit_1 per read:        93.03
+
+average count_with_2 per read:      61.79
+average cov_crit_2 per read:        92.81
+
+reads s.t. count_with_1 > count_with_2:         1583  (3.59%)
+reads s.t. count_with_1 < count_with_2:          617  (1.40%)
+reads s.t. count_with_1 = count_with_2:        41917  (95.01%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:         970  (2.20%)
+reads s.t. cov_crit_1 < cov_crit_2:         290  (0.66%)
+reads s.t. cov_crit_1 = cov_crit_2:       42857  (97.14%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          43500  (98.60%)
+reads s.t. Jac_ind_1 < Jac_ind_2            617  (1.40%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43827  (99.34%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2       290  (0.66%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   04 / 01
+	cov_crit:     02 / 01
+	Jac_ind:      99 / 01
+	Jac_ind_cov:  99 / 01
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__###-##-#-#---#-#-#--#--###__Mycobacterium_tuberculosis
+seed:        ###-##-#-#---#-#-#--#--###
+weight:      14
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4120675)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4124172)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      53.21
+average cov_crit_1 per read:        97.05
+
+average count_with_2 per read:      52.85
+average cov_crit_2 per read:        96.84
+
+reads s.t. count_with_1 > count_with_2:         1672  (3.79%)
+reads s.t. count_with_1 < count_with_2:          675  (1.53%)
+reads s.t. count_with_1 = count_with_2:        41770  (94.68%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1050  (2.38%)
+reads s.t. cov_crit_1 < cov_crit_2:         326  (0.74%)
+reads s.t. cov_crit_1 = cov_crit_2:       42741  (96.88%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          43442  (98.47%)
+reads s.t. Jac_ind_1 < Jac_ind_2            675  (1.53%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43791  (99.26%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2       326  (0.74%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   04 / 02
+	cov_crit:     02 / 01
+	Jac_ind:      98 / 02
+	Jac_ind_cov:  99 / 01
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__###-###--#-#--#-##--###__Mycobacterium_tuberculosis
+seed:        ###-###--#-#--#-##--###
+weight:      14
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4105159)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4108593)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      55.40
+average cov_crit_1 per read:        96.94
+
+average count_with_2 per read:      55.04
+average cov_crit_2 per read:        96.74
+
+reads s.t. count_with_1 > count_with_2:         1739  (3.94%)
+reads s.t. count_with_1 < count_with_2:          697  (1.58%)
+reads s.t. count_with_1 = count_with_2:        41681  (94.48%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1046  (2.37%)
+reads s.t. cov_crit_1 < cov_crit_2:         337  (0.76%)
+reads s.t. cov_crit_1 = cov_crit_2:       42734  (96.87%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          43420  (98.42%)
+reads s.t. Jac_ind_1 < Jac_ind_2            697  (1.58%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43780  (99.24%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2       337  (0.76%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   04 / 02
+	cov_crit:     02 / 01
+	Jac_ind:      98 / 02
+	Jac_ind_cov:  99 / 01
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__##----#-###-##-###-#----##__Mycobacterium_tuberculosis
+seed:        ##----#-###-##-###-#----##
+weight:      14
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4089698)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4093085)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      53.34
+average cov_crit_1 per read:        95.97
+
+average count_with_2 per read:      52.99
+average cov_crit_2 per read:        95.76
+
+reads s.t. count_with_1 > count_with_2:         1701  (3.86%)
+reads s.t. count_with_1 < count_with_2:          693  (1.57%)
+reads s.t. count_with_1 = count_with_2:        41723  (94.57%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1062  (2.41%)
+reads s.t. cov_crit_1 < cov_crit_2:         341  (0.77%)
+reads s.t. cov_crit_1 = cov_crit_2:       42714  (96.82%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          43424  (98.43%)
+reads s.t. Jac_ind_1 < Jac_ind_2            693  (1.57%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43776  (99.23%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2       341  (0.77%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   04 / 02
+	cov_crit:     02 / 01
+	Jac_ind:      98 / 02
+	Jac_ind_cov:  99 / 01
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__################__Mycobacterium_tuberculosis
+seed:        ################
+weight:      16
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4284384)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4288283)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      55.70
+average cov_crit_1 per read:        87.76
+
+average count_with_2 per read:      55.28
+average cov_crit_2 per read:        87.35
+
+reads s.t. count_with_1 > count_with_2:         1131  (2.56%)
+reads s.t. count_with_1 < count_with_2:          138  (0.31%)
+reads s.t. count_with_1 = count_with_2:        42848  (97.12%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1008  (2.28%)
+reads s.t. cov_crit_1 < cov_crit_2:         100  (0.23%)
+reads s.t. cov_crit_1 = cov_crit_2:       43009  (97.49%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          43979  (99.69%)
+reads s.t. Jac_ind_1 < Jac_ind_2            138  (0.31%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44017  (99.77%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2       100  (0.23%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   03 / 00
+	cov_crit:     02 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__###-##-#-#---#-#-#--#--#####__Mycobacterium_tuberculosis
+seed:        ###-##-#-#---#-#-#--#--#####
+weight:      16
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4312815)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4317169)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      47.78
+average cov_crit_1 per read:        95.34
+
+average count_with_2 per read:      47.40
+average cov_crit_2 per read:        94.95
+
+reads s.t. count_with_1 > count_with_2:         1244  (2.82%)
+reads s.t. count_with_1 < count_with_2:          166  (0.38%)
+reads s.t. count_with_1 = count_with_2:        42707  (96.80%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1122  (2.54%)
+reads s.t. cov_crit_1 < cov_crit_2:         135  (0.31%)
+reads s.t. cov_crit_1 = cov_crit_2:       42860  (97.15%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          43951  (99.62%)
+reads s.t. Jac_ind_1 < Jac_ind_2            166  (0.38%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43982  (99.69%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2       135  (0.31%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   03 / 00
+	cov_crit:     03 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__###-###--#-#--#-##--#####__Mycobacterium_tuberculosis
+seed:        ###-###--#-#--#-##--#####
+weight:      16
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4306717)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4310971)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      49.75
+average cov_crit_1 per read:        95.19
+
+average count_with_2 per read:      49.37
+average cov_crit_2 per read:        94.79
+
+reads s.t. count_with_1 > count_with_2:         1246  (2.82%)
+reads s.t. count_with_1 < count_with_2:          179  (0.41%)
+reads s.t. count_with_1 = count_with_2:        42692  (96.77%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1109  (2.51%)
+reads s.t. cov_crit_1 < cov_crit_2:         148  (0.34%)
+reads s.t. cov_crit_1 = cov_crit_2:       42860  (97.15%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          43938  (99.59%)
+reads s.t. Jac_ind_1 < Jac_ind_2            179  (0.41%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43969  (99.66%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2       148  (0.34%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   03 / 00
+	cov_crit:     03 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__#--#--#----###-#-#---####-##-##__Mycobacterium_tuberculosis
+seed:        #--#--#----###-#-#---####-##-##
+weight:      16
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4302760)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4306993)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      45.85
+average cov_crit_1 per read:        93.96
+
+average count_with_2 per read:      45.49
+average cov_crit_2 per read:        93.57
+
+reads s.t. count_with_1 > count_with_2:         1225  (2.78%)
+reads s.t. count_with_1 < count_with_2:          180  (0.41%)
+reads s.t. count_with_1 = count_with_2:        42712  (96.82%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1108  (2.51%)
+reads s.t. cov_crit_1 < cov_crit_2:         133  (0.30%)
+reads s.t. cov_crit_1 = cov_crit_2:       42876  (97.19%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          43937  (99.59%)
+reads s.t. Jac_ind_1 < Jac_ind_2            180  (0.41%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43984  (99.70%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2       133  (0.30%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   03 / 00
+	cov_crit:     03 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__##################__Mycobacterium_tuberculosis
+seed:        ##################
+weight:      18
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4327450)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4331760)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      51.28
+average cov_crit_1 per read:        84.69
+
+average count_with_2 per read:      50.87
+average cov_crit_2 per read:        84.20
+
+reads s.t. count_with_1 > count_with_2:         1022  (2.32%)
+reads s.t. count_with_1 < count_with_2:           49  (0.11%)
+reads s.t. count_with_1 = count_with_2:        43046  (97.57%)
+reads s.t. count_with_1 = count_with_2 = 0:       11  (0.02%)
+
+reads s.t. cov_crit_1 > cov_crit_2:         966  (2.19%)
+reads s.t. cov_crit_1 < cov_crit_2:          37  (0.08%)
+reads s.t. cov_crit_1 = cov_crit_2:       43114  (97.73%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:      11  (0.02%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44057  (99.86%)
+reads s.t. Jac_ind_1 < Jac_ind_2             49  (0.11%)
+reads s.t. Jac_ind_1 = Jac_ind_2             11  (0.02%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44069  (99.89%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        37  (0.08%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2        11  (0.02%)
+
+latex:
+	count_with:   02 / 00
+	cov_crit:     02 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__####-##--##--#--#-#-#-##-####__Mycobacterium_tuberculosis
+seed:        ####-##--##--#--#-#-#-##-####
+weight:      18
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4340752)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4345427)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      44.51
+average cov_crit_1 per read:        94.52
+
+average count_with_2 per read:      44.12
+average cov_crit_2 per read:        94.06
+
+reads s.t. count_with_1 > count_with_2:         1156  (2.62%)
+reads s.t. count_with_1 < count_with_2:           66  (0.15%)
+reads s.t. count_with_1 = count_with_2:        42895  (97.23%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1100  (2.49%)
+reads s.t. cov_crit_1 < cov_crit_2:          58  (0.13%)
+reads s.t. cov_crit_1 = cov_crit_2:       42959  (97.38%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44051  (99.85%)
+reads s.t. Jac_ind_1 < Jac_ind_2             66  (0.15%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44059  (99.87%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        58  (0.13%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   03 / 00
+	cov_crit:     02 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__###-#--###-##--#-#--###-####__Mycobacterium_tuberculosis
+seed:        ###-#--###-##--#-#--###-####
+weight:      18
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4339507)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4344178)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      45.12
+average cov_crit_1 per read:        94.28
+
+average count_with_2 per read:      44.73
+average cov_crit_2 per read:        93.83
+
+reads s.t. count_with_1 > count_with_2:         1175  (2.66%)
+reads s.t. count_with_1 < count_with_2:           89  (0.20%)
+reads s.t. count_with_1 = count_with_2:        42853  (97.13%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1116  (2.53%)
+reads s.t. cov_crit_1 < cov_crit_2:          75  (0.17%)
+reads s.t. cov_crit_1 = cov_crit_2:       42926  (97.30%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44028  (99.80%)
+reads s.t. Jac_ind_1 < Jac_ind_2             89  (0.20%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44042  (99.83%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        75  (0.17%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   03 / 00
+	cov_crit:     03 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__#-#--##-#----###-####-###----#-##__Mycobacterium_tuberculosis
+seed:        #-#--##-#----###-####-###----#-##
+weight:      18
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4339340)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4343990)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      42.03
+average cov_crit_1 per read:        92.95
+
+average count_with_2 per read:      41.66
+average cov_crit_2 per read:        92.50
+
+reads s.t. count_with_1 > count_with_2:         1148  (2.60%)
+reads s.t. count_with_1 < count_with_2:           85  (0.19%)
+reads s.t. count_with_1 = count_with_2:        42884  (97.21%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1099  (2.49%)
+reads s.t. cov_crit_1 < cov_crit_2:          74  (0.17%)
+reads s.t. cov_crit_1 = cov_crit_2:       42944  (97.34%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44032  (99.81%)
+reads s.t. Jac_ind_1 < Jac_ind_2             85  (0.19%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44043  (99.83%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        74  (0.17%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   03 / 00
+	cov_crit:     02 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__####################__Mycobacterium_tuberculosis
+seed:        ####################
+weight:      20
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4339838)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4344425)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      47.39
+average cov_crit_1 per read:        82.04
+
+average count_with_2 per read:      46.98
+average cov_crit_2 per read:        81.52
+
+reads s.t. count_with_1 > count_with_2:         1006  (2.28%)
+reads s.t. count_with_1 < count_with_2:           36  (0.08%)
+reads s.t. count_with_1 = count_with_2:        43075  (97.64%)
+reads s.t. count_with_1 = count_with_2 = 0:       41  (0.09%)
+
+reads s.t. cov_crit_1 > cov_crit_2:         956  (2.17%)
+reads s.t. cov_crit_1 < cov_crit_2:          27  (0.06%)
+reads s.t. cov_crit_1 = cov_crit_2:       43134  (97.77%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:      41  (0.09%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44040  (99.83%)
+reads s.t. Jac_ind_1 < Jac_ind_2             36  (0.08%)
+reads s.t. Jac_ind_1 = Jac_ind_2             41  (0.09%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44049  (99.85%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        27  (0.06%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2        41  (0.09%)
+
+latex:
+	count_with:   02 / 00
+	cov_crit:     02 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__#####-###---##--#--#-#-#-##-####__Mycobacterium_tuberculosis
+seed:        #####-###---##--#--#-#-#-##-####
+weight:      20
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4349116)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4354010)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      40.40
+average cov_crit_1 per read:        93.77
+
+average count_with_2 per read:      40.03
+average cov_crit_2 per read:        93.30
+
+reads s.t. count_with_1 > count_with_2:         1154  (2.62%)
+reads s.t. count_with_1 < count_with_2:           55  (0.12%)
+reads s.t. count_with_1 = count_with_2:        42908  (97.26%)
+reads s.t. count_with_1 = count_with_2 = 0:        1  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1104  (2.50%)
+reads s.t. cov_crit_1 < cov_crit_2:          51  (0.12%)
+reads s.t. cov_crit_1 = cov_crit_2:       42962  (97.38%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       1  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44061  (99.87%)
+reads s.t. Jac_ind_1 < Jac_ind_2             55  (0.12%)
+reads s.t. Jac_ind_1 = Jac_ind_2              1  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44065  (99.88%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        51  (0.12%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         1  (0.00%)
+
+latex:
+	count_with:   03 / 00
+	cov_crit:     03 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__###-#-##-#-##--##--###-#-#####__Mycobacterium_tuberculosis
+seed:        ###-#-##-#-##--##--###-#-#####
+weight:      20
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4348267)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4353140)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      41.56
+average cov_crit_1 per read:        93.54
+
+average count_with_2 per read:      41.19
+average cov_crit_2 per read:        93.06
+
+reads s.t. count_with_1 > count_with_2:         1157  (2.62%)
+reads s.t. count_with_1 < count_with_2:           64  (0.15%)
+reads s.t. count_with_1 = count_with_2:        42896  (97.23%)
+reads s.t. count_with_1 = count_with_2 = 0:        0  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1118  (2.53%)
+reads s.t. cov_crit_1 < cov_crit_2:          61  (0.14%)
+reads s.t. cov_crit_1 = cov_crit_2:       42938  (97.33%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       0  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44053  (99.85%)
+reads s.t. Jac_ind_1 < Jac_ind_2             64  (0.15%)
+reads s.t. Jac_ind_1 = Jac_ind_2              0  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44056  (99.86%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        61  (0.14%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         0  (0.00%)
+
+latex:
+	count_with:   03 / 00
+	cov_crit:     03 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__#--#--##---#####-#-#--#-#-#####---##__Mycobacterium_tuberculosis
+seed:        #--#--##---#####-#-#--#-#-#####---##
+weight:      20
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4350243)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4355200)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      38.06
+average cov_crit_1 per read:        92.09
+
+average count_with_2 per read:      37.70
+average cov_crit_2 per read:        91.61
+
+reads s.t. count_with_1 > count_with_2:         1155  (2.62%)
+reads s.t. count_with_1 < count_with_2:           56  (0.13%)
+reads s.t. count_with_1 = count_with_2:        42906  (97.26%)
+reads s.t. count_with_1 = count_with_2 = 0:        1  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1126  (2.55%)
+reads s.t. cov_crit_1 < cov_crit_2:          53  (0.12%)
+reads s.t. cov_crit_1 = cov_crit_2:       42938  (97.33%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       1  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44060  (99.87%)
+reads s.t. Jac_ind_1 < Jac_ind_2             56  (0.13%)
+reads s.t. Jac_ind_1 = Jac_ind_2              1  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44063  (99.88%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        53  (0.12%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         1  (0.00%)
+
+latex:
+	count_with:   03 / 00
+	cov_crit:     03 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__######################__Mycobacterium_tuberculosis
+seed:        ######################
+weight:      22
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4346347)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4351154)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      43.79
+average cov_crit_1 per read:        79.42
+
+average count_with_2 per read:      43.40
+average cov_crit_2 per read:        78.90
+
+reads s.t. count_with_1 > count_with_2:          975  (2.21%)
+reads s.t. count_with_1 < count_with_2:           32  (0.07%)
+reads s.t. count_with_1 = count_with_2:        43110  (97.72%)
+reads s.t. count_with_1 = count_with_2 = 0:      120  (0.27%)
+
+reads s.t. cov_crit_1 > cov_crit_2:         931  (2.11%)
+reads s.t. cov_crit_1 < cov_crit_2:          23  (0.05%)
+reads s.t. cov_crit_1 = cov_crit_2:       43163  (97.84%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:     120  (0.27%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          43965  (99.66%)
+reads s.t. Jac_ind_1 < Jac_ind_2             32  (0.07%)
+reads s.t. Jac_ind_1 = Jac_ind_2            120  (0.27%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     43974  (99.68%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        23  (0.05%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2       120  (0.27%)
+
+latex:
+	count_with:   02 / 00
+	cov_crit:     02 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__######--####----#--##-#-#--#######__Mycobacterium_tuberculosis
+seed:        ######--####----#--##-#-#--#######
+weight:      22
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4353168)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4358104)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      37.19
+average cov_crit_1 per read:        92.27
+
+average count_with_2 per read:      36.83
+average cov_crit_2 per read:        91.78
+
+reads s.t. count_with_1 > count_with_2:         1131  (2.56%)
+reads s.t. count_with_1 < count_with_2:           48  (0.11%)
+reads s.t. count_with_1 = count_with_2:        42938  (97.33%)
+reads s.t. count_with_1 = count_with_2 = 0:        3  (0.01%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1105  (2.50%)
+reads s.t. cov_crit_1 < cov_crit_2:          51  (0.12%)
+reads s.t. cov_crit_1 = cov_crit_2:       42961  (97.38%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       3  (0.01%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44066  (99.88%)
+reads s.t. Jac_ind_1 < Jac_ind_2             48  (0.11%)
+reads s.t. Jac_ind_1 = Jac_ind_2              3  (0.01%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44063  (99.88%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        51  (0.12%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         3  (0.01%)
+
+latex:
+	count_with:   03 / 00
+	cov_crit:     03 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__####-##-#-#-##-###-#-#--##--#####__Mycobacterium_tuberculosis
+seed:        ####-##-#-#-##-###-#-#--##--#####
+weight:      22
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4353230)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4358295)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      37.74
+average cov_crit_1 per read:        92.85
+
+average count_with_2 per read:      37.37
+average cov_crit_2 per read:        92.36
+
+reads s.t. count_with_1 > count_with_2:         1144  (2.59%)
+reads s.t. count_with_1 < count_with_2:           33  (0.07%)
+reads s.t. count_with_1 = count_with_2:        42940  (97.33%)
+reads s.t. count_with_1 = count_with_2 = 0:        2  (0.00%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1102  (2.50%)
+reads s.t. cov_crit_1 < cov_crit_2:          41  (0.09%)
+reads s.t. cov_crit_1 = cov_crit_2:       42974  (97.41%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       2  (0.00%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44082  (99.92%)
+reads s.t. Jac_ind_1 < Jac_ind_2             33  (0.07%)
+reads s.t. Jac_ind_1 = Jac_ind_2              2  (0.00%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44074  (99.90%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        41  (0.09%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         2  (0.00%)
+
+latex:
+	count_with:   03 / 00
+	cov_crit:     02 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
+
+================================
+
+experiment:  Mycobacterium_tuberculosis__Mycobacterium_tuberculosis_Haarlem__#-##-#-##---#-----###-#---#####-###--#-#--#__Mycobacterium_tuberculosis
+seed:        #-##-#-##---#-----###-#---#####-###--#-#--#
+weight:      22
+gen. 1:      Mycobacterium_tuberculosis
+    (size:    4474815 B, number of kmers: 4355494)
+gen. 2:      Mycobacterium_tuberculosis_Haarlem
+    (size:    4471287 B, number of kmers: 4360589)
+gen. reads:  Mycobacterium_tuberculosis
+
+average count_with_1 per read:      32.20
+average cov_crit_1 per read:        91.36
+
+average count_with_2 per read:      31.88
+average cov_crit_2 per read:        90.85
+
+reads s.t. count_with_1 > count_with_2:         1144  (2.59%)
+reads s.t. count_with_1 < count_with_2:           62  (0.14%)
+reads s.t. count_with_1 = count_with_2:        42911  (97.27%)
+reads s.t. count_with_1 = count_with_2 = 0:        4  (0.01%)
+
+reads s.t. cov_crit_1 > cov_crit_2:        1129  (2.56%)
+reads s.t. cov_crit_1 < cov_crit_2:          64  (0.15%)
+reads s.t. cov_crit_1 = cov_crit_2:       42924  (97.30%)
+reads s.t. cov_crit_1 = cov_crit_2 = 0:       4  (0.01%)
+
+reads s.t. Jac_ind_1 > Jac_ind_2          44051  (99.85%)
+reads s.t. Jac_ind_1 < Jac_ind_2             62  (0.14%)
+reads s.t. Jac_ind_1 = Jac_ind_2              4  (0.01%)
+
+reads s.t. Jac_cov_ind_1 > Jac_cov_ind_2     44049  (99.85%)
+reads s.t. Jac_cov_ind_1 < Jac_cov_ind_2        64  (0.15%)
+reads s.t. Jac_cov_ind_1 = Jac_cov_ind_2         4  (0.01%)
+
+latex:
+	count_with:   03 / 00
+	cov_crit:     03 / 00
+	Jac_ind:      100 / 00
+	Jac_ind_cov:  100 / 00
