@@ -79,11 +79,11 @@ Section.3.3
 Section.3.4
 ^^^^^^^^^^^
 
-Plot comparing seed-Kraken with original Kraken, performance and sensitivity, spaced seeds of various weights and spans.
+Plots comparing seed-Kraken with original Kraken, performance and sensitivity on several data sets, spaced seeds of various weights and spans, tables with all results and used seeds.
 
-* `seed-kraken_plt1_many_spans.pdf`_
+* `supplement.3.4.pdf`_
 
-.. _`seed-kraken_plt1_many_spans.pdf`:           section.3.4/seed-kraken_plt1_many_spans.pdf
+.. _`supplement.3.4.pdf`:           section.3.4/supplement.3.4.pdf
 
 Seed-Kraken
 -----------
