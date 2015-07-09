@@ -1,7 +1,7 @@
 Spaced seeds improve k-mer-based metagenomic classification
 ===============================================
 
-This repository contains all supplementary material for paper *Spaced seeds improve k-mer-based metagenomic classification* by K.Brinda, M.Sykulski, G.Kucherov. Preliminary version available at http://arxiv.org/abs/1502.06256.
+This repository contains all supplementary material for paper *Spaced seeds improve k-mer-based metagenomic classification* by K.Brinda, M.Sykulski, G.Kucherov. Current version available at http://arxiv.org/abs/1502.06256.
 
 Scripts
 -------
