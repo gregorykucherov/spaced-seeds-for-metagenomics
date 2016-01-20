@@ -64,7 +64,7 @@ Section.3.2
 Section.3.3
 ^^^^^^^^^^^
 
-4 report files with scatter plots of alignment (dis)similarity vs score (hits or coverage), plots in several flavors, experiments on 4 real genomes
+3 report files with scatter plots of alignment (dis)similarity vs score (hits or coverage), plots in several flavors, experiments on 3 real genomes.
 
 * `d_report_Borrelia_garinii.pdf`_
 * `d_report_Chlamydia.pdf`_
