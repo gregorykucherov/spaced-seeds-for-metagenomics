@@ -68,12 +68,12 @@ Section.3.3
 
 * `d_report_Borrelia_garinii.pdf`_
 * `d_report_Chlamydia.pdf`_
-* `d_report_Human_chr_21.pdf`_
 * `d_report_Mycobacterium_tuberculosis.pdf`_
 
 .. _`d_report_Borrelia_garinii.pdf`:            section.3.3/d_report_Borrelia_garinii.pdf
 .. _`d_report_Chlamydia.pdf`:                   section.3.3/d_report_Chlamydia.pdf
-.. _`d_report_Human_chr_21.pdf`:                section.3.3/d_report_Human_chr_21.pdf
+.. _`d_report_Mycobacterium_tuberculosis.pdf`:  section.3.3/d_report_Mycobacterium_tuberculosis.pdf		
+
 
 Section.3.4
 ^^^^^^^^^^^
